@@ -15,6 +15,7 @@ interests:
 - Bayesian Computation
 - Spatio-Temporal Data Analysis
 - Machine Learning & Deep Learning
+- Data Integration For Viral Surveillance 
 organizations:
 - name: Bozeman Disease Ecology Lab
   url: "http://bzndiseaselab.org/"
@@ -41,4 +42,4 @@ user_groups:
 
 
 
-I work as a statistician for Bozeman Disease Ecology Lab, where we study viral spillover from bats to susceptible populations. My research interests involve Bayesian statistics, with a focus on spatio-temporal data, machine learning, and data integration methods for viral surveillance. I also manage a SQL database and build data science tools, such as Shiny applications and data pipelines. 
+I work as a statistician for Bozeman Disease Ecology Lab, where we study viral spillover from bats to susceptible populations. My research interests involve Bayesian statistics, with a focus on spatio-temporal data, machine learning, and data integration methods for viral surveillance. I also provide general data science support, through data vizualization, SQL database design and management, and building web based applications. 
