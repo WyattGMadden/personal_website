@@ -41,3 +41,4 @@ user_groups:
 
 
 
+I work as a statistician for Bozeman Disease Ecology Lab, where we study viral spillover from bats to susceptible populations. My research interests involve Bayesian statistics, with a focus on spatio-temporal data, machine learning, and data integration methods for viral surveillance. I also manage a SQL database and build data science tools, such as Shiny applications and data pipelines. 
