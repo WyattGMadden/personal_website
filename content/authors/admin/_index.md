@@ -33,7 +33,7 @@ social:
   link: https://github.com/WyattGMadden
 - icon: linkedin
   icon_pack: fab
-  link: https://linkedin.com/in/wyattmadden
+  link: https://linkedin.com/in/wyattgmadden
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/WyattGMadden
