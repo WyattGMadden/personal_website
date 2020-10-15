@@ -1,7 +1,7 @@
 ---
 authors:
 - Wyatt Madden
-bio: My research interests involve Bayesian statistics, with a focus on spatio-temporal data, machine learning, and data integration methods for viral surveillance. 
+bio:
 education:
   courses:
   - course: MS in Statistics
