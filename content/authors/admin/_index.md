@@ -19,6 +19,10 @@ interests:
 organizations:
 - name: Bozeman Disease Ecology Lab
   url: "http://bzndiseaselab.org/"
+- name: Bat One Health
+  url: "https://batonehealth.org/"
+- name: Bozeman Environmental and Ecological Statistics Research Group
+  url: "https://bozemanenvrstat.github.io/"
 role: Data Scientist
 social:
 - icon: envelope
