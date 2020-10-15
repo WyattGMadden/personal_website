@@ -1,7 +1,7 @@
 ---
 authors:
 - Wyatt Madden
-bio: My research interests involve bayesian statistics, with a focus on spatio-temporal data, machine learning/deep learning, and approximation methods. 
+bio: My research interests involve Bayesian statistics, with a focus on spatio-temporal data, machine learning, and data integration methods for viral surveillance. 
 education:
   courses:
   - course: MS in Statistics
@@ -14,7 +14,7 @@ email: ""
 interests:
 - Bayesian Computation
 - Spatio-Temporal Data Analysis
-- Machine Learning / Deep Learning
+- Machine Learning & Deep Learning
 organizations:
 - name: Bozeman Disease Ecology Lab
   url: "http://bzndiseaselab.org/"
@@ -28,7 +28,7 @@ social:
   link: https://github.com/WyattGMadden
 - icon: linkedin
   icon_pack: fab
-  link: www.linkedin.com/in/wyattmadden
+  link: https://linkedin.com/in/wyattmadden
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/WyattGMadden
@@ -39,5 +39,5 @@ user_groups:
 - Visitors
 ---
 
-Wyatt Madden is a data scientist at Bozeman Disease Ecology Lab. His research interests include Bayesian computation, spatio-temporal data analysis, and machine learning/deep learning. He also provides data support in the form of SQL database design/management, R package development, and general wrangling/munging. 
+
 
