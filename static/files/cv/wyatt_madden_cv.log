@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.22)  26 OCT 2020 15:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.11.6)  11 NOV 2020 15:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **wyatt_madden_cv.tex
 (./wyatt_madden_cv.tex
-LaTeX2e <2020-10-01> patch level 1
-L3 programming layer <2020-10-05> xparse <2020-03-03> (./wm_cv.cls
+LaTeX2e <2020-10-01> patch level 2
+L3 programming layer <2020-10-27> xparse <2020-03-03> (./wm_cv.cls
 Document Class: wm_cv 
 (/Users/wyattmadden/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -382,7 +382,7 @@ LaTeX Info: Redefining \not on input line 1580.
 (/Users/wyattmadden/Library/TinyTeX/texmf-dist/tex/latex/fontawesome5/fontaweso
 me5.sty
 (/Users/wyattmadden/Library/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2020-10-05 L3 programming layer (loader) 
+Package: expl3 2020-10-27 L3 programming layer (loader) 
 
 (/Users/wyattmadden/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pd
 ftex.def
@@ -394,11 +394,11 @@ Package: fontawesome5 2020/03/24 v5.13.0 Font Awesome 5
 
 (/Users/wyattmadden/Library/TinyTeX/texmf-dist/tex/latex/l3packages/l3keys2e/l3
 keys2e.sty
-Package: l3keys2e 2020-10-05 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2020-10-27 LaTeX2e option processing using LaTeX3 keys
 )
 (/Users/wyattmadden/Library/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xpar
 se.sty
-Package: xparse 2020-10-05 L3 Experimental document command parser
+Package: xparse 2020-10-27 L3 Experimental document command parser
 
 (/Users/wyattmadden/Library/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xpar
 se-generic.tex))
@@ -1037,7 +1037,7 @@ f
 File: blx-compat.def 2020/08/23 v3.15a biblatex compatibility (PK/MW)
 )
 Package biblatex Info: expl3
-(biblatex)             2020-10-05 L3 programming layer (loader) 
+(biblatex)             2020-10-27 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
 Package biblatex Info: Trying to load expl3 case changing code...
@@ -1433,10 +1433,10 @@ Package logreq Info: Writing requests to 'wyatt_madden_cv.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28457 strings out of 481865
- 473310 string characters out of 5930177
- 1205710 words of memory out of 5000000
- 44255 multiletter control sequences out of 15000+600000
+ 28452 strings out of 481433
+ 473024 string characters out of 5919171
+ 1209342 words of memory out of 5000000
+ 44688 multiletter control sequences out of 15000+600000
  600315 words of font info for 132 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  96i,11n,100p,1204b,2606s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1450,7 +1450,7 @@ inyTeX/texmf-dist/fonts/type1/public/kpfonts/jkpmit8a.pfb></Users/wyattmadden/L
 ibrary/TinyTeX/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb></Users/wyattm
 adden/Library/TinyTeX/texmf-dist/fonts/type1/public/kpfonts/jkpmsc8a.pfb></User
 s/wyattmadden/Library/TinyTeX/texmf-dist/fonts/type1/public/kpfonts/jkpsy.pfb>
-Output written on wyatt_madden_cv.pdf (2 pages, 105376 bytes).
+Output written on wyatt_madden_cv.pdf (2 pages, 105231 bytes).
 PDF statistics:
  134 PDF objects out of 1000 (max. 8388607)
  19 named destinations out of 1000 (max. 500000)
