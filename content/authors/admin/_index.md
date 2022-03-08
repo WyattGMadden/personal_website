@@ -6,7 +6,7 @@ education:
   courses:
   - course: PhD in Biostatistics
     institution: Emory University
-    year: Current
+    year: 2025
   - course: MS in Statistics
     institution: Montana State University
     year: 2019
@@ -24,7 +24,7 @@ organizations:
   url: "https://www.sph.emory.edu/"
 - name: Department of Biostatistics & Bioinformatics
   url: "https://www.sph.emory.edu/departments/bios/index.html"
-role: Student
+role: Statistician
 social:
 - icon: envelope
   icon_pack: fas
