@@ -4,6 +4,9 @@ authors:
 bio:
 education:
   courses:
+  - course: PhD in Biostatistics
+    institution: Emory University
+    year: Current
   - course: MS in Statistics
     institution: Montana State University
     year: 2019
@@ -17,13 +20,11 @@ interests:
 - Machine Learning & Deep Learning
 - Data Integration For Viral Surveillance 
 organizations:
-- name: Bozeman Disease Ecology Lab
-  url: "http://bzndiseaselab.org/"
-- name: Bat One Health
-  url: "https://batonehealth.org/"
-- name: Bozeman Environmental and Ecological Statistics Research Group
-  url: "https://bozemanenvrstat.github.io/"
-role: Data Scientist
+- name: Rollins School of Public Health
+  url: "https://www.sph.emory.edu/"
+- name: Department of Biostatistics & Bioinformatics
+  url: "https://www.sph.emory.edu/departments/bios/index.html"
+role: Student
 social:
 - icon: envelope
   icon_pack: fas
@@ -46,4 +47,4 @@ user_groups:
 
 
 
-I work as a statistician for Bozeman Disease Ecology Lab, where we study viral spillover from bats to susceptible populations. My research interests involve Bayesian statistics, with a focus on spatio-temporal data, machine learning, and data integration methods for viral surveillance. I also provide general data science support, through data visualization, SQL database design and management, and the building of web based applications. 
+I am currently pursuing PhD in Biostatistics at Emory University. Previously I worked as a statistician for Bozeman Disease Ecology Lab, where we studied viral spillover from bats to susceptible populations. My research interests involve Bayesian statistics, with a focus on spatio-temporal data, machine learning, and data integration methods for viral surveillance. I also have experience providing general data science support, through data visualization, SQL database design and management, and the building of web based applications. 
