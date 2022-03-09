@@ -26,15 +26,21 @@ organizations:
   url: "https://www.sph.emory.edu/departments/bios/index.html"
 role: Statistician
 social:
-- icon: envelope
-  icon_pack: fas
-  link: "mailto:wyattgmadden@gmail.com"
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=r6d3998AAAAJ&hl=en&oi=ao
+- icon: research-gate
+  icon_pack: ai
+  link: https://www.researchgate.net/profile/Wyatt-Madden
 - icon: github
   icon_pack: fab
   link: https://github.com/WyattGMadden
 - icon: linkedin
   icon_pack: fab
   link: https://linkedin.com/in/wyattgmadden
+- icon: envelope
+  icon_pack: fas
+  link: "mailto:wyattgmadden@gmail.com"
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/WyattGMadden
