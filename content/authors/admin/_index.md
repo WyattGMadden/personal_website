@@ -29,7 +29,7 @@ social:
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=r6d3998AAAAJ&hl=en&oi=ao
-- icon: research-gate
+- icon: researchgate
   icon_pack: ai
   link: https://www.researchgate.net/profile/Wyatt-Madden
 - icon: github
