@@ -15,10 +15,10 @@ education:
     year: 2015
 email: ""
 interests:
-- Bayesian Computation
+- Bayesian Statistics
 - Spatio-Temporal Data Analysis
-- Machine Learning & Deep Learning
-- Data Integration For Viral Surveillance 
+- Machine Learning 
+- Data Integration
 organizations:
 - name: Rollins School of Public Health
   url: "https://www.sph.emory.edu/"
@@ -41,9 +41,6 @@ social:
 - icon: envelope
   icon_pack: fas
   link: "mailto:wyattgmadden@gmail.com"
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/WyattGMadden
 superuser: true
 title: Wyatt Madden
 user_groups:
