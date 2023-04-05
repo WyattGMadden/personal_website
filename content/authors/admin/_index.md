@@ -28,7 +28,7 @@ role: Statistician
 social:
 - icon: CV
   icon_pack: ai
-  link: files/cv/wyatt_madden_cv.pdf
+  link: https://wyattgmadden.com/files/cv/wyatt_madden_cv.pdf
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=r6d3998AAAAJ&hl=en&oi=ao
