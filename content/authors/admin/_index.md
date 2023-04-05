@@ -24,7 +24,7 @@ organizations:
   url: "https://www.sph.emory.edu/"
 - name: Department of Biostatistics & Bioinformatics
   url: "https://www.sph.emory.edu/departments/bios/index.html"
-role: Statistician
+role: test
 social:
 - icon: CV
   icon_pack: ai
