@@ -77,11 +77,116 @@
     </item>
     
     <item>
-      <title>2023 08 17</title>
-      <link>/post/2023-08-17/</link>
-      <pubDate>Thu, 17 Aug 2023 10:22:22 -0400</pubDate>
-      <guid>/post/2023-08-17/</guid>
-      <description></description>
+      <title>How to print from the 3rd Floor Emory Bios Printer</title>
+      <link>/post/2023-08-17-rsph-printer/</link>
+      <pubDate>Thu, 17 Aug 2023 17:29:57 -0400</pubDate>
+      <guid>/post/2023-08-17-rsph-printer/</guid>
+      <description>&lt;p&gt;This guide explains how to print files from the Emory Bios printer on the third floor of GCR.&lt;/p&gt;
+&lt;p&gt;The process will be:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Move files to H-drive on personal computer.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Open files from H-drive on shared Bios computer in computer lab.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Print files from shared Bios computers with Bios printer.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;connect-to-h-drive&#34;&gt;Connect to H-Drive&lt;/h1&gt;
+&lt;p&gt;Here is information for connecting to all drive(s):&lt;/p&gt;
+&lt;p&gt;First make sure you are connected to secure Emory WiFi (EmoryUnplugged)&lt;/p&gt;
+&lt;p&gt;The network drive mappings for a Windows computer are as follows:&lt;/p&gt;
+&lt;p&gt;For H: &lt;code&gt;\\nasn2acts.cc.emory.edu\rsphhome-ts\&amp;quot;YOUR NET-ID&amp;quot;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;For S: &lt;code&gt;\\nasn2ac.cc.emory.edu\rsphdata&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;For P: &lt;code&gt;\\nasn2ac.cc.emory.edu\rsphcs&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;For T: &lt;code&gt;\\nasn2acts.cc.emory.edu\researchdata-ts&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;For R: &lt;code&gt;\\nasn2acts.cc.emory.edu\rsphprojects-ts&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;For L: &lt;code&gt;\\stat.sph.emory.edu\apps&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The network drive mappings for an Apple computer are as follows:&lt;/p&gt;
+&lt;p&gt;H - &lt;code&gt;smb://nasn2acts.cc.emory.edu/rsphhome-ts/&amp;quot;YOUR NET-ID&amp;quot;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;S - &lt;code&gt;smb://nasn2ac.cc.emory.edu/rsphdata&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;P - &lt;code&gt;smb://nasn2ac.cc.emory.edu/rsphcs&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;T - &lt;code&gt;smb://nasn2acts.cc.emory.edu/researchdata-ts&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;R - &lt;code&gt;smb://nasn2acts.cc.emory.edu/rsphprojects-ts&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;L - &lt;code&gt;smb://stat.sph.emory.edu/apps&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;You may or may not have access to the &lt;code&gt;researchdata-ts&lt;/code&gt; drive.&lt;/p&gt;
+&lt;p&gt;If prompted for a username, it will be: &lt;code&gt;EMORYUNIVAD\&amp;quot;YOUR NET-ID&amp;quot;&lt;/code&gt;
+The password will be your standard Emory password.&lt;/p&gt;
+&lt;h1 id=&#34;print-from-shared-computer&#34;&gt;Print from shared computer&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Login to shared computer with netid and password.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Open H-drive (located in &lt;code&gt;This PC&lt;/code&gt; in file explorer)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Open files with Adobe Acrobat Reader&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ctrl + p&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Change printer to &lt;code&gt;GCRcopy3a&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select &lt;code&gt;Properties &amp;gt; Basic &amp;gt; User Code Settings&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Enter 3655 for B&amp;amp;W or 3511 for color&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select &lt;code&gt;Apply&lt;/code&gt; and then &lt;code&gt;OK&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select &lt;code&gt;Print&lt;/code&gt; and wait for printing noises.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to Make a New Hugo Academic Post</title>
+      <link>/post/how-to-make-a-new-post/</link>
+      <pubDate>Thu, 17 Aug 2023 11:18:29 -0400</pubDate>
+      <guid>/post/how-to-make-a-new-post/</guid>
+      <description>&lt;p&gt;This post details how to add a post to a hugo-academic website.
+There are also some notes add the end of the post related to updating a hugo-academic website, but unrelated to making a post.&lt;/p&gt;
+&lt;h2 id=&#34;make-a-new-post&#34;&gt;Make a new post&lt;/h2&gt;
+&lt;p&gt;From root directory run:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;hugo new post/my-post
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This creates a directory in &lt;code&gt;content/post/&lt;/code&gt; titled &lt;code&gt;my-post&lt;/code&gt;.
+Edit the &lt;code&gt;index.md&lt;/code&gt; markdown file inside this directory.&lt;/p&gt;
+&lt;h2 id=&#34;build-site&#34;&gt;Build Site&lt;/h2&gt;
+&lt;p&gt;To build the website locally, from the root directory run:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;hugo
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;preview-site&#34;&gt;Preview Site&lt;/h2&gt;
+&lt;p&gt;To preview site, from root directory run&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;hugo server
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;and then navigate to &lt;code&gt;http://localhost:1313&lt;/code&gt; in your browser&lt;/p&gt;
+&lt;h2 id=&#34;push&#34;&gt;Push&lt;/h2&gt;
+&lt;p&gt;Push to github (which is then automatically deployed with netflfy)&lt;/p&gt;
+&lt;p&gt;From root directory,&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;git add -A
+# etc...
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;other-notes&#34;&gt;Other Notes&lt;/h2&gt;
+&lt;h3 id=&#34;add-new-directory-to-top-bar-of-home-page&#34;&gt;Add new directory to top bar of home page&lt;/h3&gt;
+&lt;p&gt;Uncomment relevent sections of &lt;code&gt;config/_default/menus.toml&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;remove-sharing-buttons-at-bottom-of-a-post&#34;&gt;Remove sharing buttons at bottom of a post&lt;/h3&gt;
+&lt;p&gt;Set &lt;code&gt;sharing = false&lt;/code&gt; in &lt;code&gt;config/_default/params.toml&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;update-cv&#34;&gt;Update CV&lt;/h3&gt;
+&lt;p&gt;Update &lt;code&gt;static/files/cv/wyatt_madden_cv.tex&lt;/code&gt; and render.&lt;/p&gt;
+&lt;h3 id=&#34;add-widget-to-home-page&#34;&gt;Add widget to home page&lt;/h3&gt;
+&lt;p&gt;Add widgets to home page by setting &lt;code&gt;active = true&lt;/code&gt; in corresponding widget markdown file in  &lt;code&gt;content/home/&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;adjust-post-page-settings&#34;&gt;Adjust post page settings&lt;/h3&gt;
+&lt;p&gt;Update &lt;code&gt;content/post/_index.md&lt;/code&gt;. Eg. &lt;code&gt;view = 1&lt;/code&gt; corresponds with settings listed in &lt;code&gt;content/home/post.md&lt;/code&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>

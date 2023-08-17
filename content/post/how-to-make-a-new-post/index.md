@@ -37,7 +37,7 @@ There are also some notes add the end of the post related to updating a hugo-aca
 From root directory run:
 
 ```bash
-hugo new posts/my-post
+hugo new post/my-post
 ```
 
 This creates a directory in `content/post/` titled `my-post`. 
