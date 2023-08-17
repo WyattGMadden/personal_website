@@ -1,0 +1,483 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{1}
+  \datalist[entry]{ddatent/global//global/global}
+    \entry{eby2022}{article}{}
+      \name{author}{7}{}{%
+        {{hash=a44a8f54a4fbf6b5a724deab989ffe2a}{%
+           family={Eby},
+           familyi={E\bibinitperiod},
+           given={Peggy},
+           giveni={P\bibinitperiod}}}%
+        {{hash=6af7d05aed79c395d219dc21c646fce4}{%
+           family={Peel},
+           familyi={P\bibinitperiod},
+           given={Alison},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8446fba0368b183b7ba6d870ec579335}{%
+           family={Hoegh},
+           familyi={H\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=dbcb8dfab13a4f4b4a4f12651cd8880e}{%
+           family={Madden},
+           familyi={M\bibinitperiod},
+           given={Wyatt},
+           giveni={W\bibinitperiod}}}%
+        {{hash=d502e81d99047027f0dfa2c63cd0253d}{%
+           family={Giles},
+           familyi={G\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0c0315be883dd185bcdd5206de29c7f4}{%
+           family={Hudson},
+           familyi={H\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=9d245c088556233fce618d0905e0be45}{%
+           family={Plowright},
+           familyi={P\bibinitperiod},
+           given={Raina},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{d3717b7380ae12e8fb8938c1a4a44d16}
+      \strng{fullhash}{036cf0e89fa6ff21c855fe0a02afa0a5}
+      \strng{bibnamehash}{036cf0e89fa6ff21c855fe0a02afa0a5}
+      \strng{authorbibnamehash}{036cf0e89fa6ff21c855fe0a02afa0a5}
+      \strng{authornamehash}{d3717b7380ae12e8fb8938c1a4a44d16}
+      \strng{authorfullhash}{036cf0e89fa6ff21c855fe0a02afa0a5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{\href{https://doi.org/10.1038/s41586-022-05506-2}{Full Paper}}
+      \field{journaltitle}{Nature}
+      \field{month}{11}
+      \field{title}{Pathogen spillover driven by rapid changes in bat ecology}
+      \field{usera}{1}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 3}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1038/s41586-022-05506-2
+      \endverb
+      \annotation{item}{author}{default}{4}{}{0}{highlight}
+    \endentry
+    \entry{becker2022}{article}{}
+      \name{author}{5}{}{%
+        {{hash=14a0233223e28e891c7b13fe131b3451}{%
+           family={Becker},
+           familyi={B\bibinitperiod},
+           given={Daniel\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=a44a8f54a4fbf6b5a724deab989ffe2a}{%
+           family={Eby},
+           familyi={E\bibinitperiod},
+           given={Peggy},
+           giveni={P\bibinitperiod}}}%
+        {{hash=dbcb8dfab13a4f4b4a4f12651cd8880e}{%
+           family={Madden},
+           familyi={M\bibinitperiod},
+           given={Wyatt},
+           giveni={W\bibinitperiod}}}%
+        {{hash=d2f446e734b63ec1c19e8f61476fdbeb}{%
+           family={Peel},
+           familyi={P\bibinitperiod},
+           given={Alison\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=3fb862e202f2430e72e317f8027f84da}{%
+           family={Plowright},
+           familyi={P\bibinitperiod},
+           given={Raina\bibnamedelima K.},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{437b3361ca72285fb06f5b7ce9b02e0f}
+      \strng{fullhash}{96b5230fe28444af6cdab8dfdf2701cc}
+      \strng{bibnamehash}{96b5230fe28444af6cdab8dfdf2701cc}
+      \strng{authorbibnamehash}{96b5230fe28444af6cdab8dfdf2701cc}
+      \strng{authornamehash}{437b3361ca72285fb06f5b7ce9b02e0f}
+      \strng{authorfullhash}{96b5230fe28444af6cdab8dfdf2701cc}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract The ecological conditions experienced by wildlife reservoirs affect infection dynamics and thus the distribution of pathogen excreted into the environment. This spatial and temporal distribution of shed pathogen has been hypothesised to shape risks of zoonotic spillover. However, few systems have data on both long-term ecological conditions and pathogen excretion to advance mechanistic understanding and test environmental drivers of spillover risk. We here analyse three years of Hendra virus data from nine Australian flying fox roosts with covariates derived from long-term studies of bat ecology. We show that the magnitude of winter pulses of viral excretion, previously considered idiosyncratic, are most pronounced after recent food shortages and in bat populations displaced to novel habitats. We further show that cumulative pathogen excretion over time is shaped by bat ecology and positively predicts spillover frequency. Our work emphasises the role of reservoir host ecology in shaping pathogen excretion and provides a new approach to estimate spillover risk.}
+      \field{addendum}{\href{https://doi.org/10.1111/ele.14007}{Full Paper}}
+      \field{journaltitle}{Ecology Letters}
+      \field{month}{10}
+      \field{title}{Ecological conditions predict the intensity of Hendra virus excretion over space and time from bat reservoir hosts}
+      \field{year}{2022}
+      \true{nocite}
+      \verb{doi}
+      \verb https://doi.org/10.1111/ele.14007
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/ele.14007
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/ele.14007
+      \endverb
+      \keyw{bats,generalised additive models,nutritional stress,pathogen spillover}
+      \annotation{item}{author}{default}{3}{}{0}{highlight}
+    \endentry
+    \entry{lau2022}{article}{}
+      \name{author}{6}{}{%
+        {{hash=4d47bf7b52e7f5283e5f561bbfd27f71}{%
+           family={Lau},
+           familyi={L\bibinitperiod},
+           given={Max\bibnamedelimb S.\bibnamedelimi Y.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=be66a6c45dabc0af12f7e4ec5744dca7}{%
+           family={Becker},
+           familyi={B\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+        {{hash=dbcb8dfab13a4f4b4a4f12651cd8880e}{%
+           family={Madden},
+           familyi={M\bibinitperiod},
+           given={Wyatt},
+           giveni={W\bibinitperiod}}}%
+        {{hash=7e7323f639bb09aab6f5cb0b45494d39}{%
+           family={Waller},
+           familyi={W\bibinitperiod},
+           given={Lance\bibnamedelima A.},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=fd095ecab6bf58af50c26ad1ea9d269b}{%
+           family={Metcalf},
+           familyi={M\bibinitperiod},
+           given={C.\bibnamedelimi Jessica\bibnamedelima E.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=0ac1fe1a67dc8c3d63cc0c95e80f412d}{%
+           family={Grenfell},
+           familyi={G\bibinitperiod},
+           given={Bryan\bibnamedelima T.},
+           giveni={B\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science}%
+      }
+      \strng{namehash}{dceb795622c58d01c541c49f2018e17a}
+      \strng{fullhash}{4212dfdebdb36fa347075624363e877d}
+      \strng{bibnamehash}{4212dfdebdb36fa347075624363e877d}
+      \strng{authorbibnamehash}{4212dfdebdb36fa347075624363e877d}
+      \strng{authornamehash}{dceb795622c58d01c541c49f2018e17a}
+      \strng{authorfullhash}{4212dfdebdb36fa347075624363e877d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Measles is one the best-documented and most-mechanistically-studied non-linear infectious disease dynamical systems. However, systematic investigation into the comparative performance of traditional mechanistic models and machine learning approaches in forecasting the transmission dynamics of this pathogen are still rare. Here, we compare one of the most widely used semi-mechanistic models for measles (TSIR) with a commonly used machine learning approach (LASSO), comparing performance and limits in predicting short to long term outbreak trajectories and seasonality for both regular and less regular measles outbreaks in England and Wales (E&W) and the United States. First, our results indicate that the proposed LASSO model can efficiently use data from multiple major cities and achieve similar short-to-medium term forecasting performance to semi-mechanistic models for E&W epidemics. Second, interestingly, the LASSO model also captures annual to biennial bifurcation of measles epidemics in E&W caused by susceptible response to the late 1940s baby boom. LASSO may also outperform TSIR for predicting less-regular dynamics such as those observed in major cities in US between 1932–45. Although both approaches capture short-term forecasts, accuracy suffers for both methods as we attempt longer-term predictions in highly irregular, post-vaccination outbreaks in E&W. Finally, we illustrate that the LASSO model can both qualitatively and quantitatively reconstruct mechanistic assumptions, notably susceptible dynamics, in the TSIR model. Our results characterize the limits of predictability of infectious disease dynamics for strongly immunizing pathogens with both mechanistic and machine learning models, and identify connections between these two approaches.}
+      \field{addendum}{\href{https://doi.org/10.1371/journal.pcbi.1010251}{Full Paper}}
+      \field{journaltitle}{PLOS Computational Biology}
+      \field{month}{09}
+      \field{number}{9}
+      \field{title}{Comparing and linking machine learning and semi-mechanistic models for the predictability of endemic measles dynamics}
+      \field{usera}{1}
+      \field{volume}{18}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{1\bibrangedash 14}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1371/journal.pcbi.1010251
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1371/journal.pcbi.1010251
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1371/journal.pcbi.1010251
+      \endverb
+      \annotation{item}{author}{default}{3}{}{0}{highlight}
+    \endentry
+    \entry{CHERNE2022844}{article}{}
+      \name{author}{17}{}{%
+        {{hash=804107c201565a0f710da20797af31d7}{%
+           family={Cherne},
+           familyi={C\bibinitperiod},
+           given={Michelle\bibnamedelima D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=0cf1b1f546c52c4db396b368ff9418f0}{%
+           family={Gentry},
+           familyi={G\bibinitperiod},
+           given={Andrew\bibnamedelima B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=ef67bcbcec688c1f771a5ee5372e39d6}{%
+           family={Nemudraia},
+           familyi={N\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=aceba8dde9994578c5b98a71e6cc43cd}{%
+           family={Nemudryi},
+           familyi={N\bibinitperiod},
+           given={Artem},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1c52c475726cfb9e1e7930767612cd6d}{%
+           family={Hedges},
+           familyi={H\bibinitperiod},
+           given={Jodi\bibnamedelima F.},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=8020718347f91363a7f7b231cf34c26f}{%
+           family={Walk},
+           familyi={W\bibinitperiod},
+           given={Heather},
+           giveni={H\bibinitperiod}}}%
+        {{hash=7cc21be0b68e37a04e3513d58b055def}{%
+           family={Blackwell},
+           familyi={B\bibinitperiod},
+           given={Karlin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=0026b629e1ed563c098b374ee6cc73aa}{%
+           family={Snyder},
+           familyi={S\bibinitperiod},
+           given={Deann\bibnamedelima T.},
+           giveni={D\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=ab958740c8f7c33aecc42d2b75ab88eb}{%
+           family={Jerome},
+           familyi={J\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod}}}%
+        {{hash=dbcb8dfab13a4f4b4a4f12651cd8880e}{%
+           family={Madden},
+           familyi={M\bibinitperiod},
+           given={Wyatt},
+           giveni={W\bibinitperiod}}}%
+        {{hash=ee9fa79c0814f74a371c9e20611c35e0}{%
+           family={Hashimi},
+           familyi={H\bibinitperiod},
+           given={Marziah},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c487ae51d8a8c368d697507e8caf5d17}{%
+           family={Sebrell},
+           familyi={S\bibinitperiod},
+           given={T.\bibnamedelimi Andrew},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=d0ee5a17b5cce4b451a5093ff50ec6a7}{%
+           family={King},
+           familyi={K\bibinitperiod},
+           given={David\bibnamedelima B.},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=3fb862e202f2430e72e317f8027f84da}{%
+           family={Plowright},
+           familyi={P\bibinitperiod},
+           given={Raina\bibnamedelima K.},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=b6adad298f386b1f386abadb090f417b}{%
+           family={Jutila},
+           familyi={J\bibinitperiod},
+           given={Mark\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=23f1ed13af847b660c72060cfa21c67c}{%
+           family={Wiedenheft},
+           familyi={W\bibinitperiod},
+           given={Blake},
+           giveni={B\bibinitperiod}}}%
+        {{hash=7d3ea76ceeb07bae6f22907a35e964c1}{%
+           family={Bimczok},
+           familyi={B\bibinitperiod},
+           given={Diane},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{55a3bcac773a88ffa9a4b330a170e004}
+      \strng{fullhash}{1dbf8d0d91f8c5c8dfc58a5d190b0e7e}
+      \strng{bibnamehash}{55a3bcac773a88ffa9a4b330a170e004}
+      \strng{authorbibnamehash}{55a3bcac773a88ffa9a4b330a170e004}
+      \strng{authornamehash}{55a3bcac773a88ffa9a4b330a170e004}
+      \strng{authorfullhash}{1dbf8d0d91f8c5c8dfc58a5d190b0e7e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Background and Aims Recent evidence suggests that the gut is an additional target for severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infection. However, whether SARS-CoV-2 spreads via gastrointestinal secretions remains unclear. To determine the prevalence of gastrointestinal SARS-CoV-2 infection in asymptomatic subjects, we analyzed gastrointestinal biopsy and liquid samples from endoscopy patients for the presence of SARS-CoV-2. Methods We enrolled 100 endoscopic patients without known SARS-CoV-2 infection (cohort A) and 12 patients with a previous COVID-19 diagnosis (cohort B) in a cohort study performed at a regional hospital. Gastrointestinal biopsies and fluids were screened for SARS-CoV-2 by polymerase chain reaction (PCR), immunohistochemistry, and virus isolation assay, and the stability of SARS-CoV-2 in gastrointestinal liquids in vitro was analyzed. Results SARS-CoV-2 ribonucleic acid was detected by PCR in the colonic tissue of 1/100 patients in cohort A. In cohort B, 3 colonic liquid samples tested positive for SARS-CoV-2 by PCR and viral nucleocapsid protein was detected in the epithelium of the respective biopsy samples. However, no infectious virions were recovered from any samples. In vitro exposure of SARS-CoV-2 to colonic liquid led to a 4-log–fold reduction of infectious SARS-CoV-2 within 1 hour (P ≤ .05). Conclusion Overall, the persistent detection of SARS-CoV-2 in endoscopy samples after resolution of COVID-19 points to the gut as a long-term reservoir for SARS-CoV-2. Since no infectious virions were recovered and SARS-CoV-2 was rapidly inactivated in the presence of colon liquids, it is unlikely that performing endoscopic procedures is associated with a significant infection risk due to undiagnosed asymptomatic or persistent gastrointestinal SARS-CoV-2 infections.}
+      \field{addendum}{\href{https://doi.org/10.1016/j.gastha.2022.06.002}{Full Paper}}
+      \field{issn}{2772-5723}
+      \field{journaltitle}{Gastro Hep Advances}
+      \field{number}{5}
+      \field{title}{Severe Acute Respiratory Syndrome Coronavirus 2 Is Detected in the Gastrointestinal Tract of Asymptomatic Endoscopy Patients but Is Unlikely to Pose a Significant Risk to Healthcare Personnel}
+      \field{usera}{844}
+      \field{volume}{1}
+      \field{year}{2022}
+      \true{nocite}
+      \field{pages}{844\bibrangedash 852}
+      \range{pages}{9}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.gastha.2022.06.002
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S2772572322000978
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S2772572322000978
+      \endverb
+      \keyw{Endoscopy,SARS-CoV-2,Transmission Risk,Colonic Liquid}
+      \annotation{item}{author}{default}{9}{}{0}{highlight}
+    \endentry
+    \entry{hoegh2021}{article}{}
+      \name{author}{7}{}{%
+        {{hash=8446fba0368b183b7ba6d870ec579335}{%
+           family={Hoegh},
+           familyi={H\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6af7d05aed79c395d219dc21c646fce4}{%
+           family={Peel},
+           familyi={P\bibinitperiod},
+           given={Alison},
+           giveni={A\bibinitperiod}}}%
+        {{hash=dbcb8dfab13a4f4b4a4f12651cd8880e}{%
+           family={Madden},
+           familyi={M\bibinitperiod},
+           given={Wyatt},
+           giveni={W\bibinitperiod}}}%
+        {{hash=a3fce60748c30a1b206714b95440a677}{%
+           family={Ruiz-Aravena},
+           familyi={R\bibinithyphendelim A\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9b9bb8ce4afd3f23f5bae0437d5fdbeb}{%
+           family={Morris},
+           familyi={M\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod}}}%
+        {{hash=58b7dd0805629ab766e00a6ee5a5c75f}{%
+           family={Washburne},
+           familyi={W\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9d245c088556233fce618d0905e0be45}{%
+           family={Plowright},
+           familyi={P\bibinitperiod},
+           given={Raina},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{922bdb17e9e55ee94da0d835e641a814}
+      \strng{fullhash}{1ac88f3567491ee3462c6636b9c05e00}
+      \strng{bibnamehash}{1ac88f3567491ee3462c6636b9c05e00}
+      \strng{authorbibnamehash}{1ac88f3567491ee3462c6636b9c05e00}
+      \strng{authornamehash}{922bdb17e9e55ee94da0d835e641a814}
+      \strng{authorfullhash}{1ac88f3567491ee3462c6636b9c05e00}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{\href{https://doi.org/10.1002/ece3.8107}{Full Paper}}
+      \field{journaltitle}{Ecology and Evolution}
+      \field{month}{09}
+      \field{title}{Estimating viral prevalence with data fusion for adaptive two‐phase pooled sampling}
+      \field{volume}{11}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1002/ece3.8107
+      \endverb
+      \annotation{item}{author}{default}{3}{}{0}{highlight}
+    \endentry
+    \entry{rogers2021}{article}{}
+      \name{author}{11}{}{%
+        {{hash=44dc25078419f1d85104a0ccef27f60e}{%
+           family={Rogers},
+           familyi={R\bibinitperiod},
+           given={Will},
+           giveni={W\bibinitperiod}}}%
+        {{hash=a3fce60748c30a1b206714b95440a677}{%
+           family={Ruiz-Aravena},
+           familyi={R\bibinithyphendelim A\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d40b5fa58fe2f3e42b0e48b9f3e58133}{%
+           family={Hansen},
+           familyi={H\bibinitperiod},
+           given={Dale},
+           giveni={D\bibinitperiod}}}%
+        {{hash=dbcb8dfab13a4f4b4a4f12651cd8880e}{%
+           family={Madden},
+           familyi={M\bibinitperiod},
+           given={Wyatt},
+           giveni={W\bibinitperiod}}}%
+        {{hash=4ec99e6bc83a44fb1bdb3f1d89506ef7}{%
+           family={Kessler},
+           familyi={K\bibinitperiod},
+           given={Maureen},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4b543920d17f0a06810838745f2e761c}{%
+           family={Fields},
+           familyi={F\bibinitperiod},
+           given={Matthew\bibnamedelima W.},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=5919a6293597e4fd86977fccf13bf5dd}{%
+           family={Ferrari},
+           familyi={F\bibinitperiod},
+           given={Matthew\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=ce59666b5a68a05e03353d22b4b78a80}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Connie\bibnamedelima B.},
+           giveni={C\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=5ca409269755eb2d6a2ebf35057fc734}{%
+           family={Morrow},
+           familyi={M\bibinitperiod},
+           given={Jayne},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8446fba0368b183b7ba6d870ec579335}{%
+           family={Hoegh},
+           familyi={H\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3fb862e202f2430e72e317f8027f84da}{%
+           family={Plowright},
+           familyi={P\bibinitperiod},
+           given={Raina\bibnamedelima K.},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cold Spring Harbor Laboratory Press}%
+      }
+      \strng{namehash}{1c909d5c3c7be510f2683620740b61c9}
+      \strng{fullhash}{ae7806245bb3bc799c52f9c9f9f9e516}
+      \strng{bibnamehash}{1c909d5c3c7be510f2683620740b61c9}
+      \strng{authorbibnamehash}{1c909d5c3c7be510f2683620740b61c9}
+      \strng{authornamehash}{1c909d5c3c7be510f2683620740b61c9}
+      \strng{authorfullhash}{ae7806245bb3bc799c52f9c9f9f9e516}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{SARS-CoV-2 spreads quickly in dense populations, with serious implications for universities, workplaces, and other settings where exposure reduction practices are difficult to implement. Rapid screening has been proposed as a tool to slow the spread of the virus; however, many commonly used diagnostic tests (e.g., RT-qPCR) are expensive, difficult to deploy (e.g., require a nasopharyngeal specimen), and have extended turn-around times. We evaluated testing regimes that combined diagnostic testing using qPCR with high-frequency screening using a novel reverse-transcription loop-mediated isothermal amplification (RT-LAMP, herein LAMP) assay. We used a compartmental susceptible-exposed-infectious-recovered (SEIR) model to simulate screening of a university population. We also developed a Shiny application to allow administrators and public health professionals to develop optimal testing strategies given site-specific assumptions about testing investment, target population, and cost. The frequency of screening, especially when pooling samples, was more important for minimizing epidemic size than test sensitivity, behavioral compliance, contact tracing capacity, and time between testing and results. Our results suggest that when testing budgets are limited, it is safer and more cost-effective to allocate the majority of funds to screening. Rapid, cost-effective, and scalable screening tests, like LAMP, should be viewed as critical components of SARS-CoV-2 testing in high-density populations.Competing Interest StatementThe authors have declared no competing interest.Funding StatementThis work was funded in part by Coronavirus Aid, Relief and Economic Security Act, or CARES Act, grant titled "Expanding Screening Capacity to Enhance Montana{’}s COVID-19 Response Capabilities". RKP was funded by the DARPA PREEMPT program Cooperative Agreement $\#$ D18AC00031, the U.S. National Science Foundation (DEB-1716698), and the USDA National Institute of Food and Agriculture (Hatch project 1015891). The content is solely the responsibility of the authors and does not necessarily represent the official views of the funding agencies. The funders did not play any role in the collection, analysis, interpretation, writing of final reports or decision to submit this research.Author DeclarationsI confirm all relevant ethical guidelines have been followed, and any necessary IRB and/or ethics committee approvals have been obtained.YesThe details of the IRB/oversight body that provided approval or exemption for the research described are given below:There were no human subjects in this modeling study, so no IRB/oversight body was required.All necessary patient/participant consent has been obtained and the appropriate institutional forms have been archived.YesI understand that all clinical trials and any other prospective interventional studies must be registered with an ICMJE-approved registry, such as ClinicalTrials.gov. I confirm that any such study reported in the manuscript has been registered and the trial registration ID is provided (note: if posting a prospective study registered retrospectively, please provide a statement in the trial ID field explaining why the study was not registered in advance).Yes I have followed all appropriate research reporting guidelines and uploaded the relevant EQUATOR Network research reporting checklist(s) and other pertinent material as supplementary files, if applicable.YesThere are no original data in this modeling study. All code to generate data used in the study are available at https://github.com/wilrogers/COVID-Modeling. https://github.com/wilrogers/COVID-Modeling}
+      \field{addendum}{\href{https://doi.org/10.1101/2021.03.04.21252949}{Under Review}}
+      \field{journaltitle}{medRxiv}
+      \field{title}{High-frequency screening combined with diagnostic testing for control of SARS-CoV-2 in high-density settings: an economic evaluation of resources allocation for public health benefit}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1101/2021.03.04.21252949
+      \endverb
+      \verb{urlraw}
+      \verb https://www.medrxiv.org/content/early/2021/03/09/2021.03.04.21252949
+      \endverb
+      \verb{url}
+      \verb https://www.medrxiv.org/content/early/2021/03/09/2021.03.04.21252949
+      \endverb
+      \annotation{item}{author}{default}{4}{}{0}{highlight}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
