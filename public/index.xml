@@ -77,6 +77,22 @@
     </item>
     
     <item>
+      <title>Python Workflow Notes</title>
+      <link>/post/2023-08-18-python-workflow-notes/</link>
+      <pubDate>Fri, 18 Aug 2023 17:09:03 -0400</pubDate>
+      <guid>/post/2023-08-18-python-workflow-notes/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;set breakpoints with &lt;code&gt;breakpoint()&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;reimport library or file with &lt;code&gt;reload()&lt;/code&gt; from &lt;code&gt;importlib&lt;/code&gt; library&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Vim notes</title>
       <link>/post/2023-08-18-vim-notes/</link>
       <pubDate>Fri, 18 Aug 2023 16:01:50 -0400</pubDate>
