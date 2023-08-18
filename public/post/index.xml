@@ -5,12 +5,40 @@
     <link>/post/</link>
       <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 17 Aug 2023 17:29:57 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 18 Aug 2023 16:01:50 -0400</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>/post/</link>
     </image>
+    
+    <item>
+      <title>Vim notes</title>
+      <link>/post/2023-08-18-vim-notes/</link>
+      <pubDate>Fri, 18 Aug 2023 16:01:50 -0400</pubDate>
+      <guid>/post/2023-08-18-vim-notes/</guid>
+      <description>&lt;p&gt;This is list of vim tricks I want to remember and start using regularly.&lt;/p&gt;
+&lt;h2 id=&#34;make-same-change-to-many-lineshttpsstackoverflowcomquestions9549729vim-insert-the-same-characters-across-multiple-lines&#34;&gt;
+&lt;a href=&#34;https://stackoverflow.com/questions/9549729/vim-insert-the-same-characters-across-multiple-lines&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Make same change to many lines&lt;/a&gt;&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Enter visual block mode &lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;v&lt;/kbd&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Move down all lines to change (ie. highlighting one letter per line)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Press &lt;kbd&gt; I &lt;/kbd&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Make changes&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Press &lt;kbd&gt; Esc &lt;/kbd&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
     
     <item>
       <title>How to print from the 3rd Floor Emory Bios Printer</title>
