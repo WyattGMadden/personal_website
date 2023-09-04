@@ -77,6 +77,83 @@
     </item>
     
     <item>
+      <title>High Performance Cluster (HPC) Notes</title>
+      <link>/post/2023-09-04-hpc-slurm/</link>
+      <pubDate>Fri, 18 Aug 2023 17:09:03 -0400</pubDate>
+      <guid>/post/2023-09-04-hpc-slurm/</guid>
+      <description>&lt;p&gt;This post contains notes on working with an HPC running SLURM.&lt;/p&gt;
+&lt;p&gt;It includes a guide to submitting multiple R/Python jobs and other odds and ends.&lt;/p&gt;
+&lt;h1 id=&#34;run-r-jobs&#34;&gt;Run R jobs&lt;/h1&gt;
+&lt;h2 id=&#34;run-a-function-across-multiple-jobs-with-different-parameters&#34;&gt;Run a function across multiple jobs with different parameters&lt;/h2&gt;
+&lt;p&gt;This is an example of running an R function across many jobs, each with a different parameter combination&lt;/p&gt;
+&lt;h3 id=&#34;create-function-file&#34;&gt;Create function file&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;my_function.R&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-R&#34;&gt;get_normal_sims &amp;lt;- function(n, mean, sd) {
+    sims &amp;lt;- rnorm(n = n, mean = mean, sd = sd)
+    saveRDS(&amp;quot;sims&amp;quot;)
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;create-csv-with-parameter-combinations-of-interest&#34;&gt;Create CSV with parameter combinations of interest&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;job_params.csv&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-csv&#34;&gt;n,mean,sd
+1000,0,2
+100,10,1
+10000,50,1000
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;create-job-script-to-send-one-job-to-hpc&#34;&gt;Create job script to send one job to HPC&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;run_one_job.sh&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-hpc&#34;&gt;#!/bin/bash
+#SBATCH --job-name=rnormalsim      # create a short name for your job
+#SBATCH --nodes=1                  # node count
+#SBATCH --partition=day-long-cpu
+#SBATCH --ntasks=1                 # total number of tasks across all nodes
+#SBATCH --cpus-per-task=1          # cpu-cores per task (&amp;gt;1 if multi-threaded tasks)
+#SBATCH --mem=4G                   # total memory per node (4 GB per cpu-core is default)
+#SBATCH -o rnorm-sim-%A_%a.out  # output file format (%A is jobID, %a is task index)
+
+module purge
+module load R
+
+Rscript -e &amp;lt;&amp;lt; EEOF
+source(&#39;your_function.R&#39;) 
+get_normal_sims(n=Sys.getenv(&#39;PARAM1&#39;), 
+                mean=Sys.getenv(&#39;PARAM2&#39;),
+                sd=Sys.getenv(&#39;PARAM3&#39;))
+EEOF
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;create-shell-script-to-run-all-the-jobs&#34;&gt;Create shell script to run all the jobs&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;run_all_jobs.sh&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#!/bin/bash
+
+tail -n +2 job_params.csv | while IFS=&#39;,&#39; read -r param1 param2 param3
+do
+    sbatch --export=PARAM1=&amp;quot;param1&amp;quot;,PARAM2=&amp;quot;param2&amp;quot;,PARAM3=&amp;quot;param3&amp;quot; run_one_job.sh
+done
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;submit-jobs&#34;&gt;Submit jobs&lt;/h3&gt;
+&lt;p&gt;Finally run the following bash commands in the cluster to send all jobs:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;chmod +x run_all_jobs.sh
+./run_all_jobs.sh
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;
+
+
+
+
+## Install R package from github
+
+This is an example of installing current version of `grmbayes` from my github. 
+
+Run the following code on the HPC:
+
+```bash
+module load R
+Rscript -e &amp;quot;devtools::install_github(&#39;wyattgmadden/grmbayes&#39;)&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Python Workflow Notes</title>
       <link>/post/2023-08-18-python-workflow-notes/</link>
       <pubDate>Fri, 18 Aug 2023 17:09:03 -0400</pubDate>
@@ -84,6 +161,10 @@
       <description>&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;set breakpoints with &lt;code&gt;breakpoint()&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;use &lt;code&gt;n&lt;/code&gt; to continue execution until the next line&lt;/li&gt;
+&lt;li&gt;use &lt;code&gt;s&lt;/code&gt; to execute the current line and stop at the first possible occasion&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;reimport library or file with &lt;code&gt;reload()&lt;/code&gt; from &lt;code&gt;importlib&lt;/code&gt; library&lt;/p&gt;

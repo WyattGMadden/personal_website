@@ -30,5 +30,7 @@ projects: []
 
 
 * set breakpoints with `breakpoint()`
+    - use `n` to continue execution until the next line
+    - use `s` to execute the current line and stop at the first possible occasion
 
 * reimport library or file with `reload()` from `importlib` library
