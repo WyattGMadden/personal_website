@@ -17,6 +17,17 @@ This post contains notes on working with an HPC running SLURM.
 
 It includes a guide to submitting multiple R/Python jobs and other odds and ends.
 
+Some useful resources (and sources for this post):
+
+* [official documentation](https://github.com/RSPH-HPC/Documentation/blob/master/HPC%20Getting%20Started%20Guide.pdf)
+
+* [BIOS specific documentation](https://scholarblogs.emory.edu/rsph-hpc/)
+
+* [yanglab introduction](https://yanglab-emory.github.io/assets/ComputationSlides/RSPH_HPC_StartGuide_Yang.html)
+
+* [BIOS virtual workshop](https://scholarblogs.emory.edu/rsph-hpc/files/2020/11/2020-11-20-BIOS-HPC-Workshop.pdf)
+
+
 
 # Run R jobs
 
