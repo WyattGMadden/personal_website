@@ -1,0 +1,161 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{liu2017}{article}{}
+      \name{author}{2}{}{%
+        {{hash=621013bf54d3546375ad71f17f020b5b}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=34f31a369bf88756c7204a54e541ebe0}{%
+           family={Diner},
+           familyi={D\bibinitperiod},
+           given={David\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{3c7d9cc73cd691d89b7fdd742473c071}
+      \strng{fullhash}{3c7d9cc73cd691d89b7fdd742473c071}
+      \strng{bibnamehash}{3c7d9cc73cd691d89b7fdd742473c071}
+      \strng{authorbibnamehash}{3c7d9cc73cd691d89b7fdd742473c071}
+      \strng{authornamehash}{3c7d9cc73cd691d89b7fdd742473c071}
+      \strng{authorfullhash}{3c7d9cc73cd691d89b7fdd742473c071}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Public Health Reports}
+      \field{number}{1}
+      \field{title}{Multi-Angle Imager for Aerosols: A Satellite Investigation to Benefit Public Health}
+      \field{volume}{132}
+      \field{year}{2017}
+      \field{pages}{14\bibrangedash 17}
+      \range{pages}{4}
+    \endentry
+    \entry{byun2006}{article}{}
+      \name{author}{2}{}{%
+        {{hash=31066fa5a91175b382c03e2304b2fc4c}{%
+           family={Byun},
+           familyi={B\bibinitperiod},
+           given={Daewon},
+           giveni={D\bibinitperiod}}}%
+        {{hash=6494c2ad2f8dbaea7232bfdc9e95db89}{%
+           family={Schere},
+           familyi={S\bibinitperiod},
+           given={Kenneth\bibnamedelima L.},
+           giveni={K\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{0f7df7d96fb993f9c7a0f841dbc4bc7f}
+      \strng{fullhash}{0f7df7d96fb993f9c7a0f841dbc4bc7f}
+      \strng{bibnamehash}{0f7df7d96fb993f9c7a0f841dbc4bc7f}
+      \strng{authorbibnamehash}{0f7df7d96fb993f9c7a0f841dbc4bc7f}
+      \strng{authornamehash}{0f7df7d96fb993f9c7a0f841dbc4bc7f}
+      \strng{authorfullhash}{0f7df7d96fb993f9c7a0f841dbc4bc7f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Mechanics Reviews}
+      \field{month}{03}
+      \field{number}{2}
+      \field{title}{{Review of the Governing Equations, Computational Algorithms, and Other Components of the Models-3 Community Multiscale Air Quality (CMAQ) Modeling System}}
+      \field{volume}{59}
+      \field{year}{2006}
+      \field{pages}{51\bibrangedash 77}
+      \range{pages}{27}
+    \endentry
+    \entry{chang2014}{article}{}
+      \name{author}{3}{}{%
+        {{hash=306730ad62207a5599237d7c06e39731}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Howard},
+           giveni={H\bibinitperiod}}}%
+        {{hash=839816dccdef2846ec8986e5597b1a76}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Xuefei},
+           giveni={X\bibinitperiod}}}%
+        {{hash=621013bf54d3546375ad71f17f020b5b}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{e77805082f366c91db14f12d75c681eb}
+      \strng{fullhash}{e77805082f366c91db14f12d75c681eb}
+      \strng{bibnamehash}{e77805082f366c91db14f12d75c681eb}
+      \strng{authorbibnamehash}{e77805082f366c91db14f12d75c681eb}
+      \strng{authornamehash}{e77805082f366c91db14f12d75c681eb}
+      \strng{authorfullhash}{e77805082f366c91db14f12d75c681eb}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of exposure science \& environmental epidemiology}
+      \field{month}{12}
+      \field{title}{Calibrating MODIS aerosol optical depth for predicting daily PM2.5 concentrations via statistical downscaling}
+      \field{volume}{24}
+      \field{year}{2013}
+    \endentry
+    \entry{datta2014}{article}{}
+      \name{author}{4}{}{%
+        {{hash=c19c02c075df49d0f96c4e04e0a2fff9}{%
+           family={Datta},
+           familyi={D\bibinitperiod},
+           given={Abhirup},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2f89b8a28f371cc1eee016f2b855a3bf}{%
+           family={Banerjee},
+           familyi={B\bibinitperiod},
+           given={Sudipto},
+           giveni={S\bibinitperiod}}}%
+        {{hash=3ab438e76dc5459c067d61b943884197}{%
+           family={Finley},
+           familyi={F\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=92725291207a4801d33b11528fc5d695}{%
+           family={Gelfand},
+           familyi={G\bibinitperiod},
+           given={Alan},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{6710e314b76abc97fc642186e710f402}
+      \strng{fullhash}{7d34b3a915d661bb9df3b78ee3b61fc1}
+      \strng{bibnamehash}{6710e314b76abc97fc642186e710f402}
+      \strng{authorbibnamehash}{6710e314b76abc97fc642186e710f402}
+      \strng{authornamehash}{6710e314b76abc97fc642186e710f402}
+      \strng{authorfullhash}{7d34b3a915d661bb9df3b78ee3b61fc1}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the American Statistical Association}
+      \field{month}{06}
+      \field{title}{Hierarchical Nearest-Neighbor Gaussian Process Models for Large Geostatistical Datasets}
+      \field{volume}{111}
+      \field{year}{2014}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
