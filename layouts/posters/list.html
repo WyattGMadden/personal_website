@@ -1,0 +1,10 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  <ul>
+    {{ range .Site.Data.posters.pdfs }}
+      <li>
+        <a href="{{ .url }}" target="_blank">{{ .title }}</a>
+      </li>
+    {{ end }}
+  </ul>
+{{ end }}
