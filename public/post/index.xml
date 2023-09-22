@@ -19,10 +19,30 @@
       <guid>/post/2023-09-04-hpc-slurm/</guid>
       <description>&lt;p&gt;This post contains notes on working with an HPC running SLURM.&lt;/p&gt;
 &lt;p&gt;It includes a guide to submitting multiple R/Python jobs and other odds and ends.&lt;/p&gt;
+&lt;p&gt;Some useful resources (and sources for this post):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://github.com/RSPH-HPC/Documentation/blob/master/HPC%20Getting%20Started%20Guide.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;official documentation&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://scholarblogs.emory.edu/rsph-hpc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BIOS specific documentation&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://yanglab-emory.github.io/assets/ComputationSlides/RSPH_HPC_StartGuide_Yang.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;yanglab introduction&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://scholarblogs.emory.edu/rsph-hpc/files/2020/11/2020-11-20-BIOS-HPC-Workshop.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BIOS virtual workshop&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h1 id=&#34;run-r-jobs&#34;&gt;Run R jobs&lt;/h1&gt;
 &lt;h2 id=&#34;run-a-function-across-multiple-jobs-with-different-parameters&#34;&gt;Run a function across multiple jobs with different parameters&lt;/h2&gt;
 &lt;p&gt;This is an example of running an R function across many jobs, each with a different parameter combination&lt;/p&gt;
 &lt;h3 id=&#34;create-function-file&#34;&gt;Create function file&lt;/h3&gt;
+&lt;p&gt;This is the &lt;code&gt;R&lt;/code&gt; code that you want to run.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;my_function.R&lt;/code&gt;:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-R&#34;&gt;get_normal_sims &amp;lt;- function(n, mean, sd) {
     sims &amp;lt;- rnorm(n = n, mean = mean, sd = sd)
@@ -30,6 +50,7 @@
 }
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h3 id=&#34;create-csv-with-parameter-combinations-of-interest&#34;&gt;Create CSV with parameter combinations of interest&lt;/h3&gt;
+&lt;p&gt;Each row of this csv contains one parameter combination of interest, to be inputed into the previous &lt;code&gt;R&lt;/code&gt; function.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;job_params.csv&lt;/code&gt;:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-csv&#34;&gt;n,mean,sd
 1000,0,2
@@ -52,11 +73,12 @@ module load R
 
 Rscript -e &amp;lt;&amp;lt; EEOF
 source(&#39;your_function.R&#39;) 
-get_normal_sims(n=Sys.getenv(&#39;PARAM1&#39;), 
-                mean=Sys.getenv(&#39;PARAM2&#39;),
-                sd=Sys.getenv(&#39;PARAM3&#39;))
+get_normal_sims(n=as.integer(Sys.getenv(&#39;PARAM1&#39;)), 
+                mean=as.integer(Sys.getenv(&#39;PARAM2&#39;)),
+                sd=as.integer(Sys.getenv(&#39;PARAM3&#39;)))
 EEOF
 &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Note that the output of &lt;code&gt;Sys.getenv()&lt;/code&gt; is always a string, and thus needs to be converted to the type that &lt;code&gt;get_normal_sims()&lt;/code&gt; expects.&lt;/p&gt;
 &lt;h3 id=&#34;create-shell-script-to-run-all-the-jobs&#34;&gt;Create shell script to run all the jobs&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;run_all_jobs.sh&lt;/code&gt;:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#!/bin/bash
@@ -71,21 +93,24 @@ done
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;chmod +x run_all_jobs.sh
 ./run_all_jobs.sh
 &lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;
-
-
-
-
-## Install R package from github
-
-This is an example of installing current version of `grmbayes` from my github. 
-
-Run the following code on the HPC:
-
-```bash
-module load R
+&lt;h1 id=&#34;other-notes&#34;&gt;Other Notes&lt;/h1&gt;
+&lt;h2 id=&#34;install-r-package-from-github&#34;&gt;Install R package from github&lt;/h2&gt;
+&lt;p&gt;This is an example of installing current version of &lt;code&gt;grmbayes&lt;/code&gt; from my github.&lt;/p&gt;
+&lt;p&gt;Run the following code on the HPC:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;module load R
 Rscript -e &amp;quot;devtools::install_github(&#39;wyattgmadden/grmbayes&#39;)&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;ssh-into-node&#34;&gt;ssh into node&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;ssh NODE#
+top -u wmadden
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;see-current-jobs&#34;&gt;See current jobs&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;squeue -u wmadden
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;check-current-use-of-private-nodes&#34;&gt;Check current use of private nodes&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sinfo -p nodeowner  -o &amp;quot;%10N %20C %20m %10F&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;where &lt;code&gt;nodeown&lt;/code&gt; is the username of the owner of the private nodes.&lt;/p&gt;
 </description>
     </item>
     
@@ -237,6 +262,48 @@ Edit the &lt;code&gt;index.md&lt;/code&gt; markdown file inside this directory.&
 # etc...
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;other-notes&#34;&gt;Other Notes&lt;/h2&gt;
+&lt;h3 id=&#34;add-new-section-eg-posters-with-links-to-pdfs&#34;&gt;Add new section (eg. posters) with links to pdfs&lt;/h3&gt;
+&lt;p&gt;Create directorys and files:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;mkdir content/posters
+touch content/posters/_index.md
+mkdir layouts
+mkdir layouts/posters
+touch layouts/posters/list.html
+mkdir data
+touch data/posters.yml
+mkdir static/files/posters
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;content/posters/_index.md&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;---
+title: &amp;quot;Posters&amp;quot;
+type: &amp;quot;posters&amp;quot;
+---
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;layouts/posters/list.html&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{ define &amp;quot;main&amp;quot; }}
+  &amp;lt;h1&amp;gt;{{ .Title }}&amp;lt;/h1&amp;gt;
+  &amp;lt;ul&amp;gt;
+    {{ range .Site.Data.posters.posters }}
+      &amp;lt;li&amp;gt;
+        &amp;lt;a href=&amp;quot;{{ .url }}&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;{{ .title }}&amp;lt;/a&amp;gt;
+      &amp;lt;/li&amp;gt;
+    {{ end }}
+  &amp;lt;/ul&amp;gt;
+{{ end }}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Update &lt;code&gt;config.toml&lt;/code&gt; to include posters menu item:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[[menu.main]]
+  name = &amp;quot;Posters&amp;quot;
+  url = &amp;quot;posters/&amp;quot;
+  weight = 5
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Finally, put the poster pdfs in &lt;code&gt;static/files/posters/&lt;/code&gt; and update &lt;code&gt;data/posters.yml&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;posters:
+  - title: &amp;quot;Poster 1&amp;quot;
+    url: &amp;quot;/static/files/poster1.pdf&amp;quot;
+  - title: &amp;quot;Poster 2&amp;quot;
+    url: &amp;quot;/static/files/poster2.pdf&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
 &lt;h3 id=&#34;add-new-directory-to-top-bar-of-home-page&#34;&gt;Add new directory to top bar of home page&lt;/h3&gt;
 &lt;p&gt;Uncomment relevent sections of &lt;code&gt;config/_default/menus.toml&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id=&#34;remove-sharing-buttons-at-bottom-of-a-post&#34;&gt;Remove sharing buttons at bottom of a post&lt;/h3&gt;

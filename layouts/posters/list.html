@@ -1,7 +1,7 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
   <ul>
-    {{ range .Site.Data.posters.pdfs }}
+    {{ range .Site.Data.posters.posters }}
       <li>
         <a href="{{ .url }}" target="_blank">{{ .title }}</a>
       </li>

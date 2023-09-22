@@ -76,7 +76,68 @@ git add -A
 
 
 
+
+
+
 ## Other Notes
+
+### Add new section (eg. posters) with links to pdfs
+
+Create directorys and files: 
+
+```bash
+mkdir content/posters
+touch content/posters/_index.md
+mkdir layouts
+mkdir layouts/posters
+touch layouts/posters/list.html
+mkdir data
+touch data/posters.yml
+mkdir static/files/posters
+```
+`content/posters/_index.md`:
+
+```markdown
+---
+title: "Posters"
+type: "posters"
+---
+```
+`layouts/posters/list.html`:
+
+```markdown
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  <ul>
+    {{ range .Site.Data.posters.posters }}
+      <li>
+        <a href="{{ .url }}" target="_blank">{{ .title }}</a>
+      </li>
+    {{ end }}
+  </ul>
+{{ end }}
+```
+
+Update `config.toml` to include posters menu item: 
+
+```toml
+[[menu.main]]
+  name = "Posters"
+  url = "posters/"
+  weight = 5
+```
+
+Finally, put the poster pdfs in `static/files/posters/` and update `data/posters.yml`:
+
+```yaml
+posters:
+  - title: "Poster 1"
+    url: "/static/files/poster1.pdf"
+  - title: "Poster 2"
+    url: "/static/files/poster2.pdf"
+```
+
+
 
 ### Add new directory to top bar of home page
 
