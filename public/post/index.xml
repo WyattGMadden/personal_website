@@ -291,7 +291,7 @@ type: &amp;quot;posters&amp;quot;
   &amp;lt;/ul&amp;gt;
 {{ end }}
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Update &lt;code&gt;config.toml&lt;/code&gt; to include posters menu item:&lt;/p&gt;
+&lt;p&gt;Update &lt;code&gt;config/default/menus.toml&lt;/code&gt; to include posters menu item:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[[menu.main]]
   name = &amp;quot;Posters&amp;quot;
   url = &amp;quot;posters/&amp;quot;

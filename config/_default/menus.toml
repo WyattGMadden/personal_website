@@ -8,7 +8,7 @@
  [[main]]
     name = "CV"
     url = "files/cv/wyatt_madden_cv.pdf"
-    weight = 70
+    weight = 10
 
 #[[main]]
 #  name = "Demo"
@@ -16,14 +16,14 @@
 #  weight = 10
 
 [[main]]
-  name = "Posters"
-  url = "posters/"
-  weight = 20
-
-[[main]]
   name = "Posts"
   url = "post"
   weight = 20
+
+[[main]]
+  name = "Posters"
+  url = "posters/"
+  weight = 30
 
 #[[main]]
 #  name = "Projects"

@@ -118,7 +118,7 @@ type: "posters"
 {{ end }}
 ```
 
-Update `config.toml` to include posters menu item: 
+Update `config/default/menus.toml` to include posters menu item: 
 
 ```toml
 [[menu.main]]
