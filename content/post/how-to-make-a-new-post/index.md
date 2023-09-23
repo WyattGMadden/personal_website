@@ -107,7 +107,7 @@ type: "posters"
 
 ```markdown
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
+  <h1 style="margin-top: 50px; margin-left: 50px;">{{ .Title }}</h1>
   <ul>
     {{ range .Site.Data.posters.posters }}
       <li>
