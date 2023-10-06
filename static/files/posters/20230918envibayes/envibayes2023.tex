@@ -130,7 +130,7 @@
          Next we assess the performance of the model on the full contiguous United States data set for the three settings of Mat\'{e}rn covariance $\nu \in \{\frac{1}{2}, \frac{3}{2}, \frac{5}{2}\}$,  utilizing five 10-fold cross-validation formulations: ordinary, spatial, spatial clustered, and spatial buffered (with buffer size of 35km and 100km).\relax(Table~\ref{tab:full_grid_rmse})
          These results suggest that $\nu = \frac{1}{2}$ (exponential covariance kernal) is most appropriate for these data, and that there is considerable information gained from the spatial components of the model.
          \begin{center}
-             \captionof{table}{Full U.S. RMSE (95\% Prediction Interval Coverage Probability) for all combinations of spatial process and $\theta$ discretization schemes.}\label{tab:full_grid_rmse}
+             \captionof{table}{Full U.S. RMSE (95\% Prediction Interval Coverage Probability) for all combinations of CV type and Mat\'{e}rn $\nu$ parameter values.}\label{tab:full_grid_rmse}
              \resizebox{16cm}{!}{
                  \input{tables/cv_rmse_full_grid.tex}
          }

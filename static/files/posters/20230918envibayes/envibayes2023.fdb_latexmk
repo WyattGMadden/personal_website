@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber envibayes2023"] 1695413265 "envibayes2023.bcf" "envibayes2023.bbl" "envibayes2023" 1695414315 2
+["biber envibayes2023"] 1695413265 "envibayes2023.bcf" "envibayes2023.bbl" "envibayes2023" 1696614114 2
   "./refs.bib" 1695413385 1334 fe69a00685edc2ac36befa9ef18bfefe ""
-  "envibayes2023.bcf" 1695414315 107144 4c3cc9a307ea4dcc600bbd5158ee0313 "pdflatex"
+  "envibayes2023.bcf" 1696614114 107144 4c3cc9a307ea4dcc600bbd5158ee0313 "pdflatex"
   (generated)
   "envibayes2023.bbl"
   "envibayes2023.blg"
   (rewritten before read)
-["pdflatex"] 1695414310 "envibayes2023.tex" "envibayes2023.pdf" "envibayes2023" 1695414315 0
+["pdflatex"] 1696614111 "envibayes2023.tex" "envibayes2023.pdf" "envibayes2023" 1696614114 0
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1136768653 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
@@ -233,10 +233,10 @@
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
   "Emory_vt_280.png" 1695412031 94888 451e4d3f964f096367c17c9166191c6b ""
   "emory-theme.sty" 1695412031 4275 e139b8b748c5d1e3d09a62e69db82adb ""
-  "envibayes2023.aux" 1695414315 2100 cef202be698bae0a698a835758184eed "pdflatex"
+  "envibayes2023.aux" 1696614114 2088 d815ac5643a769e50022bc541318fbfe "pdflatex"
   "envibayes2023.bbl" 1695414268 6326 5327e6cd6cb78078e18e46acfa55e199 "biber envibayes2023"
-  "envibayes2023.run.xml" 1695414315 2362 46638aa604b6dcee9457e426c00c0de7 "pdflatex"
-  "envibayes2023.tex" 1695414164 10578 988ff5cb8b92407f8676b6c5d65abdff ""
+  "envibayes2023.run.xml" 1696614114 2362 46638aa604b6dcee9457e426c00c0de7 "pdflatex"
+  "envibayes2023.tex" 1696614101 10572 62359640217e7e3fc3b2528b54720a15 ""
   "figures/histogram_all.png" 1695412835 36903 df993cca935d02ce3ae798fff674024c ""
   "figures/obs_map_20181008.png" 1695412799 375413 bac37494da7002e2bd1e3cf97608584d ""
   "figures/pred_map_20181008.png" 1695413020 582418 8e4be72530db076a9f9c9100c2fac1aa ""
