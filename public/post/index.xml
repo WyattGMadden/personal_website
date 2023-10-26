@@ -107,6 +107,9 @@ top -u wmadden
 &lt;h2 id=&#34;see-current-jobs&#34;&gt;See current jobs&lt;/h2&gt;
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;squeue -u wmadden
 &lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;cancel-all-jobs-sharing-a-name&#34;&gt;Cancel all jobs sharing a name&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;squeue -u wmadden --format=&amp;quot;%i %j&amp;quot; | awk &#39;$2==&amp;quot;job_name&amp;quot; {print $1}&#39; | xargs -I {} scancel {}
+&lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;check-current-use-of-private-nodes&#34;&gt;Check current use of private nodes&lt;/h2&gt;
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sinfo -p nodeowner  -o &amp;quot;%10N %20C %20m %10F&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
@@ -281,7 +284,7 @@ type: &amp;quot;posters&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;code&gt;layouts/posters/list.html&lt;/code&gt;:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{ define &amp;quot;main&amp;quot; }}
-  &amp;lt;h1&amp;gt;{{ .Title }}&amp;lt;/h1&amp;gt;
+  &amp;lt;h1 style=&amp;quot;margin-top: 50px; margin-left: 50px;&amp;quot;&amp;gt;{{ .Title }}&amp;lt;/h1&amp;gt;
   &amp;lt;ul&amp;gt;
     {{ range .Site.Data.posters.posters }}
       &amp;lt;li&amp;gt;

@@ -142,6 +142,12 @@ top -u wmadden
 squeue -u wmadden
 ```
 
+## Cancel all jobs sharing a name
+
+```bash
+squeue -u wmadden --format="%i %j" | awk '$2=="job_name" {print $1}' | xargs -I {} scancel {}
+```
+
 ## Check current use of private nodes
 
 ```bash
