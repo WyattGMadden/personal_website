@@ -81,7 +81,168 @@
       <link>/post/envibayes2023/</link>
       <pubDate>Fri, 27 Oct 2023 08:57:42 -0400</pubDate>
       <guid>/post/envibayes2023/</guid>
-      <description></description>
+      <description>&lt;p&gt;This is a recap of the 
+&lt;a href=&#34;https://statistics.colostate.edu/envibayes-workshop/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Envibayes Workshop on Complex Environmental Data&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The purpose of this recap is to consolidate notes, with a focus on ideas I think might have potential for personal research pursuits.&lt;/p&gt;
+&lt;p&gt;The recap is ordered by talk, though some notes are only tangentially related to the talk under which they appear.&lt;/p&gt;
+&lt;h2 id=&#34;veronica-berrocal-stationarity-or-non-stationarity-that-is-the-question&#34;&gt;Veronica Berrocal &lt;em&gt;Stationarity or non-stationarity: that is the question&lt;/em&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Mark Risser&amp;rsquo;s 
+&lt;a href=&#34;https://sites.google.com/site/markdrisser/research&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;work&lt;/a&gt;, especially on 
+&lt;a href=&#34;https://www.nature.com/articles/s41598-023-30062-8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;non-stationary GP kernals for massive datasets&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;four broad methods of nonstationary GP&amp;rsquo;s&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;covariates in covariance matrix&lt;/li&gt;
+&lt;li&gt;covariate-informed local partitioning&lt;/li&gt;
+&lt;li&gt;identification of local stationarity regions&lt;/li&gt;
+&lt;li&gt;new class of prior (eg. 
+&lt;a href=&#34;10.1111/biom.13446&#34;&gt;CUSP-MRA prior&lt;/a&gt;)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;joint Bayesian data fusion - eg. Nonstationary spatiotemporal Bayesian data fusion for pollutants in the near-road environment (
+&lt;a href=&#34;https://doi.org/10.1002/env.2581&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gilana 2019&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;regression-based Bayesian data fusion - eg. Model evaluation and spatial interpolation by Bayesian combination of observations with outputs from numerical models (
+&lt;a href=&#34;https://doi.org/10.1111/j.0006-341X.2005.030821.x&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fuentes 2005 &lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;covariate-driven segmentation - eg. Nonstationary spatial prediction of soil organic carbon: Implications for stock assessment decision making  (
+&lt;a href=&#34;https://doi.org/10.1214/18-AOAS1204&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Risser 2019&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;fast approximation methods for fully Bayesian ensembles of different spatial prediction methods&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Identifying regions of inhomogeneities in spatial processes via an M-RA and mixture priors (
+&lt;a href=&#34;https://doi.org/10.1111/biom.13446&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bededetti 2021&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Deep Gaussian Processes - 
+&lt;a href=&#34;https://proceedings.mlr.press/v31/damianou13a.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Damianou 2013&lt;/a&gt;, 
+&lt;a href=&#34;https://inverseprobability.com/talks/notes/deep-gaussian-processes-a-motivation-and-introduction.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Neil Lawrence talk&lt;/a&gt;, 
+&lt;a href=&#34;https://doi.org/10.48550/arXiv.2106.12135&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;survey&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;andee-kaplan-improving-bayesian-inference-for-streaming-data&#34;&gt;Andee Kaplan &lt;em&gt;Improving Bayesian inference for streaming data&lt;/em&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Making Recursive Bayesian Inference Accessible (
+&lt;a href=&#34;https://doi.org/10.1080/00031305.2019.1665584&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hooten 2021&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Generative Filtering for Recursive Bayesian Inference with Streaming Data (
+&lt;a href=&#34;https://arxiv.org/pdf/2309.14271.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Taylor 2023&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Sequential Markov Chain Monte Carlo (
+&lt;a href=&#34;https://doi.org/10.48550/arXiv.1308.3861&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Yang 2013&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;maryclare-griffin-log-gaussian-cox-process-modeling-of-large-spatial-lightning-data-using-spectral-and-laplace-approximations&#34;&gt;Maryclare Griffin &lt;em&gt;Log-Gaussian Cox Process Modeling of Large Spatial Lightning Data using Spectral and Laplace Approximations&lt;/em&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Vecchia-Laplace approximations of generalized Gaussian processes for big non-Gaussian spatial data (
+&lt;a href=&#34;https://arxiv.org/abs/1906.07828&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zilber 2019&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Circular embeddings are highly efficient&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;student-papers&#34;&gt;Student Papers&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A dynamic spatial filtering approach to mitigate underestimation bias in field calibrated low-cost sensor air-pollution data (
+&lt;a href=&#34;https://doi.org/10.48550/arXiv.2203.14775&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Heffernan&lt;/a&gt;)
+-pm2.5 downscaler inverse regression&lt;/li&gt;
+&lt;li&gt;Dynamic Population Models with Temporal Preferential Sampling to Infer Phenology (
+&lt;a href=&#34;https://doi.org/10.48550/arXiv.2212.05180&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Schwob 2022&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;New spatial models for integrating standardized detection-nondetection and opportunistic presence-only data: application to estimating risk factors associated to powerline-induced death of birds 
+&lt;a href=&#34;https://doi.org/10.48550/arXiv.2303.02088&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sicacha-Parada 2023&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;amy-herring-low-rank-longitudinal-factor-regression&#34;&gt;Amy Herring &lt;em&gt;Low Rank Longitudinal Factor Regression&lt;/em&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;connections to brain imaging?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;henry-scharf-predicting-fine-scale-taxonomic-variation-in-landscape-vegetation-using-large-satellite-imagery-data-sets&#34;&gt;Henry Scharf &lt;em&gt;Predicting fine-scale taxonomic variation in landscape vegetation using large satellite imagery data sets&lt;/em&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;arxiv 
+&lt;a href=&#34;https://doi.org/10.48550/arXiv.2309.10325&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;maggie-johnson-tracking-plant-stress-from-space-improving-estimates-of-evapotranspiration-through-spatiotemporal-data-fusion&#34;&gt;Maggie Johnson &lt;em&gt;Tracking plant stress from space: Improving estimates of evapotranspiration through spatiotemporal data fusion&lt;/em&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Multisensor Fusion of Remotely Sensed Vegetation Indices Using Space-Time Dynamic Linear Models (
+&lt;a href=&#34;https://doi.org/10.1111/rssc.12495&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Johnson 2021&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;yawen-guan-a-bayesian-hierarchical-approach-for-modeling-tree-cover-change&#34;&gt;Yawen Guan &lt;em&gt;A Bayesian Hierarchical Approach for Modeling Tree Cover Change&lt;/em&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Dynamic spatio-temporal models for spatial data [Hefley 2017] (
+&lt;a href=&#34;https://doi.org/10.1016/j.spasta.2017.02.005&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.1016/j.spasta.2017.02.005&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;cory-zigler-bayesian-causal-inference-with-uncertain-physical-process-interference&#34;&gt;Cory Zigler &lt;em&gt;Bayesian Causal Inference with Uncertain Physical Process Interference&lt;/em&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Solving the SPDE - A Mechanistic Model of Annual Sulfate Concentrations in the United States (
+&lt;a href=&#34;10.1080/01621459.2022.2027774&#34;&gt;Wikle 2022&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;amy-braverman-statistical-challenges-for-the-next-generation-of-nasas-earth-observing-satellites&#34;&gt;Amy Braverman &lt;em&gt;Statistical Challenges for the Next Generation of NASA’s Earth Observing Satellites&lt;/em&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Post hoc Uncertainty Quantification for Remote Sensing Observing Systems 
+&lt;a href=&#34;https://dus.jpl.nasa.gov/Papers/2021.BravermanEtAl.JUQ.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Braverman 2021&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;how to preserve local information on a global scale?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;robert-gramacy-contour-location-for-reliability-in-airfoil-simulation-experiments-using-deep-gaussian-processes&#34;&gt;Robert Gramacy &lt;em&gt;Contour Location for Reliability in Airfoil Simulation Experiments using Deep Gaussian Processes&lt;/em&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;precursor: Bayesian inference for non-stationary spatial covariance structure via spatial deformations 
+&lt;a href=&#34;https://doi.org/10.1111/1467-9868.00413&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Schmidt 2003&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;layers of Gaussians: Elliptical slice sampling 
+&lt;a href=&#34;https://proceedings.mlr.press/v9/murray10a.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Murray 2010&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Vechia approx: Vecchia-Approximated Deep Gaussian Processes for Computer Experiments 
+&lt;a href=&#34;https://doi.org/10.1080/10618600.2022.2129662&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sauer 2022&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;abhirup-datta-combining-machine-learning-with-gaussian-processes-for-geospatial-data&#34;&gt;Abhirup Datta &lt;em&gt;Combining machine learning with Gaussian processes for geospatial data&lt;/em&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;machine learning for nonlinear geospatial analysis&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;residual kriggin (Olsen 2020)&lt;/li&gt;
+&lt;li&gt;adding spatial covariates (Wang 2019)&lt;/li&gt;
+&lt;li&gt;Embed ML in spatial GLMM (this is best)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Random Forests for Spatially Dependent Data 
+&lt;a href=&#34;https://doi.org/10.1080/01621459.2021.1950003&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Saha 2021&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;IDEA: uncertainty quantification for graphical neural nets, get CI&amp;rsquo;s for mean, stoch gradient MCMC&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;matt-koslovsky-a-bayesian-model-for-measurement-error-in-multinomial-data&#34;&gt;Matt Koslovsky &lt;em&gt;A Bayesian model for measurement error in multinomial data&lt;/em&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;zero inflated dirichlet model&lt;/li&gt;
+&lt;li&gt;data augmentation: normalized random measures&lt;/li&gt;
+&lt;li&gt;Bayesian Inference for Logistic Models Using Pólya–Gamma Latent Variables (
+&lt;a href=&#34;https://doi.org/10.1080/01621459.2013.829001&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Polson 2013&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;A Bayesian zero-inflated Dirichlet-multinomial regression model for multivariate compositional count data (
+&lt;a href=&#34;https://doi.org/10.1111/biom.13853&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Koslovsky 2023&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;alexandra-schmidt-temporal-misalignment-in-geostatistical&#34;&gt;Alexandra Schmidt &lt;em&gt;Temporal misalignment in geostatistical&lt;/em&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;spatiotemporal methods in env. epi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ephraim-hanks-a-mixture-of-ou-processes-framework-for-jointly-modeling-animal-movement-and-species-distribution-data&#34;&gt;Ephraim Hanks &lt;em&gt;A Mixture of OU-processes Framework for Jointly Modeling Animal Movement and Species Distribution Data&lt;/em&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Adaptive MCMC (
+&lt;a href=&#34;https://m-clark.github.io/docs/ld_mcmc/index_onepage.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Shaby 2010&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;toryn-schafer-inverse-reinforcement-learning-for-animal-behavior-in-the-environment&#34;&gt;Toryn Schafer &lt;em&gt;Inverse reinforcement learning for animal behavior in the environment&lt;/em&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;RL &amp;lt;&amp;ndash;&amp;gt; ABM &amp;lt;&amp;ndash;&amp;gt; LMDP: Bayesian inverse reinforcement learning for collective animal movement 
+&lt;a href=&#34;https://mhooten.github.io/publications/Schafer_etal_AOAS_2022.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Schafer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;other&#34;&gt;Other&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Calibration identifiability issue - Bayesian calibration of computer models (
+&lt;a href=&#34;https://doi.org/10.1111/1467-9868.00294&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kennedy 2002&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://scholar.google.co.uk/citations?user=KwEOawwAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dunson&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
