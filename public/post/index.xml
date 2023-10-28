@@ -5,12 +5,20 @@
     <link>/post/</link>
       <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 18 Aug 2023 17:09:03 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 27 Oct 2023 08:57:42 -0400</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>/post/</link>
     </image>
+    
+    <item>
+      <title>Envibayes2023</title>
+      <link>/post/envibayes2023/</link>
+      <pubDate>Fri, 27 Oct 2023 08:57:42 -0400</pubDate>
+      <guid>/post/envibayes2023/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>High Performance Cluster (HPC) Notes</title>
