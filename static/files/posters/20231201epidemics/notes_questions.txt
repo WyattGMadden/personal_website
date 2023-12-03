@@ -1,0 +1,24 @@
+Qs for max
+- list brian jess etc as authors?
+
+list of figures:
+
+    -map of study area (intro) ?
+    -nn structure (Data & Methods)?
+    -rmse by k (Performance)Job Creation/Destruction Log Report}
+    -predicted vs observed by city (performance)
+    -feature importance grav dynamics
+
+tables:
+    feature table
+
+to do
+    -better than loess?
+    -pinn
+
+
+TODO first thing friday
+- write future directions
+- citations
+- add figure refs
+-add map plot? possibly move around sections

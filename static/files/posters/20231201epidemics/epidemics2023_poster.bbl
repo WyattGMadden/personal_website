@@ -1,0 +1,200 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{finkenstadt2000time}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3e135440780e100c859049c41d7a82ce}{%
+           family={Finkenstadt},
+           familyi={F\bibinitperiod},
+           given={Barbel\bibnamedelima F.},
+           giveni={B\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=0ac1fe1a67dc8c3d63cc0c95e80f412d}{%
+           family={Grenfell},
+           familyi={G\bibinitperiod},
+           given={Bryan\bibnamedelima T.},
+           giveni={B\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {[Wiley, Royal Statistical Society]}%
+      }
+      \strng{namehash}{74e54240570c5341b464a89f4ea84802}
+      \strng{fullhash}{74e54240570c5341b464a89f4ea84802}
+      \strng{bibnamehash}{74e54240570c5341b464a89f4ea84802}
+      \strng{authorbibnamehash}{74e54240570c5341b464a89f4ea84802}
+      \strng{authornamehash}{74e54240570c5341b464a89f4ea84802}
+      \strng{authorfullhash}{74e54240570c5341b464a89f4ea84802}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Royal Statistical Society. Series C (Applied Statistics)}
+      \field{number}{2}
+      \field{title}{Time Series Modelling of Childhood Diseases: A Dynamical Systems Approach}
+      \field{volume}{49}
+      \field{year}{2000}
+      \field{pages}{187\bibrangedash 205}
+      \range{pages}{19}
+    \endentry
+    \entry{lundberg2017unified}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=2a1075150e1e1dad8127b019f7ca9031}{%
+           family={Lundberg},
+           familyi={L\bibinitperiod},
+           given={Scott\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=ee964079d93879aaef2382a5fff343d3}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Su-In},
+           giveni={S\bibinithyphendelim I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Long Beach, California, USA}%
+      }
+      \list{publisher}{1}{%
+        {Curran Associates Inc.}%
+      }
+      \strng{namehash}{9cd6e49767b1dfa9f5df9a46216a8739}
+      \strng{fullhash}{9cd6e49767b1dfa9f5df9a46216a8739}
+      \strng{bibnamehash}{9cd6e49767b1dfa9f5df9a46216a8739}
+      \strng{authorbibnamehash}{9cd6e49767b1dfa9f5df9a46216a8739}
+      \strng{authornamehash}{9cd6e49767b1dfa9f5df9a46216a8739}
+      \strng{authorfullhash}{9cd6e49767b1dfa9f5df9a46216a8739}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 31st International Conference on Neural Information Processing Systems}
+      \field{series}{NIPS'17}
+      \field{title}{A Unified Approach to Interpreting Model Predictions}
+      \field{year}{2017}
+      \field{pages}{4768\bibrangedash 4777}
+      \range{pages}{10}
+    \endentry
+    \entry{xia2004measles}{article}{}
+      \name{author}{4}{}{%
+        {{hash=c9728ea36aefec8646f4bc83dc1a711e}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Yingcun},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=5105fb13338b8d5a29b0a35cec540afa}{%
+           family={Bjørnstad},
+           familyi={B\bibinitperiod},
+           given={Ottar\bibnamedelima N.},
+           giveni={O\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=0ac1fe1a67dc8c3d63cc0c95e80f412d}{%
+           family={Grenfell},
+           familyi={G\bibinitperiod},
+           given={Bryan\bibnamedelima T.},
+           giveni={B\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=014420503d70529a1abecbc057f8f423}{%
+           family={DeAngelis},
+           familyi={D\bibinitperiod},
+           given={Associate\bibnamedelimb Editor:\bibnamedelimb Donald\bibnamedelima L.},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {[The University of Chicago Press, The American Society of Naturalists]}%
+      }
+      \strng{namehash}{a36cddd32d9bda40866248a563c36a80}
+      \strng{fullhash}{f1c2ffa0586bb73cf7c8b820fbfbf845}
+      \strng{bibnamehash}{a36cddd32d9bda40866248a563c36a80}
+      \strng{authorbibnamehash}{a36cddd32d9bda40866248a563c36a80}
+      \strng{authornamehash}{a36cddd32d9bda40866248a563c36a80}
+      \strng{authorfullhash}{f1c2ffa0586bb73cf7c8b820fbfbf845}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The American Naturalist}
+      \field{number}{2}
+      \field{title}{Measles Metapopulation Dynamics: A Gravity Model for Epidemiological Coupling and Dynamics}
+      \field{volume}{164}
+      \field{year}{2004}
+      \field{pages}{267\bibrangedash 281}
+      \range{pages}{15}
+    \endentry
+    \entry{lau2020competing}{article}{}
+      \name{author}{8}{}{%
+        {{hash=b73f9a79a261683082875316b2acca26}{%
+           family={Lau},
+           familyi={L\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4f8b571aae6431ac34fb3fbf1eb67de1}{%
+           family={Becker},
+           familyi={B\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=dfba7677fba7e4dc8b94d5c94ee12cfe}{%
+           family={Korevaar},
+           familyi={K\bibinitperiod},
+           given={Hannah},
+           giveni={H\bibinitperiod}}}%
+        {{hash=99d05a245e59e80cc5eb646762d2ccad}{%
+           family={Caudron},
+           familyi={C\bibinitperiod},
+           given={Quentin},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=3ad10bec858416b2f8598507dfe1de20}{%
+           family={Shaw},
+           familyi={S\bibinitperiod},
+           given={Darren},
+           giveni={D\bibinitperiod}}}%
+        {{hash=1182019a171ee6265ffe21dec18dcd38}{%
+           family={Metcalf},
+           familyi={M\bibinitperiod},
+           given={C.\bibnamedelimi Jessica},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=545478b85f49fd267c8eaaa8f4e0e6ae}{%
+           family={Bjornstad},
+           familyi={B\bibinitperiod},
+           given={Ottar},
+           giveni={O\bibinitperiod}}}%
+        {{hash=6eb0a9d59185c0f6dafae39253024487}{%
+           family={Grenfell},
+           familyi={G\bibinitperiod},
+           given={Bryan},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{f2a2911229d57ffe32284097706cd4b0}
+      \strng{fullhash}{0f5befaf4e032f6b2250caefd2ee9b15}
+      \strng{bibnamehash}{f2a2911229d57ffe32284097706cd4b0}
+      \strng{authorbibnamehash}{f2a2911229d57ffe32284097706cd4b0}
+      \strng{authornamehash}{f2a2911229d57ffe32284097706cd4b0}
+      \strng{authorfullhash}{0f5befaf4e032f6b2250caefd2ee9b15}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Ecology \& Evolution}
+      \field{month}{07}
+      \field{title}{A competing-risks model explains hierarchical spatial coupling of measles epidemics en route to national elimination}
+      \field{volume}{4}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
