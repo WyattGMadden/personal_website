@@ -411,8 +411,12 @@ INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/kpfonts/ts1jkp.fd
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/kpfonts/ts1jkp.fd
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/kpfonts/ts1jkp.fd
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/kpfonts/jkpmn7c.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/kpfonts/jkpmn8t.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/public/kpfonts/jkpmn7c.vf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/kpfonts/jkpmnc.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/public/kpfonts/jkpmn8t.vf
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/kpfonts/jkpmn8r.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/kpfonts/jkpmne.tfm
 INPUT wyatt_madden_cv.aux
 INPUT ./wyatt_madden_cv.out
 INPUT ./wyatt_madden_cv.out
