@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber epidemics2023_poster"] 1701447969 "epidemics2023_poster.bcf" "epidemics2023_poster.bbl" "epidemics2023_poster" 1701448041 0
+["biber epidemics2023_poster"] 1701447969 "epidemics2023_poster.bcf" "epidemics2023_poster.bbl" "epidemics2023_poster" 1702220968 0
   "./refs.bib" 1701447472 1679 129d3fdc229e6a74d9570155313005f7 ""
-  "epidemics2023_poster.bcf" 1701448040 107179 56a4b79a878e0483864c35ff6fe8abb8 "pdflatex"
+  "epidemics2023_poster.bcf" 1702220967 107179 56a4b79a878e0483864c35ff6fe8abb8 "pdflatex"
   (generated)
   "epidemics2023_poster.bbl"
   "epidemics2023_poster.blg"
   (rewritten before read)
-["pdflatex"] 1701448031 "epidemics2023_poster.tex" "epidemics2023_poster.pdf" "epidemics2023_poster" 1701448041 0
+["pdflatex"] 1702220960 "epidemics2023_poster.tex" "epidemics2023_poster.pdf" "epidemics2023_poster" 1702220968 0
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1136768653 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
@@ -221,10 +221,10 @@
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
   "Emory_vt_280.png" 1701447472 94888 451e4d3f964f096367c17c9166191c6b ""
   "emory-theme.sty" 1701447472 4475 1c8e4c11cdf1ab060ec431ea08a81b3a ""
-  "epidemics2023_poster.aux" 1701448040 1221 ae039f5d2465afc37d59c20f8865f331 "pdflatex"
+  "epidemics2023_poster.aux" 1702220967 1221 ae039f5d2465afc37d59c20f8865f331 "pdflatex"
   "epidemics2023_poster.bbl" 1701448012 8052 368a8c92bc418604561807f446eb770f "biber epidemics2023_poster"
-  "epidemics2023_poster.run.xml" 1701448040 2411 d5e19e168565e9dbc67da0372fd23509 "pdflatex"
-  "epidemics2023_poster.tex" 1701447999 9631 10604827481fb01b8fecc025973a2b23 ""
+  "epidemics2023_poster.run.xml" 1702220967 2411 d5e19e168565e9dbc67da0372fd23509 "pdflatex"
+  "epidemics2023_poster.tex" 1702220956 9631 22591af4e2bb783901787db16fee3275 ""
   "figures/cor_nn_tsir_k_facet.png" 1701447649 3939638 9346baaac59651d0a7820ecdea536dff ""
   "figures/england_wales_map.png" 1701447551 2638742 25514aab2a0c11bfed9fc99be08ac67e ""
   "figures/feedforward_network_structure.png" 1701447572 137874 f4607111942e720370fc66f85a5d85d8 ""
