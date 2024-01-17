@@ -19,6 +19,91 @@
 
 \refsection{1}
   \datalist[entry]{ddatent/global//global/global}
+    \entry{Lagergren2023}{article}{}
+      \name{author}{11}{}{%
+        {{hash=7c9b1ca284c370db58159c455be6ca20}{%
+           family={Lagergren},
+           familyi={L\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a3fce60748c30a1b206714b95440a677}{%
+           family={Ruiz-Aravena},
+           familyi={R\bibinithyphendelim A\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=14a0233223e28e891c7b13fe131b3451}{%
+           family={Becker},
+           familyi={B\bibinitperiod},
+           given={Daniel\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=dbcb8dfab13a4f4b4a4f12651cd8880e}{%
+           family={Madden},
+           familyi={M\bibinitperiod},
+           given={Wyatt},
+           giveni={W\bibinitperiod}}}%
+        {{hash=712c51d06dbf2256df1bffaa69c4f90c}{%
+           family={Ruytenberg},
+           familyi={R\bibinitperiod},
+           given={Lib},
+           giveni={L\bibinitperiod}}}%
+        {{hash=8446fba0368b183b7ba6d870ec579335}{%
+           family={Hoegh},
+           familyi={H\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9fd0cc0e30efef82714f556e34d762cc}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Barbara},
+           giveni={B\bibinitperiod}}}%
+        {{hash=d2f446e734b63ec1c19e8f61476fdbeb}{%
+           family={Peel},
+           familyi={P\bibinitperiod},
+           given={Alison\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=a44a8f54a4fbf6b5a724deab989ffe2a}{%
+           family={Eby},
+           familyi={E\bibinitperiod},
+           given={Peggy},
+           giveni={P\bibinitperiod}}}%
+        {{hash=15f348070c3fbe62ef3401d7e3b5149a}{%
+           family={Jacobson},
+           familyi={J\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3fb862e202f2430e72e317f8027f84da}{%
+           family={Plowright},
+           familyi={P\bibinitperiod},
+           given={Raina\bibnamedelima K.},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cold Spring Harbor Laboratory}%
+      }
+      \strng{namehash}{b748546e92edb5253d7434d19739c1bb}
+      \strng{fullhash}{c14cf10a295159480b76f99544815242}
+      \strng{bibnamehash}{b748546e92edb5253d7434d19739c1bb}
+      \strng{authorbibnamehash}{b748546e92edb5253d7434d19739c1bb}
+      \strng{authornamehash}{b748546e92edb5253d7434d19739c1bb}
+      \strng{authorfullhash}{c14cf10a295159480b76f99544815242}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Food availability determines where animals use space across a landscape and therefore affects the risk of encounters that lead to zoonotic spillover. This relationship is evident in Australian flying foxes (Pteropus spp; fruit bats), where acute food shortages precede clusters of Hendra virus spillovers. Using explainable artificial intelligence, we predicted months of food shortages from climatological and ecological covariates (1996-2022) in eastern Australia. Overall accuracy in predicting months of low food availability on a test set from 2018 up to 2022 reached 93.33\% and 92.59\% based on climatological and bat-level features, respectively. Seasonality and Oceanic El Niño Index were the most important environmental features, while the number of bats in rescue centers and their body weights were the most important bat-level features. These models support predictive signals up to nine months in advance, facilitating action to mitigate spillover risk.Competing Interest StatementThe authors have declared no competing interest.}
+      \field{addendum}{\href{https://doi.org/10.1101/2023.12.01.569640}{Under Review}}
+      \field{journaltitle}{bioRxiv}
+      \field{title}{Environmental and ecological signals predict periods of nutritional stress for Eastern Australian flying fox populations}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.biorxiv.org/content/early/2023/12/04/2023.12.01.569640
+      \endverb
+      \verb{url}
+      \verb https://www.biorxiv.org/content/early/2023/12/04/2023.12.01.569640
+      \endverb
+      \annotation{item}{author}{default}{4}{}{0}{highlight}
+    \endentry
     \entry{eby2022}{article}{}
       \name{author}{7}{}{%
         {{hash=a44a8f54a4fbf6b5a724deab989ffe2a}{%
