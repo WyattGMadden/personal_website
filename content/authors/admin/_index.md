@@ -53,5 +53,5 @@ user_groups:
 
 
 I am currently pursuing PhD in Biostatistics at Emory University with research focused on statistical machine learning methods for spatio-temporal data.
-Previously I have developed and applied statistical machine learning methods to problems in disease ecology, high-energy-density physics, air polution monitoring, epidemic spread of disease, and industrial processes.
+Previously I have contributed statistics and machine learning expertise to diverse problems, including disease ecology, high-energy-density physics, air polution monitoring, epidemic spread of disease, and industrial process optimization.
 I also have experience providing general data science support through data visualization, SQL database design and management, and the building of web applications. 
