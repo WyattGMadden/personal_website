@@ -16,7 +16,7 @@ education:
 email: ""
 interests:
 - Bayesian Statistics
-- Machine Learning/Deep Learning
+- Machine Learning & Deep Learning
 - Spatio-Temporal Data Analysis
 organizations:
 - name: Rollins School of Public Health
@@ -52,7 +52,6 @@ user_groups:
 
 
 
-I am currently pursuing PhD in Biostatistics at Emory University,
-My research is on statistical machine learning methods for spatio-temporal data.
+I am currently pursuing PhD in Biostatistics at Emory University with research focused on statistical machine learning methods for spatio-temporal data.
 Previously I have developed and applied statistical machine learning methods to problems in disease ecology, high-energy-density physics, air polution monitoring, epidemic spread of disease, and industrial processes.
 I also have experience providing general data science support through data visualization, SQL database design and management, and the building of web applications. 
