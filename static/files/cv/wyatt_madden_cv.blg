@@ -1,17 +1,17 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'wyatt_madden_cv.blg'
-[136] biber-darwin:340> INFO - === Thu Jan 11, 2024, 18:15:03
-[155] Biber.pm:419> INFO - Reading 'wyatt_madden_cv.bcf'
-[252] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[252] Biber.pm:976> INFO - Using all citekeys in bib section 1
-[252] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[279] Biber.pm:4419> INFO - Processing section 1
-[292] Biber.pm:4610> INFO - Looking for bibtex file 'publications.bib' for section 1
-[298] bibtex.pm:1713> INFO - LaTeX decoding ...
-[358] bibtex.pm:1519> INFO - Found BibTeX data source 'publications.bib'
-[623] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[623] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[623] Biber.pm:4239> INFO - Sorting list 'ddatent/global//global/global' of type 'entry' with template 'ddatent' and locale 'en-US'
-[623] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[655] bbl.pm:660> INFO - Writing 'wyatt_madden_cv.bbl' with encoding 'UTF-8'
-[670] bbl.pm:763> INFO - Output to wyatt_madden_cv.bbl
+[23] biber-darwin:340> INFO - === Wed Oct 30, 2024, 09:19:13
+[28] Biber.pm:419> INFO - Reading 'wyatt_madden_cv.bcf'
+[54] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[54] Biber.pm:976> INFO - Using all citekeys in bib section 1
+[54] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[62] Biber.pm:4419> INFO - Processing section 1
+[67] Biber.pm:4610> INFO - Looking for bibtex file 'publications.bib' for section 1
+[68] bibtex.pm:1713> INFO - LaTeX decoding ...
+[74] bibtex.pm:1519> INFO - Found BibTeX data source 'publications.bib'
+[127] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[127] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[127] Biber.pm:4239> INFO - Sorting list 'ddatent/global//global/global' of type 'entry' with template 'ddatent' and locale 'en-US'
+[127] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[135] bbl.pm:660> INFO - Writing 'wyatt_madden_cv.bbl' with encoding 'UTF-8'
+[139] bbl.pm:763> INFO - Output to wyatt_madden_cv.bbl

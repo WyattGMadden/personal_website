@@ -16,9 +16,8 @@ education:
 email: ""
 interests:
 - Bayesian Statistics
+- Machine Learning/Deep Learning
 - Spatio-Temporal Data Analysis
-- Machine Learning 
-- Data Integration
 organizations:
 - name: Rollins School of Public Health
   url: "https://www.sph.emory.edu/"
@@ -53,4 +52,7 @@ user_groups:
 
 
 
-I am currently pursuing PhD in Biostatistics at Emory University. Previously I worked as a statistician for Bozeman Disease Ecology Lab where we studied viral spillover from bats to susceptible populations. My research interests involve Bayesian statistics with a focus on spatio-temporal data, machine learning, and data integration methods for viral surveillance. I also have experience providing general data science support through data visualization, SQL database design and management, and the building of web based applications. 
+I am currently pursuing PhD in Biostatistics at Emory University,
+My research is on statistical machine learning methods for spatio-temporal data.
+Previously I have developed and applied statistical machine learning methods to problems in disease ecology, high-energy-density physics, air polution monitoring, epidemic spread of disease, and industrial processes.
+I also have experience providing general data science support through data visualization, SQL database design and management, and the building of web applications. 
