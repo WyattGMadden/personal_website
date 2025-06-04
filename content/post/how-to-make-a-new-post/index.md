@@ -2,9 +2,10 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "How to Make a New Hugo Academic Post"
+authors: ["wyatt-madden"]
 subtitle: "and other useful hugo notes"
 summary: ""
-authors: []
+authors: ["wyatt-madden"]
 tags: []
 categories: []
 date: 2023-08-17T11:18:29-04:00
@@ -100,6 +101,7 @@ mkdir static/files/posters
 ```markdown
 ---
 title: "Posters"
+authors: ["wyatt-madden"]
 type: "posters"
 ---
 ```

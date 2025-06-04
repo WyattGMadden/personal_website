@@ -2,9 +2,10 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "How to print from the 3rd Floor Emory Bios Printer"
+authors: ["wyatt-madden"]
 subtitle: ""
 summary: ""
-authors: []
+authors: ["wyatt-madden"]
 tags: []
 categories: []
 date: 2023-08-17T17:29:57-04:00

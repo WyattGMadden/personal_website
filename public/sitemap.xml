@@ -2,113 +2,111 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/courses/example/example1/</loc>
+    <loc>/courses/example/example1/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/courses/example/</loc>
+    <loc>/courses/example/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/courses/example/example2/</loc>
+    <loc>/courses/example/example2/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/talk/example/</loc>
+    <loc>/authors/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/talk/</loc>
+    <loc>/talk/example/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/</loc>
+    <loc>/talk/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/envibayes2023/</loc>
+    <loc>/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/author/wyatt-madden/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/envibayes2023/</loc>
     <lastmod>2023-10-27T08:57:42-04:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/</loc>
+    <loc>/post/</loc>
     <lastmod>2023-10-27T08:57:42-04:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/2023-09-04-hpc-slurm/</loc>
+    <loc>/post/2023-09-04-hpc-slurm/</loc>
     <lastmod>2023-08-18T17:09:03-04:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/2023-08-18-python-workflow-notes/</loc>
+    <loc>/post/2023-08-18-python-workflow-notes/</loc>
     <lastmod>2023-08-18T17:09:03-04:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/2023-08-18-vim-notes/</loc>
+    <loc>/post/2023-08-18-vim-notes/</loc>
     <lastmod>2023-08-18T16:01:50-04:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/2023-08-17-rsph-printer/</loc>
+    <loc>/post/2023-08-17-rsph-printer/</loc>
     <lastmod>2023-08-17T17:29:57-04:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/how-to-make-a-new-post/</loc>
+    <loc>/post/how-to-make-a-new-post/</loc>
     <lastmod>2023-08-17T11:18:29-04:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/courses/</loc>
+    <loc>/courses/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/publication-type/3/</loc>
+    <loc>/publication-type/3/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/publication/preprint/</loc>
+    <loc>/publication/preprint/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/authors/</loc>
+    <loc>/publication_types/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/publication_types/</loc>
+    <loc>/publication/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/publication/</loc>
+    <loc>/tag/source-themes/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tag/source-themes/</loc>
+    <loc>/tags/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/author/wyatt-madden/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/author/wyatt-madden/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/slides/</loc>
+    <loc>/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/slides/example/</loc>
+    <loc>/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tag/deep-learning/</loc>
+    <loc>/tag/deep-learning/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tag/demo/</loc>
+    <loc>/tag/demo/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/project/external-project/</loc>
+    <loc>/project/external-project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/project/internal-project/</loc>
+    <loc>/project/internal-project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/project/</loc>
+    <loc>/project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/publication-type/2/</loc>
+    <loc>/publication-type/2/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/publication/journal-article/</loc>
+    <loc>/publication/journal-article/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/author/robert-ford/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/publication-type/1/</loc>
+    <loc>/publication-type/1/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/publication/conference-paper/</loc>
+    <loc>/publication/conference-paper/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>/author/authors/</loc>
   </url><url>
-    <loc>//localhost:1313/posters/</loc>
+    <loc>/categories/</loc>
+  </url><url>
+    <loc>/posters/</loc>
+  </url><url>
+    <loc>/author/wyatt-madden/</loc>
   </url>
 </urlset>

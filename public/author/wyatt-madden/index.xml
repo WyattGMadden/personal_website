@@ -2,33 +2,691 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wyatt Madden</title>
-    <link>//localhost:1313/author/wyatt-madden/</link>
-      <atom:link href="//localhost:1313/author/wyatt-madden/index.xml" rel="self" type="application/rss+xml" />
+    <link>/author/wyatt-madden/</link>
+      <atom:link href="/author/wyatt-madden/index.xml" rel="self" type="application/rss+xml" />
     <description>Wyatt Madden</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>//localhost:1313/images/icon_hu10226378635250344412.png</url>
+      <url>/images/icon_hu_e747e089a9e68c83.png</url>
       <title>Wyatt Madden</title>
-      <link>//localhost:1313/author/wyatt-madden/</link>
+      <link>/author/wyatt-madden/</link>
     </image>
     
     <item>
-      <title>Wyatt Madden</title>
-      <link>//localhost:1313/author/wyatt-madden/</link>
-      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/author/wyatt-madden/</guid>
-      <description>&lt;p&gt;I am currently pursuing PhD in Biostatistics at Emory University,
-My research is on statistical machine learning methods for spatio-temporal data.
-Previously I have developed and applied statistical machine learning methods to problems in disease ecology, high-energy-density physics, air polution monitoring, epidemic spread of disease, and industrial processes.
-I also have experience providing general data science support through data visualization, SQL database design and management, and the building of web applications.&lt;/p&gt;
+      <title>Example Talk</title>
+      <link>/talk/example/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <guid>/talk/example/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Academic&amp;rsquo;s 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Further talk details can easily be added to this page using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
     
-  </channel>
-</rss>
-link>
+    <item>
+      <title>Envibayes2023</title>
+      <link>/post/envibayes2023/</link>
+      <pubDate>Fri, 27 Oct 2023 08:57:42 -0400</pubDate>
+      <guid>/post/envibayes2023/</guid>
+      <description>&lt;p&gt;This is a recap of the 
+&lt;a href=&#34;https://statistics.colostate.edu/envibayes-workshop/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Envibayes Workshop on Complex Environmental Data&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The purpose of this recap is to consolidate notes, with a focus on ideas I think might have potential for personal research pursuits.&lt;/p&gt;
+&lt;p&gt;The recap is ordered by talk, though some notes are only tangentially related to the talk under which they appear.&lt;/p&gt;
+&lt;h2 id=&#34;veronica-berrocal-stationarity-or-non-stationarity-that-is-the-question&#34;&gt;Veronica Berrocal &lt;em&gt;Stationarity or non-stationarity: that is the question&lt;/em&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Mark Risser&amp;rsquo;s 
+&lt;a href=&#34;https://sites.google.com/site/markdrisser/research&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;work&lt;/a&gt;, especially on 
+&lt;a href=&#34;https://www.nature.com/articles/s41598-023-30062-8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;non-stationary GP kernals for massive datasets&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;four broad methods of nonstationary GP&amp;rsquo;s&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;covariates in covariance matrix&lt;/li&gt;
+&lt;li&gt;covariate-informed local partitioning&lt;/li&gt;
+&lt;li&gt;identification of local stationarity regions&lt;/li&gt;
+&lt;li&gt;new class of prior (eg. 
+&lt;a href=&#34;10.1111/biom.13446&#34;&gt;CUSP-MRA prior&lt;/a&gt;)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;joint Bayesian data fusion - eg. Nonstationary spatiotemporal Bayesian data fusion for pollutants in the near-road environment (
+&lt;a href=&#34;https://doi.org/10.1002/env.2581&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Gilana 2019&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;regression-based Bayesian data fusion - eg. Model evaluation and spatial interpolation by Bayesian combination of observations with outputs from numerical models (
+&lt;a href=&#34;https://doi.org/10.1111/j.0006-341X.2005.030821.x&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fuentes 2005 &lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;covariate-driven segmentation - eg. Nonstationary spatial prediction of soil organic carbon: Implications for stock assessment decision making  (
+&lt;a href=&#34;https://doi.org/10.1214/18-AOAS1204&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Risser 2019&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;fast approximation methods for fully Bayesian ensembles of different spatial prediction methods&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Identifying regions of inhomogeneities in spatial processes via an M-RA and mixture priors (
+&lt;a href=&#34;https://doi.org/10.1111/biom.13446&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bededetti 2021&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Deep Gaussian Processes - 
+&lt;a href=&#34;https://proceedings.mlr.press/v31/damianou13a.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Damianou 2013&lt;/a&gt;, 
+&lt;a href=&#34;https://inverseprobability.com/talks/notes/deep-gaussian-processes-a-motivation-and-introduction.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Neil Lawrence talk&lt;/a&gt;, 
+&lt;a href=&#34;https://doi.org/10.48550/arXiv.2106.12135&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;survey&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;andee-kaplan-improving-bayesian-inference-for-streaming-data&#34;&gt;Andee Kaplan &lt;em&gt;Improving Bayesian inference for streaming data&lt;/em&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Making Recursive Bayesian Inference Accessible (
+&lt;a href=&#34;https://doi.org/10.1080/00031305.2019.1665584&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hooten 2021&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Generative Filtering for Recursive Bayesian Inference with Streaming Data (
+&lt;a href=&#34;https://arxiv.org/pdf/2309.14271.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Taylor 2023&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Sequential Markov Chain Monte Carlo (
+&lt;a href=&#34;https://doi.org/10.48550/arXiv.1308.3861&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Yang 2013&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;maryclare-griffin-log-gaussian-cox-process-modeling-of-large-spatial-lightning-data-using-spectral-and-laplace-approximations&#34;&gt;Maryclare Griffin &lt;em&gt;Log-Gaussian Cox Process Modeling of Large Spatial Lightning Data using Spectral and Laplace Approximations&lt;/em&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Vecchia-Laplace approximations of generalized Gaussian processes for big non-Gaussian spatial data (
+&lt;a href=&#34;https://arxiv.org/abs/1906.07828&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zilber 2019&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Circular embeddings are highly efficient&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;student-papers&#34;&gt;Student Papers&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A dynamic spatial filtering approach to mitigate underestimation bias in field calibrated low-cost sensor air-pollution data (
+&lt;a href=&#34;https://doi.org/10.48550/arXiv.2203.14775&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Heffernan&lt;/a&gt;)
+-pm2.5 downscaler inverse regression&lt;/li&gt;
+&lt;li&gt;Dynamic Population Models with Temporal Preferential Sampling to Infer Phenology (
+&lt;a href=&#34;https://doi.org/10.48550/arXiv.2212.05180&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Schwob 2022&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;New spatial models for integrating standardized detection-nondetection and opportunistic presence-only data: application to estimating risk factors associated to powerline-induced death of birds 
+&lt;a href=&#34;https://doi.org/10.48550/arXiv.2303.02088&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sicacha-Parada 2023&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;amy-herring-low-rank-longitudinal-factor-regression&#34;&gt;Amy Herring &lt;em&gt;Low Rank Longitudinal Factor Regression&lt;/em&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;connections to brain imaging?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;henry-scharf-predicting-fine-scale-taxonomic-variation-in-landscape-vegetation-using-large-satellite-imagery-data-sets&#34;&gt;Henry Scharf &lt;em&gt;Predicting fine-scale taxonomic variation in landscape vegetation using large satellite imagery data sets&lt;/em&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;arxiv 
+&lt;a href=&#34;https://doi.org/10.48550/arXiv.2309.10325&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;maggie-johnson-tracking-plant-stress-from-space-improving-estimates-of-evapotranspiration-through-spatiotemporal-data-fusion&#34;&gt;Maggie Johnson &lt;em&gt;Tracking plant stress from space: Improving estimates of evapotranspiration through spatiotemporal data fusion&lt;/em&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Multisensor Fusion of Remotely Sensed Vegetation Indices Using Space-Time Dynamic Linear Models (
+&lt;a href=&#34;https://doi.org/10.1111/rssc.12495&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Johnson 2021&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;yawen-guan-a-bayesian-hierarchical-approach-for-modeling-tree-cover-change&#34;&gt;Yawen Guan &lt;em&gt;A Bayesian Hierarchical Approach for Modeling Tree Cover Change&lt;/em&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Dynamic spatio-temporal models for spatial data [Hefley 2017] (
+&lt;a href=&#34;https://doi.org/10.1016/j.spasta.2017.02.005&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.1016/j.spasta.2017.02.005&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;cory-zigler-bayesian-causal-inference-with-uncertain-physical-process-interference&#34;&gt;Cory Zigler &lt;em&gt;Bayesian Causal Inference with Uncertain Physical Process Interference&lt;/em&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Solving the SPDE - A Mechanistic Model of Annual Sulfate Concentrations in the United States (
+&lt;a href=&#34;10.1080/01621459.2022.2027774&#34;&gt;Wikle 2022&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;amy-braverman-statistical-challenges-for-the-next-generation-of-nasas-earth-observing-satellites&#34;&gt;Amy Braverman &lt;em&gt;Statistical Challenges for the Next Generation of NASA’s Earth Observing Satellites&lt;/em&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Post hoc Uncertainty Quantification for Remote Sensing Observing Systems 
+&lt;a href=&#34;https://dus.jpl.nasa.gov/Papers/2021.BravermanEtAl.JUQ.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Braverman 2021&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;how to preserve local information on a global scale?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;robert-gramacy-contour-location-for-reliability-in-airfoil-simulation-experiments-using-deep-gaussian-processes&#34;&gt;Robert Gramacy &lt;em&gt;Contour Location for Reliability in Airfoil Simulation Experiments using Deep Gaussian Processes&lt;/em&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;precursor: Bayesian inference for non-stationary spatial covariance structure via spatial deformations 
+&lt;a href=&#34;https://doi.org/10.1111/1467-9868.00413&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Schmidt 2003&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;layers of Gaussians: Elliptical slice sampling 
+&lt;a href=&#34;https://proceedings.mlr.press/v9/murray10a.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Murray 2010&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Vechia approx: Vecchia-Approximated Deep Gaussian Processes for Computer Experiments 
+&lt;a href=&#34;https://doi.org/10.1080/10618600.2022.2129662&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sauer 2022&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;abhirup-datta-combining-machine-learning-with-gaussian-processes-for-geospatial-data&#34;&gt;Abhirup Datta &lt;em&gt;Combining machine learning with Gaussian processes for geospatial data&lt;/em&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;machine learning for nonlinear geospatial analysis&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;residual kriggin (Olsen 2020)&lt;/li&gt;
+&lt;li&gt;adding spatial covariates (Wang 2019)&lt;/li&gt;
+&lt;li&gt;Embed ML in spatial GLMM (this is best)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Random Forests for Spatially Dependent Data 
+&lt;a href=&#34;https://doi.org/10.1080/01621459.2021.1950003&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Saha 2021&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;IDEA: uncertainty quantification for graphical neural nets, get CI&amp;rsquo;s for mean, stoch gradient MCMC&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;matt-koslovsky-a-bayesian-model-for-measurement-error-in-multinomial-data&#34;&gt;Matt Koslovsky &lt;em&gt;A Bayesian model for measurement error in multinomial data&lt;/em&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;zero inflated dirichlet model&lt;/li&gt;
+&lt;li&gt;data augmentation: normalized random measures&lt;/li&gt;
+&lt;li&gt;Bayesian Inference for Logistic Models Using Pólya–Gamma Latent Variables (
+&lt;a href=&#34;https://doi.org/10.1080/01621459.2013.829001&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Polson 2013&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;A Bayesian zero-inflated Dirichlet-multinomial regression model for multivariate compositional count data (
+&lt;a href=&#34;https://doi.org/10.1111/biom.13853&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Koslovsky 2023&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;alexandra-schmidt-temporal-misalignment-in-geostatistical&#34;&gt;Alexandra Schmidt &lt;em&gt;Temporal misalignment in geostatistical&lt;/em&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;spatiotemporal methods in env. epi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;ephraim-hanks-a-mixture-of-ou-processes-framework-for-jointly-modeling-animal-movement-and-species-distribution-data&#34;&gt;Ephraim Hanks &lt;em&gt;A Mixture of OU-processes Framework for Jointly Modeling Animal Movement and Species Distribution Data&lt;/em&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Adaptive MCMC (
+&lt;a href=&#34;https://m-clark.github.io/docs/ld_mcmc/index_onepage.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Shaby 2010&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;toryn-schafer-inverse-reinforcement-learning-for-animal-behavior-in-the-environment&#34;&gt;Toryn Schafer &lt;em&gt;Inverse reinforcement learning for animal behavior in the environment&lt;/em&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;RL &amp;lt;&amp;ndash;&amp;gt; ABM &amp;lt;&amp;ndash;&amp;gt; LMDP: Bayesian inverse reinforcement learning for collective animal movement 
+&lt;a href=&#34;https://mhooten.github.io/publications/Schafer_etal_AOAS_2022.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Schafer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;other&#34;&gt;Other&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Calibration identifiability issue - Bayesian calibration of computer models (
+&lt;a href=&#34;https://doi.org/10.1111/1467-9868.00294&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kennedy 2002&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://scholar.google.co.uk/citations?user=KwEOawwAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dunson&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>High Performance Cluster (HPC) Notes</title>
+      <link>/post/2023-09-04-hpc-slurm/</link>
+      <pubDate>Fri, 18 Aug 2023 17:09:03 -0400</pubDate>
+      <guid>/post/2023-09-04-hpc-slurm/</guid>
+      <description>&lt;p&gt;This post contains notes on working with an HPC running SLURM.&lt;/p&gt;
+&lt;p&gt;It includes a guide to submitting multiple R/Python jobs and other odds and ends.&lt;/p&gt;
+&lt;p&gt;Some useful resources (and sources for this post):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://github.com/RSPH-HPC/Documentation/blob/master/HPC%20Getting%20Started%20Guide.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;official documentation&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://scholarblogs.emory.edu/rsph-hpc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BIOS specific documentation&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://yanglab-emory.github.io/assets/ComputationSlides/RSPH_HPC_StartGuide_Yang.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;yanglab introduction&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://scholarblogs.emory.edu/rsph-hpc/files/2020/11/2020-11-20-BIOS-HPC-Workshop.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BIOS virtual workshop&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;run-r-jobs&#34;&gt;Run R jobs&lt;/h1&gt;
+&lt;h2 id=&#34;run-a-function-across-multiple-jobs-with-different-parameters&#34;&gt;Run a function across multiple jobs with different parameters&lt;/h2&gt;
+&lt;p&gt;This is an example of running an R function across many jobs, each with a different parameter combination&lt;/p&gt;
+&lt;h3 id=&#34;create-function-file&#34;&gt;Create function file&lt;/h3&gt;
+&lt;p&gt;This is the &lt;code&gt;R&lt;/code&gt; code that you want to run.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;my_function.R&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-R&#34;&gt;get_normal_sims &amp;lt;- function(n, mean, sd) {
+    sims &amp;lt;- rnorm(n = n, mean = mean, sd = sd)
+    saveRDS(&amp;quot;sims&amp;quot;)
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;create-csv-with-parameter-combinations-of-interest&#34;&gt;Create CSV with parameter combinations of interest&lt;/h3&gt;
+&lt;p&gt;Each row of this csv contains one parameter combination of interest, to be inputed into the previous &lt;code&gt;R&lt;/code&gt; function.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;job_params.csv&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-csv&#34;&gt;n,mean,sd
+1000,0,2
+100,10,1
+10000,50,1000
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;create-job-script-to-send-one-job-to-hpc&#34;&gt;Create job script to send one job to HPC&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;run_one_job.sh&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-hpc&#34;&gt;#!/bin/bash
+#SBATCH --job-name=rnormalsim      # create a short name for your job
+#SBATCH --nodes=1                  # node count
+#SBATCH --partition=day-long-cpu
+#SBATCH --ntasks=1                 # total number of tasks across all nodes
+#SBATCH --cpus-per-task=1          # cpu-cores per task (&amp;gt;1 if multi-threaded tasks)
+#SBATCH --mem=4G                   # total memory per node (4 GB per cpu-core is default)
+#SBATCH -o rnorm-sim-%A_%a.out  # output file format (%A is jobID, %a is task index)
+
+module purge
+module load R
+
+Rscript -e &amp;lt;&amp;lt; EEOF
+source(&#39;your_function.R&#39;) 
+get_normal_sims(n=as.integer(Sys.getenv(&#39;PARAM1&#39;)), 
+                mean=as.integer(Sys.getenv(&#39;PARAM2&#39;)),
+                sd=as.integer(Sys.getenv(&#39;PARAM3&#39;)))
+EEOF
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Note that the output of &lt;code&gt;Sys.getenv()&lt;/code&gt; is always a string, and thus needs to be converted to the type that &lt;code&gt;get_normal_sims()&lt;/code&gt; expects.&lt;/p&gt;
+&lt;h3 id=&#34;create-shell-script-to-run-all-the-jobs&#34;&gt;Create shell script to run all the jobs&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;run_all_jobs.sh&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;#!/bin/bash
+
+tail -n +2 job_params.csv | while IFS=&#39;,&#39; read -r param1 param2 param3
+do
+    sbatch --export=PARAM1=&amp;quot;param1&amp;quot;,PARAM2=&amp;quot;param2&amp;quot;,PARAM3=&amp;quot;param3&amp;quot; run_one_job.sh
+done
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;submit-jobs&#34;&gt;Submit jobs&lt;/h3&gt;
+&lt;p&gt;Finally run the following bash commands in the cluster to send all jobs:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;chmod +x run_all_jobs.sh
+./run_all_jobs.sh
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&#34;other-notes&#34;&gt;Other Notes&lt;/h1&gt;
+&lt;h2 id=&#34;install-r-package-from-github&#34;&gt;Install R package from github&lt;/h2&gt;
+&lt;p&gt;This is an example of installing current version of &lt;code&gt;grmbayes&lt;/code&gt; from my github.&lt;/p&gt;
+&lt;p&gt;Run the following code on the HPC:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;module load R
+Rscript -e &amp;quot;devtools::install_github(&#39;wyattgmadden/grmbayes&#39;)&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;ssh-into-node&#34;&gt;ssh into node&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;ssh NODE#
+top -u wmadden
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;see-current-jobs&#34;&gt;See current jobs&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;squeue -u wmadden
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;cancel-all-jobs-sharing-a-name&#34;&gt;Cancel all jobs sharing a name&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;squeue -u wmadden --format=&amp;quot;%i %j&amp;quot; | awk &#39;$2==&amp;quot;job_name&amp;quot; {print $1}&#39; | xargs -I {} scancel {}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;check-current-use-of-private-nodes&#34;&gt;Check current use of private nodes&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sinfo -p nodeowner  -o &amp;quot;%10N %20C %20m %10F&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;where &lt;code&gt;nodeown&lt;/code&gt; is the username of the owner of the private nodes.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Python Workflow Notes</title>
+      <link>/post/2023-08-18-python-workflow-notes/</link>
+      <pubDate>Fri, 18 Aug 2023 17:09:03 -0400</pubDate>
+      <guid>/post/2023-08-18-python-workflow-notes/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;set breakpoints with &lt;code&gt;breakpoint()&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;use &lt;code&gt;n&lt;/code&gt; to continue execution until the next line&lt;/li&gt;
+&lt;li&gt;use &lt;code&gt;s&lt;/code&gt; to execute the current line and stop at the first possible occasion&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;reimport library or file with &lt;code&gt;reload()&lt;/code&gt; from &lt;code&gt;importlib&lt;/code&gt; library&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Vim notes</title>
+      <link>/post/2023-08-18-vim-notes/</link>
+      <pubDate>Fri, 18 Aug 2023 16:01:50 -0400</pubDate>
+      <guid>/post/2023-08-18-vim-notes/</guid>
+      <description>&lt;p&gt;This is list of vim tricks I want to remember and start using regularly.&lt;/p&gt;
+&lt;h2 id=&#34;make-same-change-to-many-lines&#34;&gt;
+&lt;a href=&#34;https://stackoverflow.com/questions/9549729/vim-insert-the-same-characters-across-multiple-lines&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Make same change to many lines&lt;/a&gt;&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Enter visual block mode &lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;v&lt;/kbd&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Move down all lines to change (ie. highlighting one letter per line)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Press &lt;kbd&gt; I &lt;/kbd&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Make changes&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Press &lt;kbd&gt; Esc &lt;/kbd&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to print from the 3rd Floor Emory Bios Printer</title>
+      <link>/post/2023-08-17-rsph-printer/</link>
+      <pubDate>Thu, 17 Aug 2023 17:29:57 -0400</pubDate>
+      <guid>/post/2023-08-17-rsph-printer/</guid>
+      <description>&lt;p&gt;This guide explains how to print files from the Emory Bios printer on the third floor of GCR.&lt;/p&gt;
+&lt;p&gt;The process will be:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Move files to H-drive on personal computer.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Open files from H-drive on shared Bios computer in computer lab.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Print files from shared Bios computers with Bios printer.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;connect-to-h-drive&#34;&gt;Connect to H-Drive&lt;/h1&gt;
+&lt;p&gt;Here is information for connecting to all drive(s):&lt;/p&gt;
+&lt;p&gt;First make sure you are connected to secure Emory WiFi (EmoryUnplugged)&lt;/p&gt;
+&lt;p&gt;The network drive mappings for a Windows computer are as follows:&lt;/p&gt;
+&lt;p&gt;For H: &lt;code&gt;\\nasn2acts.cc.emory.edu\rsphhome-ts\&amp;quot;YOUR NET-ID&amp;quot;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;For S: &lt;code&gt;\\nasn2ac.cc.emory.edu\rsphdata&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;For P: &lt;code&gt;\\nasn2ac.cc.emory.edu\rsphcs&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;For T: &lt;code&gt;\\nasn2acts.cc.emory.edu\researchdata-ts&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;For R: &lt;code&gt;\\nasn2acts.cc.emory.edu\rsphprojects-ts&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;For L: &lt;code&gt;\\stat.sph.emory.edu\apps&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The network drive mappings for an Apple computer are as follows:&lt;/p&gt;
+&lt;p&gt;H - &lt;code&gt;smb://nasn2acts.cc.emory.edu/rsphhome-ts/&amp;quot;YOUR NET-ID&amp;quot;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;S - &lt;code&gt;smb://nasn2ac.cc.emory.edu/rsphdata&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;P - &lt;code&gt;smb://nasn2ac.cc.emory.edu/rsphcs&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;T - &lt;code&gt;smb://nasn2acts.cc.emory.edu/researchdata-ts&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;R - &lt;code&gt;smb://nasn2acts.cc.emory.edu/rsphprojects-ts&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;L - &lt;code&gt;smb://stat.sph.emory.edu/apps&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;You may or may not have access to the &lt;code&gt;researchdata-ts&lt;/code&gt; drive.&lt;/p&gt;
+&lt;p&gt;If prompted for a username, it will be: &lt;code&gt;EMORYUNIVAD\&amp;quot;YOUR NET-ID&amp;quot;&lt;/code&gt;
+The password will be your standard Emory password.&lt;/p&gt;
+&lt;h1 id=&#34;print-from-shared-computer&#34;&gt;Print from shared computer&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Login to shared computer with netid and password.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Open H-drive (located in &lt;code&gt;This PC&lt;/code&gt; in file explorer)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Open files with Adobe Acrobat Reader&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;ctrl + p&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Change printer to &lt;code&gt;GCRcopy3a&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select &lt;code&gt;Properties &amp;gt; Basic &amp;gt; User Code Settings&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Enter 3655 for B&amp;amp;W or 3511 for color&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select &lt;code&gt;Apply&lt;/code&gt; and then &lt;code&gt;OK&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select &lt;code&gt;Print&lt;/code&gt; and wait for printing noises.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to Make a New Hugo Academic Post</title>
+      <link>/post/how-to-make-a-new-post/</link>
+      <pubDate>Thu, 17 Aug 2023 11:18:29 -0400</pubDate>
+      <guid>/post/how-to-make-a-new-post/</guid>
+      <description>&lt;p&gt;This post details how to add a post to a hugo-academic website.
+There are also some notes add the end of the post related to updating a hugo-academic website, but unrelated to making a post.&lt;/p&gt;
+&lt;h2 id=&#34;make-a-new-post&#34;&gt;Make a new post&lt;/h2&gt;
+&lt;p&gt;From root directory run:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;hugo new post/my-post
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This creates a directory in &lt;code&gt;content/post/&lt;/code&gt; titled &lt;code&gt;my-post&lt;/code&gt;.
+Edit the &lt;code&gt;index.md&lt;/code&gt; markdown file inside this directory.&lt;/p&gt;
+&lt;h2 id=&#34;build-site&#34;&gt;Build Site&lt;/h2&gt;
+&lt;p&gt;To build the website locally, from the root directory run:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;hugo
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;preview-site&#34;&gt;Preview Site&lt;/h2&gt;
+&lt;p&gt;To preview site, from root directory run&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;hugo server
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;and then navigate to &lt;code&gt;http://localhost:1313&lt;/code&gt; in your browser&lt;/p&gt;
+&lt;h2 id=&#34;push&#34;&gt;Push&lt;/h2&gt;
+&lt;p&gt;Push to github (which is then automatically deployed with netflfy)&lt;/p&gt;
+&lt;p&gt;From root directory,&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;git add -A
+# etc...
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;other-notes&#34;&gt;Other Notes&lt;/h2&gt;
+&lt;h3 id=&#34;add-new-section-eg-posters-with-links-to-pdfs&#34;&gt;Add new section (eg. posters) with links to pdfs&lt;/h3&gt;
+&lt;p&gt;Create directorys and files:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;mkdir content/posters
+touch content/posters/_index.md
+mkdir layouts
+mkdir layouts/posters
+touch layouts/posters/list.html
+mkdir data
+touch data/posters.yml
+mkdir static/files/posters
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;content/posters/_index.md&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;---
+title: &amp;quot;Posters&amp;quot;
+authors: [&amp;quot;wyatt-madden&amp;quot;]
+type: &amp;quot;posters&amp;quot;
+---
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;layouts/posters/list.html&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{ define &amp;quot;main&amp;quot; }}
+  &amp;lt;h1 style=&amp;quot;margin-top: 50px; margin-left: 50px;&amp;quot;&amp;gt;{{ .Title }}&amp;lt;/h1&amp;gt;
+  &amp;lt;ul&amp;gt;
+    {{ range .Site.Data.posters.posters }}
+      &amp;lt;li&amp;gt;
+        &amp;lt;a href=&amp;quot;{{ .url }}&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;{{ .title }}&amp;lt;/a&amp;gt;
+      &amp;lt;/li&amp;gt;
+    {{ end }}
+  &amp;lt;/ul&amp;gt;
+{{ end }}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Update &lt;code&gt;config/default/menus.toml&lt;/code&gt; to include posters menu item:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[[menu.main]]
+  name = &amp;quot;Posters&amp;quot;
+  url = &amp;quot;posters/&amp;quot;
+  weight = 5
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Finally, put the poster pdfs in &lt;code&gt;static/files/posters/&lt;/code&gt; and update &lt;code&gt;data/posters.yml&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;posters:
+  - title: &amp;quot;Poster 1&amp;quot;
+    url: &amp;quot;/static/files/poster1.pdf&amp;quot;
+  - title: &amp;quot;Poster 2&amp;quot;
+    url: &amp;quot;/static/files/poster2.pdf&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;add-new-directory-to-top-bar-of-home-page&#34;&gt;Add new directory to top bar of home page&lt;/h3&gt;
+&lt;p&gt;Uncomment relevent sections of &lt;code&gt;config/_default/menus.toml&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;remove-sharing-buttons-at-bottom-of-a-post&#34;&gt;Remove sharing buttons at bottom of a post&lt;/h3&gt;
+&lt;p&gt;Set &lt;code&gt;sharing = false&lt;/code&gt; in &lt;code&gt;config/_default/params.toml&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;update-cv&#34;&gt;Update CV&lt;/h3&gt;
+&lt;p&gt;Update &lt;code&gt;static/files/cv/wyatt_madden_cv.tex&lt;/code&gt; and render.&lt;/p&gt;
+&lt;h3 id=&#34;add-widget-to-home-page&#34;&gt;Add widget to home page&lt;/h3&gt;
+&lt;p&gt;Add widgets to home page by setting &lt;code&gt;active = true&lt;/code&gt; in corresponding widget markdown file in  &lt;code&gt;content/home/&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;adjust-post-page-settings&#34;&gt;Adjust post page settings&lt;/h3&gt;
+&lt;p&gt;Update &lt;code&gt;content/post/_index.md&lt;/code&gt;. Eg. &lt;code&gt;view = 1&lt;/code&gt; corresponds with settings listed in &lt;code&gt;content/home/post.md&lt;/code&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example preprint / working paper</title>
+      <link>/publication/preprint/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/preprint/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>/slides/example/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>/slides/example/</guid>
+      <description>&lt;h1 id=&#34;create-slides-in-markdown-with-academic&#34;&gt;Create slides in Markdown with Academic&lt;/h1&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic&lt;/a&gt; | 
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
+&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
+&lt;li&gt;Supports speaker notes&lt;/li&gt;
+&lt;li&gt;Mobile friendly slides&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
+&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Code block:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
+if porridge == &amp;quot;blueberry&amp;quot;:
+    print(&amp;quot;Eating...&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
+&lt;p&gt;Block math:&lt;/p&gt;
+&lt;p&gt;$$
+f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
+&lt;p&gt;Make content appear incrementally&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
+{{% fragment %}} **Two** {{% /fragment %}}
+{{% fragment %}} Three {{% /fragment %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+   One 
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+   **Two** 
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+   Three 
+&lt;/span&gt;
+&lt;hr&gt;
+&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
+&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% speaker_note %}}
+- Only the speaker can read these notes
+- Press `S` key to view
+{{% /speaker_note %}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/aside&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
+&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
+&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
+&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
+&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
+&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/img/boards.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
+&lt;p&gt;Customize the slide style and background&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/img/boards.jpg&amp;quot; &amp;gt;}}
+{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
+{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
+&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.reveal section h1,
+.reveal section h2,
+.reveal section h3 {
+  color: navy;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://spectrum.chat/academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>External Project</title>
+      <link>/project/external-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/external-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Internal Project</title>
+      <link>/project/internal-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>/project/internal-project/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example journal article</title>
+      <link>/publication/journal-article/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/publication/journal-article/</guid>
+      <guid>/publication/journal-article/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -46,9 +704,9 @@ link>
     
     <item>
       <title>An example conference paper</title>
-      <link>//localhost:1313/publication/conference-paper/</link>
+      <link>/publication/conference-paper/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/publication/conference-paper/</guid>
+      <guid>/publication/conference-paper/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -61,6 +719,17 @@ link>
 &lt;/div&gt;
 &lt;p&gt;Supplementary notes can be added here, including 
 &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Wyatt Madden</title>
+      <link>/author/wyatt-madden/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/author/wyatt-madden/</guid>
+      <description>&lt;p&gt;I am currently pursuing PhD in Biostatistics at Emory University with research focused on statistical machine learning methods for spatio-temporal data.
+Previously I have contributed statistics and machine learning expertise to a diverse set of problems in disease ecology, high-energy-density physics, air polution monitoring, epidemic spread of disease, and industrial process optimization.
+I also have experience providing general data science support through data visualization, SQL database design and management, and the building of web applications.&lt;/p&gt;
 </description>
     </item>
     

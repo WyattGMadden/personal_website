@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts | Wyatt Madden</title>
-    <link>//localhost:1313/post/</link>
-      <atom:link href="//localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>/post/</link>
+      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 27 Oct 2023 08:57:42 -0400</lastBuildDate>
     <image>
-      <url>//localhost:1313/images/icon_hu10226378635250344412.png</url>
+      <url>/images/icon_hu_e747e089a9e68c83.png</url>
       <title>Posts</title>
-      <link>//localhost:1313/post/</link>
+      <link>/post/</link>
     </image>
     
     <item>
       <title>Envibayes2023</title>
-      <link>//localhost:1313/post/envibayes2023/</link>
+      <link>/post/envibayes2023/</link>
       <pubDate>Fri, 27 Oct 2023 08:57:42 -0400</pubDate>
-      <guid>//localhost:1313/post/envibayes2023/</guid>
+      <guid>/post/envibayes2023/</guid>
       <description>&lt;p&gt;This is a recap of the 
 &lt;a href=&#34;https://statistics.colostate.edu/envibayes-workshop/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Envibayes Workshop on Complex Environmental Data&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;The purpose of this recap is to consolidate notes, with a focus on ideas I think might have potential for personal research pursuits.&lt;/p&gt;
@@ -183,9 +183,9 @@
     
     <item>
       <title>High Performance Cluster (HPC) Notes</title>
-      <link>//localhost:1313/post/2023-09-04-hpc-slurm/</link>
+      <link>/post/2023-09-04-hpc-slurm/</link>
       <pubDate>Fri, 18 Aug 2023 17:09:03 -0400</pubDate>
-      <guid>//localhost:1313/post/2023-09-04-hpc-slurm/</guid>
+      <guid>/post/2023-09-04-hpc-slurm/</guid>
       <description>&lt;p&gt;This post contains notes on working with an HPC running SLURM.&lt;/p&gt;
 &lt;p&gt;It includes a guide to submitting multiple R/Python jobs and other odds and ends.&lt;/p&gt;
 &lt;p&gt;Some useful resources (and sources for this post):&lt;/p&gt;
@@ -288,9 +288,9 @@ top -u wmadden
     
     <item>
       <title>Python Workflow Notes</title>
-      <link>//localhost:1313/post/2023-08-18-python-workflow-notes/</link>
+      <link>/post/2023-08-18-python-workflow-notes/</link>
       <pubDate>Fri, 18 Aug 2023 17:09:03 -0400</pubDate>
-      <guid>//localhost:1313/post/2023-08-18-python-workflow-notes/</guid>
+      <guid>/post/2023-08-18-python-workflow-notes/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;set breakpoints with &lt;code&gt;breakpoint()&lt;/code&gt;&lt;/p&gt;
@@ -308,11 +308,11 @@ top -u wmadden
     
     <item>
       <title>Vim notes</title>
-      <link>//localhost:1313/post/2023-08-18-vim-notes/</link>
+      <link>/post/2023-08-18-vim-notes/</link>
       <pubDate>Fri, 18 Aug 2023 16:01:50 -0400</pubDate>
-      <guid>//localhost:1313/post/2023-08-18-vim-notes/</guid>
+      <guid>/post/2023-08-18-vim-notes/</guid>
       <description>&lt;p&gt;This is list of vim tricks I want to remember and start using regularly.&lt;/p&gt;
-&lt;h2 id=&#34;make-same-change-to-many-lineshttpsstackoverflowcomquestions9549729vim-insert-the-same-characters-across-multiple-lines&#34;&gt;
+&lt;h2 id=&#34;make-same-change-to-many-lines&#34;&gt;
 &lt;a href=&#34;https://stackoverflow.com/questions/9549729/vim-insert-the-same-characters-across-multiple-lines&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Make same change to many lines&lt;/a&gt;&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -336,9 +336,9 @@ top -u wmadden
     
     <item>
       <title>How to print from the 3rd Floor Emory Bios Printer</title>
-      <link>//localhost:1313/post/2023-08-17-rsph-printer/</link>
+      <link>/post/2023-08-17-rsph-printer/</link>
       <pubDate>Thu, 17 Aug 2023 17:29:57 -0400</pubDate>
-      <guid>//localhost:1313/post/2023-08-17-rsph-printer/</guid>
+      <guid>/post/2023-08-17-rsph-printer/</guid>
       <description>&lt;p&gt;This guide explains how to print files from the Emory Bios printer on the third floor of GCR.&lt;/p&gt;
 &lt;p&gt;The process will be:&lt;/p&gt;
 &lt;ol&gt;
@@ -407,9 +407,9 @@ The password will be your standard Emory password.&lt;/p&gt;
     
     <item>
       <title>How to Make a New Hugo Academic Post</title>
-      <link>//localhost:1313/post/how-to-make-a-new-post/</link>
+      <link>/post/how-to-make-a-new-post/</link>
       <pubDate>Thu, 17 Aug 2023 11:18:29 -0400</pubDate>
-      <guid>//localhost:1313/post/how-to-make-a-new-post/</guid>
+      <guid>/post/how-to-make-a-new-post/</guid>
       <description>&lt;p&gt;This post details how to add a post to a hugo-academic website.
 There are also some notes add the end of the post related to updating a hugo-academic website, but unrelated to making a post.&lt;/p&gt;
 &lt;h2 id=&#34;make-a-new-post&#34;&gt;Make a new post&lt;/h2&gt;
@@ -448,6 +448,7 @@ mkdir static/files/posters
 &lt;p&gt;&lt;code&gt;content/posters/_index.md&lt;/code&gt;:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;---
 title: &amp;quot;Posters&amp;quot;
+authors: [&amp;quot;wyatt-madden&amp;quot;]
 type: &amp;quot;posters&amp;quot;
 ---
 &lt;/code&gt;&lt;/pre&gt;

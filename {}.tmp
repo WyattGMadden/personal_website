@@ -1,0 +1,860 @@
++++
+# Gallery section using the Blank widget and Gallery element (shortcode).
+widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
+headless = true  # This file represents a page section.
+active = false  # Activate this widget? true/false
+weight = 66  # Order that this section will appear.
+
+title = "Gallery"
+subtitle = ""
++++
+
+{{< gallery >}}
++++
+# Homepage
+type = "widget_page"
+headless = true  # Homepage is headless, other widget pages are not.
++++
+---
+# Documentation: https://sourcethemes.com/academic/docs/managing-content/
+
+title: "How to print from the 3rd Floor Emory Bios Printer"
+authors: ["wyatt-madden"]
+subtitle: ""
+summary: ""
+authors: ["wyatt-madden"]
+tags: []
+categories: []
+date: 2023-08-17T17:29:57-04:00
+lastmod: 2023-08-17T17:29:57-04:00
+featured: false
+draft: false
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+image:
+  caption: ""
+  focal_point: ""
+  preview_only: false
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects: []
+---
+
+This guide explains how to print files from the Emory Bios printer on the third floor of GCR. 
+
+The process will be:
+
+1. Move files to H-drive on personal computer.
+
+2. Open files from H-drive on shared Bios computer in computer lab. 
+
+3. Print files from shared Bios computers with Bios printer.
+
+
+# Connect to H-Drive
+
+Here is information for connecting to all drive(s):
+
+First make sure you are connected to secure Emory WiFi (EmoryUnplugged)
+
+
+The network drive mappings for a Windows computer are as follows:  
+
+For H: `\\nasn2acts.cc.emory.edu\rsphhome-ts\"YOUR NET-ID"`  
+
+For S: `\\nasn2ac.cc.emory.edu\rsphdata`  
+
+For P: `\\nasn2ac.cc.emory.edu\rsphcs`  
+
+For T: `\\nasn2acts.cc.emory.edu\researchdata-ts`  
+
+For R: `\\nasn2acts.cc.emory.edu\rsphprojects-ts`  
+
+For L: `\\stat.sph.emory.edu\apps`  
+
+ 
+The network drive mappings for an Apple computer are as follows:  
+
+H - `smb://nasn2acts.cc.emory.edu/rsphhome-ts/"YOUR NET-ID"`  
+
+S - `smb://nasn2ac.cc.emory.edu/rsphdata`  
+
+P - `smb://nasn2ac.cc.emory.edu/rsphcs`  
+
+T - `smb://nasn2acts.cc.emory.edu/researchdata-ts`  
+
+R - `smb://nasn2acts.cc.emory.edu/rsphprojects-ts`  
+
+L - `smb://stat.sph.emory.edu/apps`  
+
+ 
+You may or may not have access to the `researchdata-ts` drive.
+ 
+If prompted for a username, it will be: `EMORYUNIVAD\"YOUR NET-ID"`
+The password will be your standard Emory password.
+ 
+
+
+# Print from shared computer 
+
+1. Login to shared computer with netid and password. 
+
+2. Open H-drive (located in `This PC` in file explorer)
+
+3. Open files with Adobe Acrobat Reader
+
+4. ctrl + p
+
+6. Change printer to `GCRcopy3a`
+
+7. Select `Properties > Basic > User Code Settings`
+
+8. Enter 3655 for B&W or 3511 for color
+
+9. Select `Apply` and then `OK`
+
+10. Select `Print` and wait for printing noises. 
+
+---
+# Documentation: https://sourcethemes.com/academic/docs/managing-content/
+
+title: "How to Make a New Hugo Academic Post"
+authors: ["wyatt-madden"]
+subtitle: "and other useful hugo notes"
+summary: ""
+authors: ["wyatt-madden"]
+tags: []
+categories: []
+date: 2023-08-17T11:18:29-04:00
+lastmod: 2023-08-17T11:18:29-04:00
+featured: false
+draft: false
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+image:
+  caption: ""
+  focal_point: ""
+  preview_only: false
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects: []
+---
+
+
+This post details how to add a post to a hugo-academic website. 
+There are also some notes add the end of the post related to updating a hugo-academic website, but unrelated to making a post.
+
+## Make a new post
+
+From root directory run:
+
+```bash
+hugo new post/my-post
+```
+
+This creates a directory in `content/post/` titled `my-post`. 
+Edit the `index.md` markdown file inside this directory. 
+
+
+## Build Site
+
+To build the website locally, from the root directory run:
+
+```bash
+hugo
+```
+
+## Preview Site
+
+To preview site, from root directory run 
+
+```bash
+hugo server
+```
+
+and then navigate to `http://localhost:1313` in your browser
+
+
+## Push
+
+Push to github (which is then automatically deployed with netflfy)
+
+From root directory, 
+
+```bash
+git add -A
+# etc...
+```
+
+
+
+
+
+
+## Other Notes
+
+### Add new section (eg. posters) with links to pdfs
+
+Create directorys and files: 
+
+```bash
+mkdir content/posters
+touch content/posters/_index.md
+mkdir layouts
+mkdir layouts/posters
+touch layouts/posters/list.html
+mkdir data
+touch data/posters.yml
+mkdir static/files/posters
+```
+`content/posters/_index.md`:
+
+```markdown
+---
+# Documentation: https://sourcethemes.com/academic/docs/managing-content/
+
+title: "Vim notes"
+authors: ["wyatt-madden"]
+subtitle: ""
+summary: ""
+authors: ["wyatt-madden"]
+tags: []
+categories: []
+date: 2023-08-18T16:01:50-04:00
+lastmod: 2023-08-18T16:01:50-04:00
+featured: false
+draft: false
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+image:
+  caption: ""
+  focal_point: ""
+  preview_only: false
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects: []
+---
+
+This is list of vim tricks I want to remember and start using regularly. 
+
+## [Make same change to many lines](https://stackoverflow.com/questions/9549729/vim-insert-the-same-characters-across-multiple-lines)
+
+1. Enter visual block mode <kbd>Ctrl</kbd> + <kbd>v</kbd>
+
+2. Move down all lines to change (ie. highlighting one letter per line)
+
+3. Press <kbd> I </kbd>
+
+4. Make changes 
+
+5. Press <kbd> Esc </kbd>
+
+---
+# Documentation: https://sourcethemes.com/academic/docs/managing-content/
+
+title: "High Performance Cluster (HPC) Notes"
+authors: ["wyatt-madden"]
+subtitle: ""
+summary: ""
+authors: ["wyatt-madden"]
+tags: []
+categories: []
+date: 2023-08-18T17:09:03-04:00
+lastmod: 2023-08-18T17:09:03-04:00
+featured: false
+draft: false
+---
+
+This post contains notes on working with an HPC running SLURM. 
+
+It includes a guide to submitting multiple R/Python jobs and other odds and ends.
+
+Some useful resources (and sources for this post):
+
+* [official documentation](https://github.com/RSPH-HPC/Documentation/blob/master/HPC%20Getting%20Started%20Guide.pdf)
+
+* [BIOS specific documentation](https://scholarblogs.emory.edu/rsph-hpc/)
+
+* [yanglab introduction](https://yanglab-emory.github.io/assets/ComputationSlides/RSPH_HPC_StartGuide_Yang.html)
+
+* [BIOS virtual workshop](https://scholarblogs.emory.edu/rsph-hpc/files/2020/11/2020-11-20-BIOS-HPC-Workshop.pdf)
+
+
+
+# Run R jobs
+
+## Run a function across multiple jobs with different parameters
+
+This is an example of running an R function across many jobs, each with a different parameter combination
+
+
+### Create function file
+
+This is the `R` code that you want to run.
+
+`my_function.R`:
+
+```R
+get_normal_sims <- function(n, mean, sd) {
+    sims <- rnorm(n = n, mean = mean, sd = sd)
+    saveRDS("sims")
+}
+```
+
+### Create CSV with parameter combinations of interest
+
+Each row of this csv contains one parameter combination of interest, to be inputed into the previous `R` function.
+
+`job_params.csv`:
+```csv
+n,mean,sd
+1000,0,2
+100,10,1
+10000,50,1000
+```
+
+### Create job script to send one job to HPC
+
+`run_one_job.sh`:
+```hpc
+#!/bin/bash
+#SBATCH --job-name=rnormalsim      # create a short name for your job
+#SBATCH --nodes=1                  # node count
+#SBATCH --partition=day-long-cpu
+#SBATCH --ntasks=1                 # total number of tasks across all nodes
+#SBATCH --cpus-per-task=1          # cpu-cores per task (>1 if multi-threaded tasks)
+#SBATCH --mem=4G                   # total memory per node (4 GB per cpu-core is default)
+#SBATCH -o rnorm-sim-%A_%a.out  # output file format (%A is jobID, %a is task index)
+
+module purge
+module load R
+
+Rscript -e << EEOF
+source('your_function.R') 
+get_normal_sims(n=as.integer(Sys.getenv('PARAM1')), 
+                mean=as.integer(Sys.getenv('PARAM2')),
+                sd=as.integer(Sys.getenv('PARAM3')))
+EEOF
+```
+
+Note that the output of `Sys.getenv()` is always a string, and thus needs to be converted to the type that `get_normal_sims()` expects.
+
+
+### Create shell script to run all the jobs
+
+`run_all_jobs.sh`:
+```bash
+#!/bin/bash
+
+tail -n +2 job_params.csv | while IFS=',' read -r param1 param2 param3
+do
+    sbatch --export=PARAM1="param1",PARAM2="param2",PARAM3="param3" run_one_job.sh
+done
+```
+### Submit jobs
+
+Finally run the following bash commands in the cluster to send all jobs:
+
+```bash
+chmod +x run_all_jobs.sh
+./run_all_jobs.sh
+```
+
+
+
+
+
+
+
+
+
+# Other Notes
+
+## Install R package from github
+
+This is an example of installing current version of `grmbayes` from my github. 
+
+Run the following code on the HPC:
+
+```bash
+module load R
+Rscript -e "devtools::install_github('wyattgmadden/grmbayes')"
+```
+
+## ssh into node
+
+```bash
+ssh NODE#
+top -u wmadden
+```
+
+## See current jobs
+
+```bash
+squeue -u wmadden
+```
+
+## Cancel all jobs sharing a name
+
+```bash
+squeue -u wmadden --format="%i %j" | awk '$2=="job_name" {print $1}' | xargs -I {} scancel {}
+```
+
+## Check current use of private nodes
+
+```bash
+sinfo -p nodeowner  -o "%10N %20C %20m %10F"
+```
+
+where `nodeown` is the username of the owner of the private nodes. 
+
+---
+# Documentation: https://sourcethemes.com/academic/docs/managing-content/
+
+title: "Python Workflow Notes"
+authors: ["wyatt-madden"]
+subtitle: ""
+summary: ""
+authors: ["wyatt-madden"]
+tags: []
+categories: []
+date: 2023-08-18T17:09:03-04:00
+lastmod: 2023-08-18T17:09:03-04:00
+featured: false
+draft: false
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+image:
+  caption: ""
+  focal_point: ""
+  preview_only: false
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects: []
+---
+
+
+* set breakpoints with `breakpoint()`
+    - use `n` to continue execution until the next line
+    - use `s` to execute the current line and stop at the first possible occasion
+
+* reimport library or file with `reload()` from `importlib` library
+---
+# Documentation: https://sourcethemes.com/academic/docs/managing-content/
+
+title: "Envibayes2023"
+authors: ["wyatt-madden"]
+subtitle: ""
+summary: ""
+authors: ["wyatt-madden"]
+tags: []
+categories: []
+date: 2023-10-27T08:57:42-04:00
+lastmod: 2023-10-27T08:57:42-04:00
+featured: false
+draft: false
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+image:
+  caption: ""
+  focal_point: ""
+  preview_only: false
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects: []
+---
+
+
+
+This is a recap of the [Envibayes Workshop on Complex Environmental Data](https://statistics.colostate.edu/envibayes-workshop/).
+
+The purpose of this recap is to consolidate notes, with a focus on ideas I think might have potential for personal research pursuits.
+
+The recap is ordered by talk, though some notes are only tangentially related to the talk under which they appear. 
+
+
+## Veronica Berrocal *Stationarity or non-stationarity: that is the question*
+
+- Mark Risser's [work](https://sites.google.com/site/markdrisser/research), especially on [non-stationary GP kernals for massive datasets](https://www.nature.com/articles/s41598-023-30062-8)
+- four broad methods of nonstationary GP's 
+   1. covariates in covariance matrix
+   2. covariate-informed local partitioning
+   3. identification of local stationarity regions
+   4. new class of prior (eg. [CUSP-MRA prior](10.1111/biom.13446))
+- joint Bayesian data fusion - eg. Nonstationary spatiotemporal Bayesian data fusion for pollutants in the near-road environment ([Gilana 2019](https://doi.org/10.1002/env.2581))
+- regression-based Bayesian data fusion - eg. Model evaluation and spatial interpolation by Bayesian combination of observations with outputs from numerical models ([Fuentes 2005 ](https://doi.org/10.1111/j.0006-341X.2005.030821.x))
+- covariate-driven segmentation - eg. Nonstationary spatial prediction of soil organic carbon: Implications for stock assessment decision making  ([Risser 2019](https://doi.org/10.1214/18-AOAS1204))
+
+- fast approximation methods for fully Bayesian ensembles of different spatial prediction methods
+    - Identifying regions of inhomogeneities in spatial processes via an M-RA and mixture priors ([Bededetti 2021](https://doi.org/10.1111/biom.13446))
+    - Deep Gaussian Processes - [Damianou 2013](https://proceedings.mlr.press/v31/damianou13a.html), [Neil Lawrence talk](https://inverseprobability.com/talks/notes/deep-gaussian-processes-a-motivation-and-introduction.html), [survey](https://doi.org/10.48550/arXiv.2106.12135)
+
+## Andee Kaplan *Improving Bayesian inference for streaming data*
+
+- Making Recursive Bayesian Inference Accessible ([Hooten 2021](https://doi.org/10.1080/00031305.2019.1665584))
+- Generative Filtering for Recursive Bayesian Inference with Streaming Data ([Taylor 2023](https://arxiv.org/pdf/2309.14271.pdf)
+- Sequential Markov Chain Monte Carlo ([Yang 2013](https://doi.org/10.48550/arXiv.1308.3861)
+
+## Maryclare Griffin *Log-Gaussian Cox Process Modeling of Large Spatial Lightning Data using Spectral and Laplace Approximations*
+
+- Vecchia-Laplace approximations of generalized Gaussian processes for big non-Gaussian spatial data ([Zilber 2019](https://arxiv.org/abs/1906.07828))
+
+- Circular embeddings are highly efficient
+
+## Student Papers
+
+- A dynamic spatial filtering approach to mitigate underestimation bias in field calibrated low-cost sensor air-pollution data ([Heffernan](https://doi.org/10.48550/arXiv.2203.14775))
+    -pm2.5 downscaler inverse regression
+- Dynamic Population Models with Temporal Preferential Sampling to Infer Phenology ([Schwob 2022](https://doi.org/10.48550/arXiv.2212.05180)
+- New spatial models for integrating standardized detection-nondetection and opportunistic presence-only data: application to estimating risk factors associated to powerline-induced death of birds [Sicacha-Parada 2023](https://doi.org/10.48550/arXiv.2303.02088)
+
+
+## Amy Herring *Low Rank Longitudinal Factor Regression*
+
+- connections to brain imaging?
+
+
+## Henry Scharf *Predicting fine-scale taxonomic variation in landscape vegetation using large satellite imagery data sets*
+
+- arxiv [here](https://doi.org/10.48550/arXiv.2309.10325)
+
+
+## Maggie Johnson *Tracking plant stress from space: Improving estimates of evapotranspiration through spatiotemporal data fusion*
+
+- Multisensor Fusion of Remotely Sensed Vegetation Indices Using Space-Time Dynamic Linear Models ([Johnson 2021](https://doi.org/10.1111/rssc.12495))
+
+## Yawen Guan *A Bayesian Hierarchical Approach for Modeling Tree Cover Change*
+
+- Dynamic spatio-temporal models for spatial data [Hefley 2017] (https://doi.org/10.1016/j.spasta.2017.02.005)
+
+## Cory Zigler *Bayesian Causal Inference with Uncertain Physical Process Interference*
+
+- Solving the SPDE - A Mechanistic Model of Annual Sulfate Concentrations in the United States ([Wikle 2022](10.1080/01621459.2022.2027774))
+
+## Amy Braverman *Statistical Challenges for the Next Generation of NASA’s Earth Observing Satellites*
+
+- Post hoc Uncertainty Quantification for Remote Sensing Observing Systems [Braverman 2021](https://dus.jpl.nasa.gov/Papers/2021.BravermanEtAl.JUQ.pdf)
+- how to preserve local information on a global scale? 
+
+## Robert Gramacy *Contour Location for Reliability in Airfoil Simulation Experiments using Deep Gaussian Processes*
+
+- precursor: Bayesian inference for non-stationary spatial covariance structure via spatial deformations [Schmidt 2003](https://doi.org/10.1111/1467-9868.00413)
+- layers of Gaussians: Elliptical slice sampling [Murray 2010](https://proceedings.mlr.press/v9/murray10a.html)
+- Vechia approx: Vecchia-Approximated Deep Gaussian Processes for Computer Experiments [Sauer 2022](https://doi.org/10.1080/10618600.2022.2129662)
+
+## Abhirup Datta *Combining machine learning with Gaussian processes for geospatial data*
+
+- machine learning for nonlinear geospatial analysis
+    1. residual kriggin (Olsen 2020)
+    2. adding spatial covariates (Wang 2019)
+    3. Embed ML in spatial GLMM (this is best)
+
+ - Random Forests for Spatially Dependent Data [Saha 2021](https://doi.org/10.1080/01621459.2021.1950003)
+
+- IDEA: uncertainty quantification for graphical neural nets, get CI's for mean, stoch gradient MCMC
+
+
+## Matt Koslovsky *A Bayesian model for measurement error in multinomial data*
+- zero inflated dirichlet model
+- data augmentation: normalized random measures
+- Bayesian Inference for Logistic Models Using Pólya–Gamma Latent Variables ([Polson 2013](https://doi.org/10.1080/01621459.2013.829001)
+- A Bayesian zero-inflated Dirichlet-multinomial regression model for multivariate compositional count data ([Koslovsky 2023](https://doi.org/10.1111/biom.13853))
+
+## Alexandra Schmidt *Temporal misalignment in geostatistical*
+
+- spatiotemporal methods in env. epi
+
+## Ephraim Hanks *A Mixture of OU-processes Framework for Jointly Modeling Animal Movement and Species Distribution Data*
+
+- Adaptive MCMC ([Shaby 2010](https://m-clark.github.io/docs/ld_mcmc/index_onepage.html)
+
+## Toryn Schafer *Inverse reinforcement learning for animal behavior in the environment*
+
+- RL <--> ABM <--> LMDP: Bayesian inverse reinforcement learning for collective animal movement [Schafer](https://mhooten.github.io/publications/Schafer_etal_AOAS_2022.pdf)
+
+
+## Other 
+
+- Calibration identifiability issue - Bayesian calibration of computer models ([Kennedy 2002](https://doi.org/10.1111/1467-9868.00294))
+- [Dunson](https://scholar.google.co.uk/citations?user=KwEOawwAAAAJ&hl=en)
+
+---
+abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+authors: ["wyatt-madden"]
+- wyatt-madden
+- admin
+date: "2019-04-07T00:00:00Z"
+doi: ""
+featured: false
+image:
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
+  focal_point: ""
+  preview_only: false
+links:
+- name: Custom Link
+  url: http://example.org
+projects:
+- internal-project
+publication: ""
+publication_short: ""
+publication_types:
+- "3"
+publishDate: "2017-01-01T00:00:00Z"
+slides: example
+summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+tags:
+- Source Themes
+title: An example preprint / working paper
+authors: ["wyatt-madden"]
+url_code: '#'
+url_dataset: '#'
+url_pdf: http://arxiv.org/pdf/1512.04133v1
+url_poster: '#'
+url_project: ""
+url_slides: ""
+url_source: '#'
+url_video: '#'
+---
+
+{{% alert note %}}
+Click the *Slides* button above to demo Academic's Markdown slides feature.
+{{% /alert %}}
+
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
+---
+abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+authors: ["wyatt-madden"]
+  - wyatt-madden
+  - admin
+  - Robert Ford
+date: "2013-07-01T00:00:00Z"
+doi: ""
+featured: true
+image:
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  focal_point: ""
+  preview_only: false
+links:
+- name: Custom Link
+  url: http://example.org
+projects:
+- internal-project
+publication: In *Source Themes Conference*
+publication_short: In *STC*
+publication_types:
+- "1"
+publishDate: "2017-01-01T00:00:00Z"
+slides: example
+summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+tags:
+- Source Themes
+title: An example conference paper
+authors: ["wyatt-madden"]
+url_code: '#'
+url_dataset: '#'
+url_pdf: http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf
+url_poster: '#'
+url_project: ""
+url_slides: ""
+url_source: '#'
+url_video: '#'
+---
+
+{{% alert note %}}
+Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+{{% /alert %}}
+
+{{% alert note %}}
+Click the *Slides* button above to demo Academic's Markdown slides feature.
+{{% /alert %}}
+
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
+
+---
+abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+author_notes:
+- Equal contribution
+- Equal contribution
+authors: ["wyatt-madden"]
+- wyatt-madden
+- admin
+- Robert Ford
+date: "2015-09-01T00:00:00Z"
+doi: ""
+featured: false
+image:
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+  focal_point: ""
+  preview_only: false
+projects: []
+publication: '*Journal of Source Themes, 1*(1)'
+publication_short: ""
+publication_types:
+- "2"
+publishDate: "2017-01-01T00:00:00Z"
+slides: example
+summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+tags:
+- Source Themes
+title: An example journal article
+authors: ["wyatt-madden"]
+url_code: ""
+url_dataset: ""
+url_pdf: http://arxiv.org/pdf/1512.04133v1
+url_poster: ""
+url_project: ""
+url_slides: ""
+url_source: ""
+url_video: ""
+---
+
+{{% alert note %}}
+Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+{{% /alert %}}
+
+{{% alert note %}}
+Click the *Slides* button above to demo Academic's Markdown slides feature.
+{{% /alert %}}
+
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
+---
+authors: ["wyatt-madden"]
+categories: []
+date: "2019-02-05T00:00:00Z"
+slides:
+  highlight_style: dracula
+  theme: black
+summary: An introduction to using Academic's Slides feature.
+tags: []
+title: Slides
+authors: ["wyatt-madden"]
+---
+
+# Create slides in Markdown with Academic
+
+[Academic](https://sourcethemes.com/academic/) | [Documentation](https://sourcethemes.com/academic/docs/managing-content/#create-slides)
+
+---
+date: "2016-04-27T00:00:00Z"
+external_link: http://example.org
+image:
+  caption: Photo by Toa Heftiba on Unsplash
+  focal_point: Smart
+summary: An example of linking directly to an external project website using `external_link`.
+tags:
+- Demo
+title: External Project
+authors: ["wyatt-madden"]
+---
+---
+date: "2016-04-27T00:00:00Z"
+external_link: ""
+image:
+  caption: Photo by rawpixel on Unsplash
+  focal_point: Smart
+links:
+- icon: twitter
+  icon_pack: fab
+  name: Follow
+  url: https://twitter.com/georgecushen
+slides: example
+summary: An example of using the in-built project page.
+tags:
+- Deep Learning
+title: Internal Project
+authors: ["wyatt-madden"]
+url_code: ""
+url_pdf: ""
+url_slides: ""
+url_video: ""
+---
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+
+Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.
+
+Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.
+
+Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.
+
+Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.
+---
+abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.
+address:
+  city: Stanford
+  country: United States
+  postcode: "94305"
+  region: CA
+  street: 450 Serra Mall
+all_day: false
+authors: ["wyatt-madden"]
+date: "2030-06-01T13:00:00Z"
+date_end: "2030-06-01T15:00:00Z"
+event: Academic Theme Conference
+event_url: https://example.org
+featured: false
+image:
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  focal_point: Right
+links:
+- icon: twitter
+  icon_pack: fab
+  name: Follow
+  url: https://twitter.com/georgecushen
+location: Source Themes HQ
+math: true
+projects:
+- internal-project
+publishDate: "2017-01-01T00:00:00Z"
+slides: example
+summary: An example talk using Academic's Markdown slides feature.
+tags: []
+title: Example Talk
+authors: ["wyatt-madden"]
+url_code: ""
+url_pdf: ""
+url_slides: ""
+url_video: ""
+---
+
+{{% alert note %}}
+Click on the **Slides** button above to view the built-in slides feature.
+{{% /alert %}}
+
+Slides can be added in a few ways:
+
+- **Create** slides using Academic's [*Slides*](https://sourcethemes.com/academic/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
+
+Further talk details can easily be added to this page using *Markdown* and $\rm \LaTeX$ math code.

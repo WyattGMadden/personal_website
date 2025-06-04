@@ -7,7 +7,7 @@ address:
   region: CA
   street: 450 Serra Mall
 all_day: false
-authors: []
+authors: ["wyatt-madden"]
 date: "2030-06-01T13:00:00Z"
 date_end: "2030-06-01T15:00:00Z"
 event: Academic Theme Conference
@@ -30,6 +30,7 @@ slides: example
 summary: An example talk using Academic's Markdown slides feature.
 tags: []
 title: Example Talk
+authors: ["wyatt-madden"]
 url_code: ""
 url_pdf: ""
 url_slides: ""

@@ -2,9 +2,10 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Vim notes"
+authors: ["wyatt-madden"]
 subtitle: ""
 summary: ""
-authors: []
+authors: ["wyatt-madden"]
 tags: []
 categories: []
 date: 2023-08-18T16:01:50-04:00
