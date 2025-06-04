@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber wyatt_madden_resume"] 1730241754.51053 "wyatt_madden_resume.bcf" "wyatt_madden_resume.bbl" "wyatt_madden_resume" 1730241938.43438 0
-  "../cv/publications.bib" 1730241748.91814 14652 e48c9d839ea0c365ee3d542fa6d747f6 ""
-  "wyatt_madden_resume.bcf" 1730241938.34782 109837 fff2f68ac78c51cf60ab614967fb0a55 "pdflatex"
+["biber wyatt_madden_resume"] 1731186648.97469 "wyatt_madden_resume.bcf" "wyatt_madden_resume.bbl" "wyatt_madden_resume" 1731186654.77441 0
+  "../cv/publications.bib" 1731186631.14692 14672 2509f334ca31b4a66d0b79fffa238ff9 ""
+  "wyatt_madden_resume.bcf" 1731186654.68507 109837 fff2f68ac78c51cf60ab614967fb0a55 "pdflatex"
   (generated)
   "wyatt_madden_resume.bbl"
   "wyatt_madden_resume.blg"
   (rewritten before read)
-["pdflatex"] 1730241936.7257 "wyatt_madden_resume.tex" "wyatt_madden_resume.pdf" "wyatt_madden_resume" 1730241938.43461 0
+["pdflatex"] 1731186653.07273 "wyatt_madden_resume.tex" "wyatt_madden_resume.pdf" "wyatt_madden_resume" 1731186654.77462 0
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1622837620 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -189,12 +189,12 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1725647818.4936 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1725647809 8221447 b25eb46078368e9736a351d6447cab91 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "pdfa.xmpi" 1730241937.56659 5042 ce87a6083573cd306eac28e138103281 "pdflatex"
+  "pdfa.xmpi" 1731186653.92463 5042 f1dda8d4d40c394d7d191d8746613ba0 "pdflatex"
   "wm_cv.cls" 1727905480.62857 7572 2d957bf727dc90627da4a9f7247b0fee ""
-  "wyatt_madden_resume.aux" 1730241938.33891 3541 e40ba114be0c0f1c64767e5cdba507ed "pdflatex"
-  "wyatt_madden_resume.bbl" 1730241756.23917 34900 67ec517251f6b1d499fda46c432322ae "biber wyatt_madden_resume"
-  "wyatt_madden_resume.out" 1730241938.34291 2929 fd3c39e80c8bbe76150988ee8c56fd47 "pdflatex"
-  "wyatt_madden_resume.run.xml" 1730241938.34876 2515 d9abb958b0e53902393221439fd0d617 "pdflatex"
+  "wyatt_madden_resume.aux" 1731186654.67998 3541 ddb1200ef6de008e4e8f9adb8ff6a6bc "pdflatex"
+  "wyatt_madden_resume.bbl" 1731186651.28066 34920 37752b7814bda90dda8038ae820d3112 "biber wyatt_madden_resume"
+  "wyatt_madden_resume.out" 1731186654.68098 2929 fd3c39e80c8bbe76150988ee8c56fd47 "pdflatex"
+  "wyatt_madden_resume.run.xml" 1731186654.68602 2515 d9abb958b0e53902393221439fd0d617 "pdflatex"
   "wyatt_madden_resume.tex" 1730241930.39427 8584 6a512f8cc3a4333838f6720445ce298c ""
   (generated)
   "pdfa.xmpi"

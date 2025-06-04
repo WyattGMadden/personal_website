@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.6)  29 OCT 2024 18:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.6)  9 NOV 2024 16:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1279,15 +1279,15 @@ Package logreq Info: Writing requests to 'wyatt_madden_resume.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30315 strings out of 474116
- 518090 string characters out of 5743683
+ 30311 strings out of 474116
+ 518051 string characters out of 5743683
  1957187 words of memory out of 5000000
  52025 multiletter control sequences out of 15000+600000
- 639719 words of font info for 220 fonts, out of 8000000 for 9000
+ 639295 words of font info for 217 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  107i,11n,109p,3768b,3238s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/kpfonts/jkpbit8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/kpfonts/jkpbn8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/kpfonts/jkpmit8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/kpfonts/jkpmn8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/kpfonts/jkpmsc8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/kpfonts/jkpsy.pfb>
-Output written on wyatt_madden_resume.pdf (3 pages, 124451 bytes).
+Output written on wyatt_madden_resume.pdf (3 pages, 124483 bytes).
 PDF statistics:
  190 PDF objects out of 1000 (max. 8388607)
  39 named destinations out of 1000 (max. 500000)

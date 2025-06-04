@@ -19,68 +19,119 @@
 
 \refsection{1}
   \datalist[entry]{ddatent/global//global/global}
-    \entry{madden2024}{article}{}
-      \name{author}{8}{}{%
-        {{hash=dbcb8dfab13a4f4b4a4f12651cd8880e}{%
+    \entry{madden2025ensembledownscaler}{article}{}
+      \name{author}{4}{}{%
+        {{hash=8ada23b848c42e6d9ae897a4d83730f9}{%
            family={Madden},
            familyi={M\bibinitperiod},
-           given={Wyatt},
-           giveni={W\bibinitperiod}}}%
-        {{hash=8a8de624d5118be2e7c4acdcdacde17c}{%
+           given={Wyatt\bibnamedelima G.},
+           giveni={W\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=e8ce068561b47297ce6fd537735b949f}{%
+           family={Qi},
+           familyi={Q\bibinitperiod},
+           given={Meng},
+           giveni={M\bibinitperiod}}}%
+        {{hash=621013bf54d3546375ad71f17f020b5b}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=949da6a4e1cbdae4aef8da8c06b3f952}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Howard\bibnamedelima H.},
+           giveni={H\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c3af854d87bf8a35e8b43759e3acb46}
+      \strng{fullhash}{3386626576a7b1c49821820e929b13cd}
+      \strng{bibnamehash}{3386626576a7b1c49821820e929b13cd}
+      \strng{authorbibnamehash}{3386626576a7b1c49821820e929b13cd}
+      \strng{authornamehash}{9c3af854d87bf8a35e8b43759e3acb46}
+      \strng{authorfullhash}{3386626576a7b1c49821820e929b13cd}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{\href{https://doi.org/10.3390/rs17111941}{Full Paper}}
+      \field{issn}{2072-4292}
+      \field{journaltitle}{Remote Sensing}
+      \field{number}{11}
+      \field{title}{ensembleDownscaleR: R Package for Bayesian Ensemble Averaging of PM2.5 Geostatistical Downscalers}
+      \field{volume}{17}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2072-4292/17/11/1941
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2072-4292/17/11/1941
+      \endverb
+      \annotation{item}{author}{default}{1}{}{0}{highlight}
+    \endentry
+    \entry{madden2024deepmeasles}{article}{}
+      \name{author}{8}{}{%
+        {{hash=8ada23b848c42e6d9ae897a4d83730f9}{%
+           family={Madden},
+           familyi={M\bibinitperiod},
+           given={Wyatt\bibnamedelima G.},
+           giveni={W\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=d6363497ac2085944c8d0d2293650c63}{%
            family={Jin},
            familyi={J\bibinitperiod},
-           given={Wei},
+           given={Weiyi},
            giveni={W\bibinitperiod}}}%
         {{hash=0ebb6aa2479f9eca1d06ecbfec5b6e8f}{%
            family={Lopman},
            familyi={L\bibinitperiod},
            given={Ben},
            giveni={B\bibinitperiod}}}%
-        {{hash=f900474a6f593dc0a03879c606385b9f}{%
+        {{hash=80be433d43154f32b94758f82bd78391}{%
            family={Zufle},
            familyi={Z\bibinitperiod},
-           given={Andreas},
+           given={Adam},
            giveni={A\bibinitperiod}}}%
         {{hash=fc1f179cae156267eb57c6705387a2bd}{%
            family={Dalziel},
            familyi={D\bibinitperiod},
            given={Benjamin},
            giveni={B\bibinitperiod}}}%
-        {{hash=ce88b40679998702ebf66856a7fb7ed0}{%
+        {{hash=fd095ecab6bf58af50c26ad1ea9d269b}{%
            family={Metcalf},
            familyi={M\bibinitperiod},
-           given={Jessica},
-           giveni={J\bibinitperiod}}}%
-        {{hash=f91c022e3f186bb8aa6a64f220744afe}{%
+           given={C.\bibnamedelimi Jessica\bibnamedelima E.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=0ac1fe1a67dc8c3d63cc0c95e80f412d}{%
            family={Grenfell},
            familyi={G\bibinitperiod},
-           given={Bryan\bibnamedelima D},
-           giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+           given={Bryan\bibnamedelima T.},
+           giveni={B\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
         {{hash=4d47bf7b52e7f5283e5f561bbfd27f71}{%
            family={Lau},
            familyi={L\bibinitperiod},
-           given={Max\bibnamedelima SY},
-           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+           given={Max\bibnamedelimb S.\bibnamedelimi Y.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
       }
-      \strng{namehash}{c48ec3ef0d6769245a6b473686be0cbd}
-      \strng{fullhash}{81e36620531c3851a78fdd23ed71e97d}
-      \strng{bibnamehash}{81e36620531c3851a78fdd23ed71e97d}
-      \strng{authorbibnamehash}{81e36620531c3851a78fdd23ed71e97d}
-      \strng{authornamehash}{c48ec3ef0d6769245a6b473686be0cbd}
-      \strng{authorfullhash}{81e36620531c3851a78fdd23ed71e97d}
+      \strng{namehash}{7202da19b0b8002c87c2029537239dfe}
+      \strng{fullhash}{b509a7bdd83b04ad467abd68f5215d5e}
+      \strng{bibnamehash}{b509a7bdd83b04ad467abd68f5215d5e}
+      \strng{authorbibnamehash}{b509a7bdd83b04ad467abd68f5215d5e}
+      \strng{authornamehash}{7202da19b0b8002c87c2029537239dfe}
+      \strng{authorfullhash}{b509a7bdd83b04ad467abd68f5215d5e}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{addendum}{\href{https://doi.org/10.1101/2024.05.28.24307979}{Under Review}}
-      \field{journaltitle}{MedRxiv}
-      \field{month}{05}
-      \field{title}{Neural networks for endemic measles dynamics: comparative analysis and integration with mechanistic models}
+      \field{addendum}{\href{https://doi.org/10.1371/journal.pcbi.1012616}{Full Paper}}
+      \field{journaltitle}{PLoS Computational Biology}
+      \field{month}{11}
+      \field{number}{11}
+      \field{title}{Deep neural networks for endemic measles dynamics: Comparative analysis and integration with mechanistic models}
+      \field{usera}{e1012616}
+      \field{volume}{20}
       \field{year}{2024}
       \true{nocite}
-      \verb{doi}
-      \verb 10.1002/ece3.8107
-      \endverb
+      \field{pages}{e1012616}
+      \range{pages}{-1}
       \annotation{item}{author}{default}{1}{}{0}{highlight}
     \endentry
     \entry{Lagergren2023}{article}{}

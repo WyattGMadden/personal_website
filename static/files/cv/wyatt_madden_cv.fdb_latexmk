@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber wyatt_madden_cv"] 1730294351.96282 "wyatt_madden_cv.bcf" "wyatt_madden_cv.bbl" "wyatt_madden_cv" 1730294359.60832 0
-  "publications.bib" 1730241748.91814 14652 e48c9d839ea0c365ee3d542fa6d747f6 ""
-  "wyatt_madden_cv.bcf" 1730294359.52673 109831 6c7ab298b20e518bfb9b199d787d76d2 "pdflatex"
+["biber wyatt_madden_cv"] 1749062174.91733 "wyatt_madden_cv.bcf" "wyatt_madden_cv.bbl" "wyatt_madden_cv" 1749062180.28875 0
+  "publications.bib" 1749062174.01531 15373 c4664600cc284f4dd1ad843ee1d183fc ""
+  "wyatt_madden_cv.bcf" 1749062180.19868 109831 6c7ab298b20e518bfb9b199d787d76d2 "pdflatex"
   (generated)
   "wyatt_madden_cv.bbl"
   "wyatt_madden_cv.blg"
   (rewritten before read)
-["pdflatex"] 1730294357.83743 "wyatt_madden_cv.tex" "wyatt_madden_cv.pdf" "wyatt_madden_cv" 1730294359.60854 0
+["pdflatex"] 1749062178.52805 "wyatt_madden_cv.tex" "wyatt_madden_cv.pdf" "wyatt_madden_cv" 1749062180.28899 0
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1622837620 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -189,13 +189,13 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1725647818.4936 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1725647809 8221447 b25eb46078368e9736a351d6447cab91 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "pdfa.xmpi" 1730294358.77116 5042 b3af68b63858af49dede5e593a849346 "pdflatex"
+  "pdfa.xmpi" 1749062179.40818 5042 cd3e676206902ccb31e793247087ed59 "pdflatex"
   "wm_cv.cls" 1667347772 7572 2d957bf727dc90627da4a9f7247b0fee ""
-  "wyatt_madden_cv.aux" 1730294359.51858 3556 ebaf5afa496ef40787f1cf1cfbd7771e "pdflatex"
-  "wyatt_madden_cv.bbl" 1730294353.79552 34900 67ec517251f6b1d499fda46c432322ae "biber wyatt_madden_cv"
-  "wyatt_madden_cv.out" 1730294359.52261 3000 7dbc158bfa34b67b5f2e3bc7e6d36c21 "pdflatex"
-  "wyatt_madden_cv.run.xml" 1730294359.52739 2481 d7fd347a1c5d455bd5a4b11691750f11 "pdflatex"
-  "wyatt_madden_cv.tex" 1730294346.44853 8792 fcfd08594e9762b6198fab2c15561493 ""
+  "wyatt_madden_cv.aux" 1749062180.19424 3658 54f3d0ab151ab60dc020b4209f1c4917 "pdflatex"
+  "wyatt_madden_cv.bbl" 1749062176.76994 37231 458fa5ee2eaf75fb8bc8ba8cb2f1a7c6 "biber wyatt_madden_cv"
+  "wyatt_madden_cv.out" 1749062180.19781 3000 7dbc158bfa34b67b5f2e3bc7e6d36c21 "pdflatex"
+  "wyatt_madden_cv.run.xml" 1749062180.2024 2481 d7fd347a1c5d455bd5a4b11691750f11 "pdflatex"
+  "wyatt_madden_cv.tex" 1747335952.77305 8666 538576556721050b63af2d63f4f01991 ""
   (generated)
   "pdfa.xmpi"
   "wyatt_madden_cv.aux"
