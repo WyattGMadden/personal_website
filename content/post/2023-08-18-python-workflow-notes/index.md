@@ -5,7 +5,6 @@ title: "Python Workflow Notes"
 authors: ["wyatt-madden"]
 subtitle: ""
 summary: ""
-authors: ["wyatt-madden"]
 tags: []
 categories: []
 date: 2023-08-18T17:09:03-04:00

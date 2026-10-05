@@ -5,7 +5,7 @@ author_notes:
 - Equal contribution
 authors:
 - wyatt-madden
-- admin
+- wyatt-madden
 - Robert Ford
 date: "2015-09-01T00:00:00Z"
 doi: ""
@@ -25,7 +25,6 @@ summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere t
 tags:
 - Source Themes
 title: An example journal article
-authors: ["wyatt-madden"]
 url_code: ""
 url_dataset: ""
 url_pdf: http://arxiv.org/pdf/1512.04133v1

@@ -3,3 +3,7 @@
 .RData
 .Ruserdata
 public
+# Hugo / OS junk
+.hugo_build.lock
+{}.tmp
+.DS_Store

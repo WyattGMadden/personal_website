@@ -8,7 +8,6 @@ slides:
 summary: An introduction to using Academic's Slides feature.
 tags: []
 title: Slides
-authors: ["wyatt-madden"]
 ---
 
 # Create slides in Markdown with Academic

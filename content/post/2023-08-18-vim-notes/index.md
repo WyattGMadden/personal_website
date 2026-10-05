@@ -5,7 +5,6 @@ title: "Vim notes"
 authors: ["wyatt-madden"]
 subtitle: ""
 summary: ""
-authors: ["wyatt-madden"]
 tags: []
 categories: []
 date: 2023-08-18T16:01:50-04:00

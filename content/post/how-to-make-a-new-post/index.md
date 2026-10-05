@@ -5,7 +5,6 @@ title: "How to Make a New Hugo Academic Post"
 authors: ["wyatt-madden"]
 subtitle: "and other useful hugo notes"
 summary: ""
-authors: ["wyatt-madden"]
 tags: []
 categories: []
 date: 2023-08-17T11:18:29-04:00
