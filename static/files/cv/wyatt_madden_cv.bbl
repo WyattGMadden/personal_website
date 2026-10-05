@@ -19,6 +19,75 @@
 
 \refsection{1}
   \datalist[entry]{ddatent/global//global/global}
+    \entry{Mathieu-Campbell_2026}{article}{}
+      \name{author}{6}{}{%
+        {{hash=a3a3d3fac5f0d188a5ce4a590b17ac37}{%
+           family={Mathieu-Campbell},
+           familyi={M\bibinithyphendelim C\bibinitperiod},
+           given={Martine\bibnamedelima E},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=dbcb8dfab13a4f4b4a4f12651cd8880e}{%
+           family={Madden},
+           familyi={M\bibinitperiod},
+           given={Wyatt},
+           giveni={W\bibinitperiod}}}%
+        {{hash=9c90041c426f21bb014c3abb286b3382}{%
+           family={Scovronick},
+           familyi={S\bibinitperiod},
+           given={Noah},
+           giveni={N\bibinitperiod}}}%
+        {{hash=893ceec52f593c26a006b1bbc31be0ea}{%
+           family={Ebelt},
+           familyi={E\bibinitperiod},
+           given={Stefanie},
+           giveni={S\bibinitperiod}}}%
+        {{hash=031682b9a944459679fe5ce36019fd8e}{%
+           family={Newman},
+           familyi={N\bibinitperiod},
+           given={Andrew\bibnamedelima J},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=949da6a4e1cbdae4aef8da8c06b3f952}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Howard\bibnamedelima H},
+           giveni={H\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{832669587829448f4278ac183c429d80}
+      \strng{fullhash}{f5b1d27267bb66677d9efeea2d374b2f}
+      \strng{bibnamehash}{f5b1d27267bb66677d9efeea2d374b2f}
+      \strng{authorbibnamehash}{f5b1d27267bb66677d9efeea2d374b2f}
+      \strng{authornamehash}{832669587829448f4278ac183c429d80}
+      \strng{authorfullhash}{f5b1d27267bb66677d9efeea2d374b2f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Heat exposure is associated with mortality and several adverse health outcomes, including heat strokes and heart diseases. The availability of accurate and high spatial temporal resolution of meteorological information is crucial to evaluate these associations. In this study, we use data from personal weather stations (PWS) to bias correct the recent 1 km high-resolution urban meteorology for impacts dataset (HUMID) daily temperature in the Atlanta metropolitan area for three summer periods from 2016 to 2018. We first developed a 4-step quality control scheme to remove potential erroneous data from PWS. Then, we assessed several bias correction models, a geostatistical Bayesian downscaler modeling approach, a random forest model, and a hybrid approach that uses residuals from the random forest model as the outcome for the Bayesian regression to account for spatial-temporal dependency not captured by random forest. Our results show that the Bayesian downscaler combined with random forest was the best predictive model with root mean square errors (RMSE) of 1.577 °C for maximum temperature and 0.696 °C for minimum temperature. In addition, our models resulted in bias-corrected temperatures that are, on average, lower than HUMID, suggesting that HUMID tends to overestimate temperature in most areas.}
+      \field{addendum}{\href{https://doi.org/10.1088/2515-7620/ae8e5d}{Full Paper}}
+      \field{journaltitle}{Environmental Research Communications}
+      \field{month}{8}
+      \field{number}{8}
+      \field{title}{Bias-correcting the high-resolution urban meteorology for impacts dataset ({HUMID}) temperature data using the personal weather stations ({PWS}) network and a spatial temporal {Bayesian} regression coupled with random forest}
+      \field{usera}{085030}
+      \field{volume}{8}
+      \field{year}{2026}
+      \true{nocite}
+      \field{pages}{085030}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/2515-7620/ae8e5d
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1088/2515-7620/ae8e5d
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1088/2515-7620/ae8e5d
+      \endverb
+      \annotation{item}{author}{default}{2}{}{0}{highlight}
+    \endentry
     \entry{madden2026scalablegrm}{article}{}
       \name{author}{3}{}{%
         {{hash=8ada23b848c42e6d9ae897a4d83730f9}{%
@@ -50,7 +119,7 @@
       \field{addendum}{\href{https://doi.org/10.1016/j.atmosenv.2026.122079}{Full Paper}}
       \field{issn}{1352-2310}
       \field{journaltitle}{Atmospheric Environment}
-      \field{title}{Scalable Bayesian geostatistical regression model for bias-correcting large-scale daily satellite-retrieved Aerosol Optical Depth and Chemical Transport Model simulations}
+      \field{title}{Scalable {Bayesian} geostatistical regression model for bias-correcting large-scale daily satellite-retrieved {Aerosol Optical Depth} and {Chemical Transport Model} simulations}
       \field{usera}{122079}
       \field{volume}{380}
       \field{year}{2026}
@@ -143,7 +212,7 @@
       \field{journaltitle}{Biology Letters}
       \field{month}{12}
       \field{number}{12}
-      \field{title}{Environmental and ecological signals predict food shortages for subtropical populations of Australian flying foxes, reservoirs of Hendra virus}
+      \field{title}{Environmental and ecological signals predict food shortages for subtropical populations of {Australian} flying foxes, reservoirs of {Hendra} virus}
       \field{usera}{20250371}
       \field{volume}{21}
       \field{year}{2025}
@@ -197,7 +266,7 @@
       \field{issn}{2072-4292}
       \field{journaltitle}{Remote Sensing}
       \field{number}{11}
-      \field{title}{ensembleDownscaleR: R Package for Bayesian Ensemble Averaging of PM2.5 Geostatistical Downscalers}
+      \field{title}{{ensembleDownscaleR}: {R} package for {Bayesian} ensemble averaging of {PM$_{2.5}$} geostatistical downscalers}
       \field{volume}{17}
       \field{year}{2025}
       \true{nocite}
@@ -275,6 +344,67 @@
       \range{pages}{-1}
       \annotation{item}{author}{default}{1}{}{0}{highlight}
     \endentry
+    \entry{becker2022}{article}{}
+      \name{author}{5}{}{%
+        {{hash=14a0233223e28e891c7b13fe131b3451}{%
+           family={Becker},
+           familyi={B\bibinitperiod},
+           given={Daniel\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=a44a8f54a4fbf6b5a724deab989ffe2a}{%
+           family={Eby},
+           familyi={E\bibinitperiod},
+           given={Peggy},
+           giveni={P\bibinitperiod}}}%
+        {{hash=dbcb8dfab13a4f4b4a4f12651cd8880e}{%
+           family={Madden},
+           familyi={M\bibinitperiod},
+           given={Wyatt},
+           giveni={W\bibinitperiod}}}%
+        {{hash=d2f446e734b63ec1c19e8f61476fdbeb}{%
+           family={Peel},
+           familyi={P\bibinitperiod},
+           given={Alison\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=3fb862e202f2430e72e317f8027f84da}{%
+           family={Plowright},
+           familyi={P\bibinitperiod},
+           given={Raina\bibnamedelima K.},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{437b3361ca72285fb06f5b7ce9b02e0f}
+      \strng{fullhash}{96b5230fe28444af6cdab8dfdf2701cc}
+      \strng{bibnamehash}{96b5230fe28444af6cdab8dfdf2701cc}
+      \strng{authorbibnamehash}{96b5230fe28444af6cdab8dfdf2701cc}
+      \strng{authornamehash}{437b3361ca72285fb06f5b7ce9b02e0f}
+      \strng{authorfullhash}{96b5230fe28444af6cdab8dfdf2701cc}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract The ecological conditions experienced by wildlife reservoirs affect infection dynamics and thus the distribution of pathogen excreted into the environment. This spatial and temporal distribution of shed pathogen has been hypothesised to shape risks of zoonotic spillover. However, few systems have data on both long-term ecological conditions and pathogen excretion to advance mechanistic understanding and test environmental drivers of spillover risk. We here analyse three years of Hendra virus data from nine Australian flying fox roosts with covariates derived from long-term studies of bat ecology. We show that the magnitude of winter pulses of viral excretion, previously considered idiosyncratic, are most pronounced after recent food shortages and in bat populations displaced to novel habitats. We further show that cumulative pathogen excretion over time is shaped by bat ecology and positively predicts spillover frequency. Our work emphasises the role of reservoir host ecology in shaping pathogen excretion and provides a new approach to estimate spillover risk.}
+      \field{addendum}{\href{https://doi.org/10.1111/ele.14007}{Full Paper}}
+      \field{journaltitle}{Ecology Letters}
+      \field{number}{1}
+      \field{title}{Ecological conditions predict the intensity of Hendra virus excretion over space and time from bat reservoir hosts}
+      \field{usera}{23}
+      \field{volume}{26}
+      \field{year}{2023}
+      \true{nocite}
+      \field{pages}{23\bibrangedash 36}
+      \range{pages}{14}
+      \verb{doi}
+      \verb https://doi.org/10.1111/ele.14007
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/ele.14007
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/ele.14007
+      \endverb
+      \keyw{bats,generalised additive models,nutritional stress,pathogen spillover}
+      \annotation{item}{author}{default}{3}{}{0}{highlight}
+    \endentry
     \entry{eby2022}{article}{}
       \name{author}{7}{}{%
         {{hash=a44a8f54a4fbf6b5a724deab989ffe2a}{%
@@ -325,74 +455,17 @@
       \field{labeltitlesource}{title}
       \field{addendum}{\href{https://doi.org/10.1038/s41586-022-05506-2}{Full Paper}}
       \field{journaltitle}{Nature}
-      \field{month}{11}
       \field{title}{Pathogen spillover driven by rapid changes in bat ecology}
-      \field{usera}{1}
-      \field{year}{2022}
+      \field{usera}{340}
+      \field{volume}{613}
+      \field{year}{2023}
       \true{nocite}
-      \field{pages}{1\bibrangedash 3}
-      \range{pages}{3}
+      \field{pages}{340\bibrangedash 344}
+      \range{pages}{5}
       \verb{doi}
       \verb 10.1038/s41586-022-05506-2
       \endverb
       \annotation{item}{author}{default}{4}{}{0}{highlight}
-    \endentry
-    \entry{becker2022}{article}{}
-      \name{author}{5}{}{%
-        {{hash=14a0233223e28e891c7b13fe131b3451}{%
-           family={Becker},
-           familyi={B\bibinitperiod},
-           given={Daniel\bibnamedelima J.},
-           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=a44a8f54a4fbf6b5a724deab989ffe2a}{%
-           family={Eby},
-           familyi={E\bibinitperiod},
-           given={Peggy},
-           giveni={P\bibinitperiod}}}%
-        {{hash=dbcb8dfab13a4f4b4a4f12651cd8880e}{%
-           family={Madden},
-           familyi={M\bibinitperiod},
-           given={Wyatt},
-           giveni={W\bibinitperiod}}}%
-        {{hash=d2f446e734b63ec1c19e8f61476fdbeb}{%
-           family={Peel},
-           familyi={P\bibinitperiod},
-           given={Alison\bibnamedelima J.},
-           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=3fb862e202f2430e72e317f8027f84da}{%
-           family={Plowright},
-           familyi={P\bibinitperiod},
-           given={Raina\bibnamedelima K.},
-           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
-      }
-      \strng{namehash}{437b3361ca72285fb06f5b7ce9b02e0f}
-      \strng{fullhash}{96b5230fe28444af6cdab8dfdf2701cc}
-      \strng{bibnamehash}{96b5230fe28444af6cdab8dfdf2701cc}
-      \strng{authorbibnamehash}{96b5230fe28444af6cdab8dfdf2701cc}
-      \strng{authornamehash}{437b3361ca72285fb06f5b7ce9b02e0f}
-      \strng{authorfullhash}{96b5230fe28444af6cdab8dfdf2701cc}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Abstract The ecological conditions experienced by wildlife reservoirs affect infection dynamics and thus the distribution of pathogen excreted into the environment. This spatial and temporal distribution of shed pathogen has been hypothesised to shape risks of zoonotic spillover. However, few systems have data on both long-term ecological conditions and pathogen excretion to advance mechanistic understanding and test environmental drivers of spillover risk. We here analyse three years of Hendra virus data from nine Australian flying fox roosts with covariates derived from long-term studies of bat ecology. We show that the magnitude of winter pulses of viral excretion, previously considered idiosyncratic, are most pronounced after recent food shortages and in bat populations displaced to novel habitats. We further show that cumulative pathogen excretion over time is shaped by bat ecology and positively predicts spillover frequency. Our work emphasises the role of reservoir host ecology in shaping pathogen excretion and provides a new approach to estimate spillover risk.}
-      \field{addendum}{\href{https://doi.org/10.1111/ele.14007}{Full Paper}}
-      \field{journaltitle}{Ecology Letters}
-      \field{month}{10}
-      \field{title}{Ecological conditions predict the intensity of Hendra virus excretion over space and time from bat reservoir hosts}
-      \field{year}{2022}
-      \true{nocite}
-      \verb{doi}
-      \verb https://doi.org/10.1111/ele.14007
-      \endverb
-      \verb{urlraw}
-      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/ele.14007
-      \endverb
-      \verb{url}
-      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/ele.14007
-      \endverb
-      \keyw{bats,generalised additive models,nutritional stress,pathogen spillover}
-      \annotation{item}{author}{default}{3}{}{0}{highlight}
     \endentry
     \entry{lau2022}{article}{}
       \name{author}{6}{}{%
@@ -644,94 +717,6 @@
       \verb 10.1002/ece3.8107
       \endverb
       \annotation{item}{author}{default}{3}{}{0}{highlight}
-    \endentry
-    \entry{rogers2021}{article}{}
-      \name{author}{11}{}{%
-        {{hash=44dc25078419f1d85104a0ccef27f60e}{%
-           family={Rogers},
-           familyi={R\bibinitperiod},
-           given={Will},
-           giveni={W\bibinitperiod}}}%
-        {{hash=a3fce60748c30a1b206714b95440a677}{%
-           family={Ruiz-Aravena},
-           familyi={R\bibinithyphendelim A\bibinitperiod},
-           given={Manuel},
-           giveni={M\bibinitperiod}}}%
-        {{hash=d40b5fa58fe2f3e42b0e48b9f3e58133}{%
-           family={Hansen},
-           familyi={H\bibinitperiod},
-           given={Dale},
-           giveni={D\bibinitperiod}}}%
-        {{hash=dbcb8dfab13a4f4b4a4f12651cd8880e}{%
-           family={Madden},
-           familyi={M\bibinitperiod},
-           given={Wyatt},
-           giveni={W\bibinitperiod}}}%
-        {{hash=4ec99e6bc83a44fb1bdb3f1d89506ef7}{%
-           family={Kessler},
-           familyi={K\bibinitperiod},
-           given={Maureen},
-           giveni={M\bibinitperiod}}}%
-        {{hash=4b543920d17f0a06810838745f2e761c}{%
-           family={Fields},
-           familyi={F\bibinitperiod},
-           given={Matthew\bibnamedelima W.},
-           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-        {{hash=5919a6293597e4fd86977fccf13bf5dd}{%
-           family={Ferrari},
-           familyi={F\bibinitperiod},
-           given={Matthew\bibnamedelima J.},
-           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=ce59666b5a68a05e03353d22b4b78a80}{%
-           family={Chang},
-           familyi={C\bibinitperiod},
-           given={Connie\bibnamedelima B.},
-           giveni={C\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
-        {{hash=5ca409269755eb2d6a2ebf35057fc734}{%
-           family={Morrow},
-           familyi={M\bibinitperiod},
-           given={Jayne},
-           giveni={J\bibinitperiod}}}%
-        {{hash=8446fba0368b183b7ba6d870ec579335}{%
-           family={Hoegh},
-           familyi={H\bibinitperiod},
-           given={Andrew},
-           giveni={A\bibinitperiod}}}%
-        {{hash=3fb862e202f2430e72e317f8027f84da}{%
-           family={Plowright},
-           familyi={P\bibinitperiod},
-           given={Raina\bibnamedelima K.},
-           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Cold Spring Harbor Laboratory Press}%
-      }
-      \strng{namehash}{1c909d5c3c7be510f2683620740b61c9}
-      \strng{fullhash}{ae7806245bb3bc799c52f9c9f9f9e516}
-      \strng{bibnamehash}{1c909d5c3c7be510f2683620740b61c9}
-      \strng{authorbibnamehash}{1c909d5c3c7be510f2683620740b61c9}
-      \strng{authornamehash}{1c909d5c3c7be510f2683620740b61c9}
-      \strng{authorfullhash}{ae7806245bb3bc799c52f9c9f9f9e516}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{SARS-CoV-2 spreads quickly in dense populations, with serious implications for universities, workplaces, and other settings where exposure reduction practices are difficult to implement. Rapid screening has been proposed as a tool to slow the spread of the virus; however, many commonly used diagnostic tests (e.g., RT-qPCR) are expensive, difficult to deploy (e.g., require a nasopharyngeal specimen), and have extended turn-around times. We evaluated testing regimes that combined diagnostic testing using qPCR with high-frequency screening using a novel reverse-transcription loop-mediated isothermal amplification (RT-LAMP, herein LAMP) assay. We used a compartmental susceptible-exposed-infectious-recovered (SEIR) model to simulate screening of a university population. We also developed a Shiny application to allow administrators and public health professionals to develop optimal testing strategies given site-specific assumptions about testing investment, target population, and cost. The frequency of screening, especially when pooling samples, was more important for minimizing epidemic size than test sensitivity, behavioral compliance, contact tracing capacity, and time between testing and results. Our results suggest that when testing budgets are limited, it is safer and more cost-effective to allocate the majority of funds to screening. Rapid, cost-effective, and scalable screening tests, like LAMP, should be viewed as critical components of SARS-CoV-2 testing in high-density populations.Competing Interest StatementThe authors have declared no competing interest.Funding StatementThis work was funded in part by Coronavirus Aid, Relief and Economic Security Act, or CARES Act, grant titled "Expanding Screening Capacity to Enhance Montana{’}s COVID-19 Response Capabilities". RKP was funded by the DARPA PREEMPT program Cooperative Agreement $\#$ D18AC00031, the U.S. National Science Foundation (DEB-1716698), and the USDA National Institute of Food and Agriculture (Hatch project 1015891). The content is solely the responsibility of the authors and does not necessarily represent the official views of the funding agencies. The funders did not play any role in the collection, analysis, interpretation, writing of final reports or decision to submit this research.Author DeclarationsI confirm all relevant ethical guidelines have been followed, and any necessary IRB and/or ethics committee approvals have been obtained.YesThe details of the IRB/oversight body that provided approval or exemption for the research described are given below:There were no human subjects in this modeling study, so no IRB/oversight body was required.All necessary patient/participant consent has been obtained and the appropriate institutional forms have been archived.YesI understand that all clinical trials and any other prospective interventional studies must be registered with an ICMJE-approved registry, such as ClinicalTrials.gov. I confirm that any such study reported in the manuscript has been registered and the trial registration ID is provided (note: if posting a prospective study registered retrospectively, please provide a statement in the trial ID field explaining why the study was not registered in advance).Yes I have followed all appropriate research reporting guidelines and uploaded the relevant EQUATOR Network research reporting checklist(s) and other pertinent material as supplementary files, if applicable.YesThere are no original data in this modeling study. All code to generate data used in the study are available at https://github.com/wilrogers/COVID-Modeling. https://github.com/wilrogers/COVID-Modeling}
-      \field{addendum}{\href{https://doi.org/10.1101/2021.03.04.21252949}{Under Review}}
-      \field{journaltitle}{medRxiv}
-      \field{title}{High-frequency screening combined with diagnostic testing for control of SARS-CoV-2 in high-density settings: an economic evaluation of resources allocation for public health benefit}
-      \field{year}{2021}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.1101/2021.03.04.21252949
-      \endverb
-      \verb{urlraw}
-      \verb https://www.medrxiv.org/content/early/2021/03/09/2021.03.04.21252949
-      \endverb
-      \verb{url}
-      \verb https://www.medrxiv.org/content/early/2021/03/09/2021.03.04.21252949
-      \endverb
-      \annotation{item}{author}{default}{4}{}{0}{highlight}
     \endentry
   \enddatalist
 \endrefsection
