@@ -19,6 +19,147 @@
 
 \refsection{1}
   \datalist[entry]{ddatent/global//global/global}
+    \entry{madden2026scalablegrm}{article}{}
+      \name{author}{3}{}{%
+        {{hash=8ada23b848c42e6d9ae897a4d83730f9}{%
+           family={Madden},
+           familyi={M\bibinitperiod},
+           given={Wyatt\bibnamedelima G.},
+           giveni={W\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=621013bf54d3546375ad71f17f020b5b}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=949da6a4e1cbdae4aef8da8c06b3f952}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Howard\bibnamedelima H.},
+           giveni={H\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{6679905b77995250448f781caefe8baf}
+      \strng{fullhash}{6679905b77995250448f781caefe8baf}
+      \strng{bibnamehash}{6679905b77995250448f781caefe8baf}
+      \strng{authorbibnamehash}{6679905b77995250448f781caefe8baf}
+      \strng{authornamehash}{6679905b77995250448f781caefe8baf}
+      \strng{authorfullhash}{6679905b77995250448f781caefe8baf}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{\href{https://doi.org/10.1016/j.atmosenv.2026.122079}{Full Paper}}
+      \field{issn}{1352-2310}
+      \field{journaltitle}{Atmospheric Environment}
+      \field{title}{Scalable Bayesian geostatistical regression model for bias-correcting large-scale daily satellite-retrieved Aerosol Optical Depth and Chemical Transport Model simulations}
+      \field{usera}{122079}
+      \field{volume}{380}
+      \field{year}{2026}
+      \true{nocite}
+      \field{pages}{122079}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.atmosenv.2026.122079
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1352231026003092
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1352231026003092
+      \endverb
+      \keyw{Geostatistical downscaler,Bayesian,Large-scale,AOD,CTM,PM,Air pollution,Spatial}
+      \annotation{item}{author}{default}{1}{}{0}{highlight}
+    \endentry
+    \entry{lagergren2025}{article}{}
+      \name{author}{11}{}{%
+        {{hash=72f0110c6099a186e29a35c59d22f547}{%
+           family={Lagergren},
+           familyi={L\bibinitperiod},
+           given={John\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=a3fce60748c30a1b206714b95440a677}{%
+           family={Ruiz-Aravena},
+           familyi={R\bibinithyphendelim A\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=14a0233223e28e891c7b13fe131b3451}{%
+           family={Becker},
+           familyi={B\bibinitperiod},
+           given={Daniel\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=8ada23b848c42e6d9ae897a4d83730f9}{%
+           family={Madden},
+           familyi={M\bibinitperiod},
+           given={Wyatt\bibnamedelima G.},
+           giveni={W\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=712c51d06dbf2256df1bffaa69c4f90c}{%
+           family={Ruytenberg},
+           familyi={R\bibinitperiod},
+           given={Lib},
+           giveni={L\bibinitperiod}}}%
+        {{hash=8446fba0368b183b7ba6d870ec579335}{%
+           family={Hoegh},
+           familyi={H\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a0228ccb7ed3b325735691b773f10af4}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Barbara\bibnamedelima A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=d2f446e734b63ec1c19e8f61476fdbeb}{%
+           family={Peel},
+           familyi={P\bibinitperiod},
+           given={Alison\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=a44a8f54a4fbf6b5a724deab989ffe2a}{%
+           family={Eby},
+           familyi={E\bibinitperiod},
+           given={Peggy},
+           giveni={P\bibinitperiod}}}%
+        {{hash=15f348070c3fbe62ef3401d7e3b5149a}{%
+           family={Jacobson},
+           familyi={J\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3fb862e202f2430e72e317f8027f84da}{%
+           family={Plowright},
+           familyi={P\bibinitperiod},
+           given={Raina\bibnamedelima K.},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{3ff77aba279e4209373099c7c85acc55}
+      \strng{fullhash}{44289cc823b7a12f44b81e5b33bc66f8}
+      \strng{bibnamehash}{3ff77aba279e4209373099c7c85acc55}
+      \strng{authorbibnamehash}{3ff77aba279e4209373099c7c85acc55}
+      \strng{authornamehash}{3ff77aba279e4209373099c7c85acc55}
+      \strng{authorfullhash}{44289cc823b7a12f44b81e5b33bc66f8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Food availability determines where and how animals use space across a landscape and, therefore, affects the risk of encounters leading to zoonotic spillover. This relationship is evident in Australian flying foxes (Pteropus spp.; fruit bats), where acute food shortages precede clusters of Hendra virus spillovers. Using machine learning, we predicted months of food shortages from climatological and ecological covariates (1996–2022) in subtropical Australia. Overall accuracy in predicting months of low food availability on a test set from 2018 up to 2022 reached 93.33 and 92.59\% based on climatological and bat-level features, respectively. Seasonality and the Oceanic El Niño Index were the most important environmental features, while the number of bats in rescue centres and their body weights were the most important bat-level features. These models support predictive signals up to nine months in advance, facilitating action to mitigate spillover risk.}
+      \field{addendum}{\href{https://doi.org/10.1098/rsbl.2025.0371}{Full Paper}}
+      \field{issn}{1744-9561}
+      \field{journaltitle}{Biology Letters}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{Environmental and ecological signals predict food shortages for subtropical populations of Australian flying foxes, reservoirs of Hendra virus}
+      \field{usera}{20250371}
+      \field{volume}{21}
+      \field{year}{2025}
+      \true{nocite}
+      \field{pages}{20250371}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1098/rsbl.2025.0371
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1098/rsbl.2025.0371
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1098/rsbl.2025.0371
+      \endverb
+    \endentry
     \entry{madden2025ensembledownscaler}{article}{}
       \name{author}{4}{}{%
         {{hash=8ada23b848c42e6d9ae897a4d83730f9}{%
@@ -133,91 +274,6 @@
       \field{pages}{e1012616}
       \range{pages}{-1}
       \annotation{item}{author}{default}{1}{}{0}{highlight}
-    \endentry
-    \entry{Lagergren2023}{article}{}
-      \name{author}{11}{}{%
-        {{hash=7c9b1ca284c370db58159c455be6ca20}{%
-           family={Lagergren},
-           familyi={L\bibinitperiod},
-           given={John},
-           giveni={J\bibinitperiod}}}%
-        {{hash=a3fce60748c30a1b206714b95440a677}{%
-           family={Ruiz-Aravena},
-           familyi={R\bibinithyphendelim A\bibinitperiod},
-           given={Manuel},
-           giveni={M\bibinitperiod}}}%
-        {{hash=14a0233223e28e891c7b13fe131b3451}{%
-           family={Becker},
-           familyi={B\bibinitperiod},
-           given={Daniel\bibnamedelima J.},
-           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=dbcb8dfab13a4f4b4a4f12651cd8880e}{%
-           family={Madden},
-           familyi={M\bibinitperiod},
-           given={Wyatt},
-           giveni={W\bibinitperiod}}}%
-        {{hash=712c51d06dbf2256df1bffaa69c4f90c}{%
-           family={Ruytenberg},
-           familyi={R\bibinitperiod},
-           given={Lib},
-           giveni={L\bibinitperiod}}}%
-        {{hash=8446fba0368b183b7ba6d870ec579335}{%
-           family={Hoegh},
-           familyi={H\bibinitperiod},
-           given={Andrew},
-           giveni={A\bibinitperiod}}}%
-        {{hash=9fd0cc0e30efef82714f556e34d762cc}{%
-           family={Han},
-           familyi={H\bibinitperiod},
-           given={Barbara},
-           giveni={B\bibinitperiod}}}%
-        {{hash=d2f446e734b63ec1c19e8f61476fdbeb}{%
-           family={Peel},
-           familyi={P\bibinitperiod},
-           given={Alison\bibnamedelima J.},
-           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=a44a8f54a4fbf6b5a724deab989ffe2a}{%
-           family={Eby},
-           familyi={E\bibinitperiod},
-           given={Peggy},
-           giveni={P\bibinitperiod}}}%
-        {{hash=15f348070c3fbe62ef3401d7e3b5149a}{%
-           family={Jacobson},
-           familyi={J\bibinitperiod},
-           given={Daniel},
-           giveni={D\bibinitperiod}}}%
-        {{hash=3fb862e202f2430e72e317f8027f84da}{%
-           family={Plowright},
-           familyi={P\bibinitperiod},
-           given={Raina\bibnamedelima K.},
-           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Cold Spring Harbor Laboratory}%
-      }
-      \strng{namehash}{b748546e92edb5253d7434d19739c1bb}
-      \strng{fullhash}{c14cf10a295159480b76f99544815242}
-      \strng{bibnamehash}{b748546e92edb5253d7434d19739c1bb}
-      \strng{authorbibnamehash}{b748546e92edb5253d7434d19739c1bb}
-      \strng{authornamehash}{b748546e92edb5253d7434d19739c1bb}
-      \strng{authorfullhash}{c14cf10a295159480b76f99544815242}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Food availability determines where animals use space across a landscape and therefore affects the risk of encounters that lead to zoonotic spillover. This relationship is evident in Australian flying foxes (Pteropus spp; fruit bats), where acute food shortages precede clusters of Hendra virus spillovers. Using explainable artificial intelligence, we predicted months of food shortages from climatological and ecological covariates (1996-2022) in eastern Australia. Overall accuracy in predicting months of low food availability on a test set from 2018 up to 2022 reached 93.33\% and 92.59\% based on climatological and bat-level features, respectively. Seasonality and Oceanic El Niño Index were the most important environmental features, while the number of bats in rescue centers and their body weights were the most important bat-level features. These models support predictive signals up to nine months in advance, facilitating action to mitigate spillover risk.Competing Interest StatementThe authors have declared no competing interest.}
-      \field{addendum}{\href{https://doi.org/10.1101/2023.12.01.569640}{Under Review}}
-      \field{journaltitle}{bioRxiv}
-      \field{title}{Environmental and ecological signals predict periods of nutritional stress for Eastern Australian flying fox populations}
-      \field{year}{2023}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://www.biorxiv.org/content/early/2023/12/04/2023.12.01.569640
-      \endverb
-      \verb{url}
-      \verb https://www.biorxiv.org/content/early/2023/12/04/2023.12.01.569640
-      \endverb
-      \annotation{item}{author}{default}{4}{}{0}{highlight}
     \endentry
     \entry{eby2022}{article}{}
       \name{author}{7}{}{%
